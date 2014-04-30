@@ -39,4 +39,7 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Bluetooth accept all files -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+
 </resources>
