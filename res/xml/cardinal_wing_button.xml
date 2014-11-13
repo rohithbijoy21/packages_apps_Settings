@@ -19,4 +19,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navigation_settings_options_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+            <PreferenceScreen
+                android:id="@+id/button_settings"
+                android:title="@string/button_pref_title"
+                android:fragment="com.android.settings.slim.HardwareKeysSettings"
+                />
 </PreferenceScreen>
