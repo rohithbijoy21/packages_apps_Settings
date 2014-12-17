@@ -249,4 +249,7 @@
        <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
        <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
 
+       <!-- Volume settings - Volume adjustment sound -->
+       <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
 </resources>
