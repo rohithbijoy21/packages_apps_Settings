@@ -100,7 +100,7 @@
         <item>@string/clock_date_format_custom</item>
     </string-array>
 
-    
+
     <!-- Values for the notification light pulse spinners -->
     <string-array name="notification_pulse_length_entries" translatable="false">
         <item>@string/pulse_length_always_on</item>
@@ -135,7 +135,7 @@
         <item>2500</item>
         <item>5000</item>
     </string-array>
-  
+
   <!-- QS Tiles Columns -->
     <string-array name="qs_num_columns_entries" translatable="false">
         <item>@string/quick_columns_three</item>
@@ -171,25 +171,25 @@
   <item>@string/show_network_traffic_down</item>
   <item>@string/show_network_traffic_all</item>
     </string-array>
-  
+
     <string-array name="show_network_traffic_state_values" translatable="false">
   <item>0</item>
   <item>1</item>
   <item>2</item>
   <item>3</item>
     </string-array>
-  
+
     <!-- Network Traffic Display Unit -->
     <string-array name="show_network_traffic_unit_entries" translatable="false">
   <item>@string/show_network_traffic_bit</item>
   <item>@string/show_network_traffic_byte</item>
     </string-array>
-  
+
     <string-array name="show_network_traffic_unit_values" translatable="false">
   <item>0</item>
   <item>1</item>
     </string-array>
- 
+
     <!-- Network Traffic Period -->
     <string-array name="show_network_traffic_frequency_entries" translatable="false">
   <item>@string/show_network_traffic_500</item>
@@ -197,7 +197,7 @@
   <item>@string/show_network_traffic_1500</item>
   <item>@string/show_network_traffic_2000</item>
     </string-array>
- 
+
     <string-array name="show_network_traffic_frequency_values" translatable="false">
   <item>500</item>
   <item>1000</item>
