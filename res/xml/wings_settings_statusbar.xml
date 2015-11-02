@@ -18,4 +18,11 @@
          android:summary="@string/double_tap_to_sleep_summary"
          android:defaultValue="true" />
 
+    <PreferenceScreen
+         android:fragment="com.android.settings.cardinal.fragments.NetworkTrafficSettings"
+         android:key="nettraffic_settings"
+         android:title="@string/nettraffic_settings_title"
+         android:summary="@string/nettraffic_settings_summary" />
+
+
 </PreferenceScreen>
