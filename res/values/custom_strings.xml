@@ -46,4 +46,15 @@
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_custom_summary">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
 
+<!-- Display Settings -->
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
 </resources>
