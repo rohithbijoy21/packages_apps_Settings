@@ -162,4 +162,5 @@ public class Settings extends SettingsActivity {
 
     // Cardinal Additions.
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
+    public static class ButtonsSettingsActivity extends SettingsActivity { /* empty */ }
 }
