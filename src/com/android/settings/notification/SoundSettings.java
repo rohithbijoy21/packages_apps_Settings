@@ -46,7 +46,9 @@ import android.provider.OpenableColumns;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.TwoStatePreference;
 import android.text.TextUtils;
 import android.util.Log;
@@ -85,6 +87,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private static final String KEY_ZEN_MODE = "zen_mode";
     private static final String KEY_CELL_BROADCAST_SETTINGS = "cell_broadcast_settings";
 
+    private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
+    private static final String KEY_BATTERY_LIGHT = "battery_light";
+
+    private static final String CATEGORY_LEDS = "leds";
+
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final int REQUEST_CODE = 200;
 
@@ -113,6 +120,8 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private Preference mPhoneRingtonePreference;
     private Preference mNotificationRingtonePreference;
     private Preference mAlarmRingtonePreference;
+    private Preference mNotifLedFrag;
+    private Preference mBattLedFrag;
     private TwoStatePreference mVibrateWhenRinging;
     private ComponentName mSuppressor;
     private int mRingerMode = -1;
@@ -133,6 +142,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
         mPm = getPackageManager();
         mUserManager = UserManager.get(getContext());
         mVoiceCapable = Utils.isVoiceCapable(mContext);
+        PreferenceScreen prefScreen = getPreferenceScreen();
 
         mAudioManager = (AudioManager) mContext.getSystemService(Context.AUDIO_SERVICE);
         mVibrator = (Vibrator) getActivity().getSystemService(Context.VIBRATOR_SERVICE);
@@ -187,7 +197,31 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
                 mRequestPreference = (RingtonePreference) findPreference(selectedPreference);
             }
         }
-    }
+
+        final PreferenceCategory leds = (PreferenceCategory) findPreference(CATEGORY_LEDS);
+
+        mNotifLedFrag = findPreference(KEY_NOTIFICATION_LIGHT);
+        //remove notification led settings if device doesnt support it
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveNotificationLed)) {
+            leds.removePreference(findPreference(KEY_NOTIFICATION_LIGHT));
+        }
+
+        mBattLedFrag = findPreference(KEY_BATTERY_LIGHT);
+        //remove battery led settings if device doesnt support it
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            leds.removePreference(findPreference(KEY_BATTERY_LIGHT));
+        }
+
+        //remove led category if device doesnt support notification or battery
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveNotificationLed)
+                && !getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefScreen.removePreference(findPreference(CATEGORY_LEDS));
+        }
+     }
 
     @Override
     public void onResume() {

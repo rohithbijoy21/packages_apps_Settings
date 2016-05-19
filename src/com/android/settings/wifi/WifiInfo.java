@@ -17,11 +17,9 @@
 package com.android.settings.wifi;
 
 import android.os.Bundle;
-
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-
 
 /**
  * Wifi information menu item on the diagnostic screen
