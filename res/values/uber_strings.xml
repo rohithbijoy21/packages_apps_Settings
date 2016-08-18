@@ -24,5 +24,4 @@
 <!-- UBER GCC build flags info -->
     <string name="uber_flags">Build Flags</string>
     <string name="uber_flags_default">None</string>
-
 </resources>
