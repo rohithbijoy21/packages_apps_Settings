@@ -79,6 +79,7 @@ import com.android.settings.applications.ProcessStatsUi;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.cardinal.ButtonsSettings; 
 import com.android.settings.cardinal.WingSettings;
 import com.android.settings.custom.BatteryBarSettings;
 import com.android.settings.custom.nav.FlingSettings;
@@ -362,6 +363,7 @@ public class SettingsActivity extends Activity
             WriteSettingsDetails.class.getName(),
             WingSettings.class.getName(),
             BatteryBarSettings.class.getName(),
+            ButtonsSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName()

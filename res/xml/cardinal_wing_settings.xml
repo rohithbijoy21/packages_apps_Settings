@@ -46,7 +46,7 @@
                 android:id="@+id/button_settings"
                 android:title="@string/button_pref_title"
                 android:icon="@drawable/ic_settings_buttons"
-                android:fragment="com.android.settings.slim.NavigationSettings"
+                android:fragment="com.android.settings.cardinal.ButtonsSettings"
                 />
                 
 </PreferenceScreen>

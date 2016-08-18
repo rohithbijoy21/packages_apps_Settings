@@ -2620,6 +2620,20 @@
         </activity>
 
         <!-- Navigation settings activity. -->
+        <activity android:name="Settings$ButtonsSettingsActivity"
+                android:label="@string/button_pref_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.cardinal.ButtonsSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/user_settings" />
+        </activity>
+
+        <!-- Navigation settings activity. -->
         <activity android:name="Settings$NavigationSettingsActivity"
                 android:label="@string/aosp_navigation_bar"
                 android:excludeFromRecents="true">
