@@ -222,4 +222,8 @@
 
      <string name="navigation_settings_options_title">Navigation options</string>
      <string name="reset_title">Reset</string>
+     
+    <!-- QS main tiles -->
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary">Use two larger main tiles on the first row</string>
 </resources>
