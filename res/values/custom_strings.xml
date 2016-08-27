@@ -22,6 +22,7 @@
 
     <!-- Hardware Keys -->
     <string name="button_pref_title">Buttons</string>
+    <string name="hardware_keys_disable_title">Disable navigation buttons</string>
     <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_menu_key_title">Menu button</string>
     <string name="hardware_keys_short_press_title">Short press action</string>

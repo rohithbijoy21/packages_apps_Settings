@@ -24,8 +24,10 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.Handler;
+import android.os.UserHandle; 
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
+import android.preference.SwitchPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
@@ -41,13 +43,17 @@ import android.view.WindowManagerGlobal;
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.custom.nav.ActionFragment;
 import com.android.settings.Utils;
+import com.android.internal.utils.du.DUActionUtils; 
 import com.android.settings.tipsy.ButtonBacklightBrightness;
 
-public class HardwareKeysSettings extends SettingsPreferenceFragment implements
+public class HardwareKeysSettings extends ActionFragment implements
     Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "SystemSettings";
+ 
+    private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
 
@@ -56,6 +62,7 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     private static final String KEY_MENU_PRESS = "hardware_keys_menu_press";
     private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
 
+    private static final String CATEGORY_HWKEY = "hardware_keys"; 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_MENU = "menu_key";
@@ -92,6 +99,7 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
     private ListPreference mMenuLongPressAction;
+    private SwitchPreference mHwKeyDisable; 
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -109,6 +117,25 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
 
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
+
+ 
+      final boolean needsNavbar = DUActionUtils.hasNavbarByDefault(getActivity());
+        final PreferenceCategory hwkeyCat = 
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
+        int keysDisabled = 0;
+        if (!needsNavbar) {
+            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
+            mHwKeyDisable.setOnPreferenceChangeListener(this);
+            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
+                    UserHandle.USER_CURRENT);
+           mHwKeyDisable.setChecked(keysDisabled != 0);
+        } else {
+            prefScreen.removePreference(hwkeyCat);
+
+           // load preferences first
+           setActionPreferencesEnabled(keysDisabled == 0);
+        }
 
         final boolean hasPowerKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_POWER);
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
@@ -213,6 +240,12 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
         } else if (preference == mMenuLongPressAction) {
             handleActionListChange(mMenuLongPressAction, newValue,
                     Settings.System.KEY_MENU_LONG_PRESS_ACTION);
+            return true;
+        } else if (preference == mHwKeyDisable) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
+                    value ? 1 : 0);
+            setActionPreferencesEnabled(!value);
             return true;
         }
         return false;
