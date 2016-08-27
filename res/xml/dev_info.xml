@@ -97,13 +97,23 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=7031867" />
       </PreferenceScreen>
-       <PreferenceScreen
+      
+      <PreferenceScreen
             android:title="@string/dev_9"
     android:summary="@string/dev9_description" 
     android:icon="@drawable/ic_devs_phone">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=6191209" />
+      </PreferenceScreen>
+	  
+    <PreferenceScreen
+    android:title="@string/dev_10"
+    android:summary="@string/dev10_description" 
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=4664140" />
       </PreferenceScreen>
 	  
 </PreferenceCategory>
