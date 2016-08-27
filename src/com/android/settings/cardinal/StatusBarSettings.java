@@ -80,7 +80,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
 
         int batteryStyle = Settings.System.getInt(resolver,
-                Settings.System.STATUS_BAR_BATTERY_STYLE, 0);
+                Settings.System.STATUS_BAR_BATTERY_STYLE, 2);
         mStatusBarBattery.setValue(String.valueOf(batteryStyle));
         mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
         mStatusBarBattery.setOnPreferenceChangeListener(this);
