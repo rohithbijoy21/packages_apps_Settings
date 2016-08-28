@@ -82,6 +82,7 @@ import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.cardinal.ButtonsSettings; 
 import com.android.settings.cardinal.WingSettings;
 import com.android.settings.custom.BatteryBarSettings;
+import com.android.settings.custom.ExpandedDesktop; 
 import com.android.settings.custom.nav.FlingSettings;
 import com.android.settings.custom.nav.NavbarSettings;
 import com.android.settings.custom.nav.SmartbarSettings;
@@ -366,7 +367,9 @@ public class SettingsActivity extends Activity
             ButtonsSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
+            ExpandedDesktop.class.getName(), 
             SmartbarSettings.class.getName()
+
     };
 
 
