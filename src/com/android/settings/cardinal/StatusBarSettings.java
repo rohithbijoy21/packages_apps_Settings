@@ -2,9 +2,11 @@ package com.android.settings.cardinal;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -48,6 +50,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
 
+    private static final String PREF_QSCOLUMNS = "sysui_qs_num_columns"; 
+
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
 
@@ -58,7 +62,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private ListPreference mClockDateFormat;
     private SwitchPreference mStatusBarClock;
     private SwitchPreference mStatusBarBrightnessControl;
-
+    private ListPreference mNumColumns; 
+   
     private boolean mCheckPreferences;
 
     @Override
@@ -147,7 +152,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             mClockDateFormat.setEnabled(false);
         }
 
-         mStatusBarBrightnessControl = (SwitchPreference) findPreference(STATUS_BAR_BRIGHTNESS_CONTROL);
+        mNumColumns = (ListPreference) findPreference(PREF_QSCOLUMNS);
+        int numColumns = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.QS_NUM_TILE_COLUMNS, getDefaultNumColums(),
+                UserHandle.USER_CURRENT);
+        mNumColumns.setValue(String.valueOf(numColumns));
+        updateNumColumnsSummary(numColumns);
+        mNumColumns.setOnPreferenceChangeListener(this);
+
+        mStatusBarBrightnessControl = (SwitchPreference) findPreference(STATUS_BAR_BRIGHTNESS_CONTROL);
         mStatusBarBrightnessControl.setOnPreferenceChangeListener(this);
         int statusBarBrightnessControl = Settings.System.getInt(getContentResolver(),
                 STATUS_BAR_BRIGHTNESS_CONTROL, 0);
@@ -273,12 +286,37 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             }
             return true;
         } else if (preference == mStatusBarBrightnessControl) {
-            boolean value = (Boolean) objValue;
+            boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(), STATUS_BAR_BRIGHTNESS_CONTROL,
                     value ? 1 : 0);
             return true;
+        } else if (preference == mNumColumns) {
+            int numColumns = Integer.valueOf((String) newValue);
+            Settings.Secure.putIntForUser(resolver, Settings.Secure.QS_NUM_TILE_COLUMNS,
+                    numColumns, UserHandle.USER_CURRENT);
+            updateNumColumnsSummary(numColumns);
+            return true;
            }
         return false;
+    }
+
+    private void updateNumColumnsSummary(int numColumns) {
+        String prefix = (String) mNumColumns.getEntries()[mNumColumns.findIndexOfValue(String
+                .valueOf(numColumns))];
+        mNumColumns.setSummary(getActivity().getResources().getString(R.string.qs_num_columns_showing, prefix));
+    }
+
+    private int getDefaultNumColums() {
+        try {
+            Resources res = getActivity().getPackageManager()
+                    .getResourcesForApplication("com.android.systemui");
+            int val = res.getInteger(res.getIdentifier("quick_settings_num_columns", "integer",
+                    "com.android.systemui")); // better not be larger than 5, that's as high as the
+                                              // list goes atm
+            return Math.max(1, val);
+        } catch (Exception e) {
+            return 3;
+        }
     }
 
     private void parseClockDateFormats() {
