@@ -4,9 +4,7 @@ import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
-import android.content.res.Resources; 
 import android.os.Bundle;
-import android.os.UserHandle; 
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -39,7 +37,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String PREF_CLOCK_DATE_DISPLAY = "clock_date_display";
     private static final String PREF_CLOCK_DATE_STYLE = "clock_date_style";
     private static final String PREF_CLOCK_DATE_FORMAT = "clock_date_format";
-    private static final String PREF_QS_COLUMNS = "sysui_qs_num_columns"; 
     private static final String STATUS_BAR_CLOCK = "status_bar_show_clock";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
@@ -58,7 +55,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
     private SwitchPreference mStatusBarClock;
-    private ListPreference mNumColumns; 
 
     private boolean mCheckPreferences;
 
@@ -91,14 +87,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarBatteryShowPercent.setSummary(mStatusBarBatteryShowPercent.getEntry());
         enableStatusBarBatteryDependents(batteryStyle);
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
-
-        mNumColumns = (ListPreference) findPreference(PREF_QS_COLUMNS);
-        int numColumns = Settings.Secure.getIntForUser(resolver,
-            Settings.Secure.QS_NUM_TILE_COLUMNS, getDefaultNumColums(),
-            UserHandle.USER_CURRENT);
-        mNumColumns.setValue(String.valueOf(numColumns));
-        updateNumColumnsSummary(numColumns);
-        mNumColumns.setOnPreferenceChangeListener(this);
 
         // clock & date
         mClockStyle = (ListPreference) findPreference(PREF_ENABLE);
@@ -154,7 +142,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         if (!mClockDateToggle) {
             mClockDateStyle.setEnabled(false);
             mClockDateFormat.setEnabled(false);
-        }
+  }
     }
 
     @Override
@@ -267,12 +255,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 }
             }
             return true;
-        } else if (preference == mNumColumns) {
-            int numColumns = Integer.valueOf((String) newValue);
-            Settings.Secure.putIntForUser(resolver, Settings.Secure.QS_NUM_TILE_COLUMNS,
-                numColumns, UserHandle.USER_CURRENT);
-            updateNumColumnsSummary(numColumns);
-            return true;
         }
         return false;
     }
@@ -313,22 +295,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             mStatusBarBatteryShowPercent.setEnabled(false);
         } else {
             mStatusBarBatteryShowPercent.setEnabled(true);
-        }
-    }
-    
-    private void updateNumColumnsSummary(int numColumns) {
-        String prefix = (String) mNumColumns.getEntries()[mNumColumns.findIndexOfValue(String.valueOf(numColumns))];
-        mNumColumns.setSummary(getActivity().getResources().getString(R.string.qs_num_columns_showing, prefix));
-    }
-
-    private int getDefaultNumColums() {
-        try {
-            Resources res = getActivity().getPackageManager().getResourcesForApplication("com.android.systemui");
-            int val = res.getInteger(res.getIdentifier("quick_settings_num_columns", "integer", "com.android.systemui")); 
-            // This better not be larger than 5, that's as high as the list goes atm
-            return Math.max(1, val);
-        } catch (Exception e) {
-            return 3;
         }
     }
 }
