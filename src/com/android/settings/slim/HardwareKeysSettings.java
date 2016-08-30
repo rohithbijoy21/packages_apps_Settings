@@ -16,75 +16,38 @@
 
 package com.android.settings.slim;
 
-import android.content.ContentResolver;
-import android.content.Context;
-import android.content.res.Resources;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
-import android.os.RemoteException;
-import android.os.Handler;
-import android.os.UserHandle; 
-import android.preference.CheckBoxPreference;
-import android.preference.ListPreference;
-import android.preference.SwitchPreference;
+import android.os.UserHandle;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceCategory;
-import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 
-import android.util.Log;
-import android.view.IWindowManager;
-import android.view.KeyCharacterMap;
-import android.view.KeyEvent;
-import android.view.WindowManagerGlobal;
+import com.android.settings.R;
 
 import com.android.internal.logging.MetricsLogger;
-import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.custom.nav.ActionFragment;
 import com.android.settings.Utils;
-import com.android.internal.utils.du.DUActionUtils; 
+import com.android.internal.utils.du.ActionConstants; 
+import com.android.internal.utils.du.DUActionUtils;
 import com.android.settings.tipsy.ButtonBacklightBrightness;
 
-public class HardwareKeysSettings extends ActionFragment implements
-    Preference.OnPreferenceChangeListener {
-
-    private static final String TAG = "SystemSettings";
+public class HardwareKeysSettings extends ActionFragment implements OnPreferenceChangeListener {
  
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
-
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
 
-    private static final String KEY_HOME_LONG_PRESS = "hardware_keys_home_long_press";
-    private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
-    private static final String KEY_MENU_PRESS = "hardware_keys_menu_press";
-    private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
-
+    // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys"; 
-    private static final String CATEGORY_POWER = "power_key";
+    private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_MENU = "menu_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
-    private static final String CATEGORY_CAMERA = "camera_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
-    private static final String CATEGORY_BACKLIGHT = "key_backlight";
-    private static final String CATEGORY_NAVBAR = "navigation_bar";
-
-    // Available custom actions to perform on a key press.
-    // Must match values for KEY_HOME_LONG_PRESS_ACTION in:
-    // frameworks/base/core/java/android/provider/Settings.java
-    private static final int ACTION_NOTHING = 0;
-    private static final int ACTION_MENU = 1;
-    private static final int ACTION_APP_SWITCH = 2;
-    private static final int ACTION_SEARCH = 3;
-    private static final int ACTION_VOICE_SEARCH = 4;
-    private static final int ACTION_IN_APP_SEARCH = 5;
-    private static final int ACTION_LAUNCH_CAMERA = 6;
-    private static final int ACTION_LAST_APP = 7;
-    private static final int ACTION_SLEEP = 8;
+    private static final String CATEGORY_POWER = "power_key";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -94,16 +57,10 @@ public class HardwareKeysSettings extends ActionFragment implements
     public static final int KEY_MASK_ASSIST = 0x08;
     public static final int KEY_MASK_APP_SWITCH = 0x10;
     public static final int KEY_MASK_CAMERA = 0x20;
+    public static final int KEY_MASK_VOLUME = 0x40;
 
-    private ListPreference mHomeLongPressAction;
-    private ListPreference mHomeDoubleTapAction;
-    private ListPreference mMenuPressAction;
-    private ListPreference mMenuLongPressAction;
     private SwitchPreference mHwKeyDisable; 
 
-    private PreferenceCategory mNavigationPreferencesCat;
-
-    private Handler mHandler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -111,15 +68,9 @@ public class HardwareKeysSettings extends ActionFragment implements
 
         addPreferencesFromResource(R.xml.hardwarekeys_settings);
 
-        final Resources res = getResources();
-        final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        final int deviceKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-
- 
-      final boolean needsNavbar = DUActionUtils.hasNavbarByDefault(getActivity());
+        final boolean needsNavbar = DUActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = 
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
         int keysDisabled = 0;
@@ -132,90 +83,68 @@ public class HardwareKeysSettings extends ActionFragment implements
            mHwKeyDisable.setChecked(keysDisabled != 0);
         } else {
             prefScreen.removePreference(hwkeyCat);
-
-           // load preferences first
-           setActionPreferencesEnabled(keysDisabled == 0);
-        }
-
-        final boolean hasPowerKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_POWER);
-        final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
-        final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
-        final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
-
-        boolean hasAnyBindableKey = false;
-        final PreferenceCategory homeCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
-        final PreferenceCategory menuCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
-
-        mHandler = new Handler();
-
-        if (hasHomeKey) {
-            int defaultLongPressAction = res.getInteger(
-                    com.android.internal.R.integer.config_longPressOnHomeBehavior);
-            if (defaultLongPressAction < ACTION_NOTHING ||
-                    defaultLongPressAction > ACTION_IN_APP_SEARCH) {
-                defaultLongPressAction = ACTION_NOTHING;
-            }
-
-            int defaultDoubleTapAction = res.getInteger(
-                    com.android.internal.R.integer.config_doubleTapOnHomeBehavior);
-            if (defaultDoubleTapAction < ACTION_NOTHING ||
-                    defaultDoubleTapAction > ACTION_IN_APP_SEARCH) {
-                defaultDoubleTapAction = ACTION_NOTHING;
-            }
-
-            int longPressAction = Settings.System.getInt(resolver,
-                    Settings.System.KEY_HOME_LONG_PRESS_ACTION,
-                    defaultLongPressAction);
-            mHomeLongPressAction = initActionList(KEY_HOME_LONG_PRESS, longPressAction);
-
-            int doubleTapAction = Settings.System.getInt(resolver,
-                    Settings.System.KEY_HOME_DOUBLE_TAP_ACTION,
-                    defaultDoubleTapAction);
-            mHomeDoubleTapAction = initActionList(KEY_HOME_DOUBLE_TAP, doubleTapAction);
-
-            hasAnyBindableKey = true;
-        } else {
-            prefScreen.removePreference(homeCategory);
-        }
-
-        if (hasMenuKey) {
-            int pressAction = Settings.System.getInt(resolver,
-                    Settings.System.KEY_MENU_ACTION, ACTION_MENU);
-            mMenuPressAction = initActionList(KEY_MENU_PRESS, pressAction);
-
-            int longPressAction = Settings.System.getInt(resolver,
-                        Settings.System.KEY_MENU_LONG_PRESS_ACTION,
-                        hasAssistKey ? ACTION_NOTHING : ACTION_SEARCH);
-            mMenuLongPressAction = initActionList(KEY_MENU_LONG_PRESS, longPressAction);
-
-            hasAnyBindableKey = true;
-        } else {
-            prefScreen.removePreference(menuCategory);
         }
 
         final ButtonBacklightBrightness backlight =
                 (ButtonBacklightBrightness) findPreference(KEY_BUTTON_BACKLIGHT);
         if (!backlight.isButtonSupported()) {
-            prefScreen.removePreference(backlight);
+        getPreferenceScreen().removePreference(backlight);
         }
-    }
 
-    private ListPreference initActionList(String key, int value) {
-        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
-        list.setValue(Integer.toString(value));
-        list.setSummary(list.getEntry());
-        list.setOnPreferenceChangeListener(this);
-        return list;
-    }
+        // bits for hardware keys present on device
+        final int deviceKeys = getResources().getInteger(
+               com.android.internal.R.integer.config_deviceHardwareKeys);
 
-    private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
-        String value = (String) newValue;
-        int index = pref.findIndexOfValue(value);
+        // read bits for present hardware keys
+        final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
+        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
+        final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
+        final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
+        final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
 
-        pref.setSummary(pref.getEntries()[index]);
-        Settings.System.putInt(getContentResolver(), setting, Integer.valueOf(value));
+        // load categories and init/remove preferences based on device
+        // configuration
+        final PreferenceCategory backCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
+        final PreferenceCategory homeCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
+        final PreferenceCategory menuCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+       final PreferenceCategory assistCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
+        final PreferenceCategory appSwitchCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+        
+        // back key
+        if (!hasBackKey) {
+            prefScreen.removePreference(backCategory);
+        }
+
+        // home key
+        if (!hasHomeKey) {
+            prefScreen.removePreference(homeCategory);
+        }
+
+        // App switch key (recents)
+        if (!hasAppSwitchKey) {
+            prefScreen.removePreference(appSwitchCategory);
+        }
+
+        // menu key
+        if (!hasMenuKey) {
+            prefScreen.removePreference(menuCategory);
+        }
+
+        // search/assist key
+        if (!hasAssistKey) {
+            prefScreen.removePreference(assistCategory);
+        }
+
+        // let super know we can load ActionPreferences
+        onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
+
+        // load preferences first
+        setActionPreferencesEnabled(keysDisabled == 0);
     }
 
     @Override
@@ -225,23 +154,7 @@ public class HardwareKeysSettings extends ActionFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mHomeLongPressAction) {
-            handleActionListChange(mHomeLongPressAction, newValue,
-                    Settings.System.KEY_HOME_LONG_PRESS_ACTION);
-            return true;
-        } else if (preference == mHomeDoubleTapAction) {
-            handleActionListChange(mHomeDoubleTapAction, newValue,
-                    Settings.System.KEY_HOME_DOUBLE_TAP_ACTION);
-            return true;
-        } else if (preference == mMenuPressAction) {
-            handleActionListChange(mMenuPressAction, newValue,
-                    Settings.System.KEY_MENU_ACTION);
-            return true;
-        } else if (preference == mMenuLongPressAction) {
-            handleActionListChange(mMenuLongPressAction, newValue,
-                    Settings.System.KEY_MENU_LONG_PRESS_ACTION);
-            return true;
-        } else if (preference == mHwKeyDisable) {
+        if (preference == mHwKeyDisable) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
@@ -251,4 +164,3 @@ public class HardwareKeysSettings extends ActionFragment implements
         return false;
     }
 }
-
