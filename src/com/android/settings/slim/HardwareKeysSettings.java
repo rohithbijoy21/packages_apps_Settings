@@ -148,6 +148,11 @@ public class HardwareKeysSettings extends ActionFragment implements OnPreference
     }
 
     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+    
+    @Override
     protected int getMetricsCategory() {
         return MetricsLogger.DONT_TRACK_ME_BRO;
     }
