@@ -104,6 +104,10 @@ public class CarrierLabel extends SettingsPreferenceFragment implements OnPrefer
     }
 
     private void updateCustomLabelTextSummary() {
+        if (mCustomCarrierLabel == null) {
+           return;
+       }
+
         mCustomCarrierLabelText = Settings.System.getString(
             getActivity().getContentResolver(), Settings.System.CUSTOM_CARRIER_LABEL);
 
