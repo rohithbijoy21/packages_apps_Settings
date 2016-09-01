@@ -36,4 +36,7 @@
     <string name="night_mode_auto">Automatic</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
 </resources>
