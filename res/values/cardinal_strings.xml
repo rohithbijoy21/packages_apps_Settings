@@ -225,11 +225,6 @@
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary">Use two larger main tiles on the first row</string>
 
-    <!-- Status bar brightness control -->
-    <string name="status_bar_brightness_control_title">Brightness control</string>
-    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across status bar</string>
-    <string name="status_bar_brightness_control_info">Automatic brightness must be disabled</string>
- 
     <!-- Quicks settings columns -->
     <string name="qs_num_columns_title">Number of tiles per row</string>
     <string name="qs_num_columns_showing">%1$s tiles per row showing</string>

@@ -48,8 +48,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
     private static final int CUSTOM_CLOCK_DATE_FORMAT_INDEX = 18;
 
-    private static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
-
     private static final String PREF_QSCOLUMNS = "sysui_qs_num_columns"; 
 
     private ListPreference mStatusBarBattery;
@@ -61,9 +59,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
     private SwitchPreference mStatusBarClock;
-    private SwitchPreference mStatusBarBrightnessControl;
     private ListPreference mNumColumns; 
-   
+
     private boolean mCheckPreferences;
 
     @Override
@@ -159,20 +156,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mNumColumns.setValue(String.valueOf(numColumns));
         updateNumColumnsSummary(numColumns);
         mNumColumns.setOnPreferenceChangeListener(this);
-
-        mStatusBarBrightnessControl = (SwitchPreference) findPreference(STATUS_BAR_BRIGHTNESS_CONTROL);
-        mStatusBarBrightnessControl.setOnPreferenceChangeListener(this);
-        int statusBarBrightnessControl = Settings.System.getInt(getContentResolver(),
-                STATUS_BAR_BRIGHTNESS_CONTROL, 0);
-        mStatusBarBrightnessControl.setChecked(statusBarBrightnessControl != 0);
-        try {
-            if (Settings.System.getInt(getContentResolver(),
-                    Settings.System.SCREEN_BRIGHTNESS_MODE) == Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC) {
-                mStatusBarBrightnessControl.setEnabled(false);
-                mStatusBarBrightnessControl.setSummary(R.string.status_bar_brightness_control_info);
-            }
-        } catch (SettingNotFoundException e) {
-        }
     }
 
     @Override
@@ -284,11 +267,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                         Settings.System.STATUSBAR_CLOCK_DATE_FORMAT, (String) newValue);
                 }
             }
-            return true;
-        } else if (preference == mStatusBarBrightnessControl) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(), STATUS_BAR_BRIGHTNESS_CONTROL,
-                    value ? 1 : 0);
             return true;
         } else if (preference == mNumColumns) {
             int numColumns = Integer.valueOf((String) newValue);
