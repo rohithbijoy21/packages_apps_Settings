@@ -78,8 +78,8 @@ import com.android.settings.fuelgauge.InactiveApps;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.internal.util.du.AbstractAsyncSuCMDProcessor;
-import com.android.settings.util.du.CMDProcessor;
-import com.android.settings.util.du.Helpers;
+import com.android.internal.util.du.CMDProcessor;
+import com.android.internal.util.du.Helpers;
 import com.android.settings.widget.SwitchBar;
 
 import java.io.File;
