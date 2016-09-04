@@ -2536,7 +2536,7 @@
 
 
        <!-- The Wing! -->
-       <activity android:name="Settings$MainSettingsActivity"
+       <activity android:name="Settings$WingSettingsActivity"
           android:label="@string/cardinal_wing_title"
               android:taskAffinity="">
 
