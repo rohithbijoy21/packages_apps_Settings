@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="?android:attr/colorAccent"
+        android:background="@color/condition_card_background_color"
         android:elevation="2dp"
         android:clickable="true"
         android:focusable="true">
@@ -52,14 +52,15 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/condition_card_text_color" />
+                android:textColor="@color/condition_card_title_text_color" />
 
             <ImageView
                 android:id="@+id/expand_indicator"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:padding="16dp"
-                android:tint="@color/condition_card_text_color" />
+                android:tint="@color/condition_card_expander_color" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -80,14 +81,14 @@
                 android:paddingBottom="16dp"
                 android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                 android:alpha=".7"
-                android:textColor="@color/condition_card_text_color" />
+                android:textColor="@color/condition_card_summary_text_color" />
 
             <!-- TODO: Better background -->
             <View
                 android:id="@+id/divider"
                 android:layout_width="match_parent"
                 android:layout_height=".25dp"
-                android:background="@android:color/white" />
+                android:background="@color/condition_card_divider_color" />
 
             <com.android.internal.widget.ButtonBarLayout
                 android:id="@+id/buttonBar"
@@ -106,7 +107,7 @@
                     android:paddingStart="0dp"
                     android:alpha=".8"
                     android:textAlignment="viewStart"
-                    android:textColor="@color/condition_card_text_color"
+                    android:textColor="@color/condition_card_first_button_text_color"
                     style="?android:attr/buttonBarButtonStyle" />
 
                 <Button
@@ -116,7 +117,7 @@
                     android:layout_weight="1"
                     android:alpha=".8"
                     android:textAlignment="viewStart"
-                    android:textColor="@color/condition_card_text_color"
+                    android:textColor="@color/condition_card_second_button_text_color"
                     style="?android:attr/buttonBarButtonStyle" />
 
             </com.android.internal.widget.ButtonBarLayout>
