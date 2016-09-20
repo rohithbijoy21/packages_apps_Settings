@@ -212,4 +212,7 @@
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
 
+  <!-- Double Tap to Sleep Anywhere! -->
+   <string name="double_tap_sleep_anywhere_title">Double-tap to sleep</string>
+   <string name="double_tap_sleep_anywhere_summary">Double tap lockscreen to put the device to sleep</string>
 </resources>
