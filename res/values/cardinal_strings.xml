@@ -34,7 +34,7 @@
     <string name="slimota_title">CardinalOTA</string>
 
     <!-- Dev Info -->
-    <string name="cardinal_about_info">About Project</string> 
+    <string name="cardinal_about_info">About Project</string>
     <string name="cardinal_about_info_summary">Cardinal-AOSP is a Custom ROM Initially was based on AOSPB, later we moved on and rebased it with AOSP-RRO for better AOSP experience with Full RRO Layers Support, Built with UBER toolchain to optimize battery life and with some of the most required bare minimal features/customizations, the main aim of this ROM is to deliver light speed performance, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
     <string name="dev_info">TeamCardinal</string>
     <string name="mention">Honorable Mentions</string>
@@ -60,14 +60,6 @@
     <string name="dev10_description">Oneplus3</string>
     <string name="dev_11">Hamza Badar</string>
     <string name="dev11_description">Otus</string>
-
-   <!-- Display & Lights screen, setting options for LCD density -->
-    <string name="lcd_density">LCD density</string>
-    <string name="dialog_title_lcd_density">LCD density</string>
-    <string name="lcd_density_value_format">%d DPI</string>
-    <string name="lcd_density_default_value_format">%d DPI (default)</string>
-    <string name="restarting_ui">Restarting UI\u2026</string>
-    <string name="lcd_density_prompt_message">Some apps may not function at non-standard dpi.\n\nThis will restart your phone.</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
@@ -133,7 +125,7 @@
     <string name="clock_date_format_custom">Custom java format</string>
 
     <!-- SystemUI Tuner Parts -->
-    <string name="statusbar_section_header">Status Bar</string> 
+    <string name="statusbar_section_header">Status Bar</string>
     <string name="systemui_tuner_statusbar_title">Items</string>
     <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
     <string name="systemui_tuner_qs_title">Quick settings</string>
@@ -142,7 +134,7 @@
     <!-- Qucik unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-    
+
       <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>
     <string name="profiles_add">Add</string>
@@ -222,7 +214,7 @@
 
      <string name="navigation_settings_options_title">Navigation options</string>
      <string name="reset_title">Reset</string>
-     
+
     <!-- QS main tiles -->
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary">Use two larger main tiles on the first row</string>
@@ -253,7 +245,7 @@
    <string name="carrier_options">Carrier Label</string>
    <string name="custom_carrier_label_title">Custom carrier label</string>
    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-   <string name="custom_carrier_label_notset">Custom label currently not set</string>  
+   <string name="custom_carrier_label_notset">Custom label currently not set</string>
    <string name="status_bar_carrier_color">Carrier label color</string>
    <string name="show_carrier_title">Carrier label</string>
    <string name="show_carrier_disabled">Disabled</string>
@@ -285,7 +277,7 @@
     <string name="network_traffic_color_style">Color style</string>
     <string name="network_traffic_color_reset">Reset color</string>
     <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
-	
+
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
@@ -296,5 +288,5 @@
     <string name="selinux_title">Selinux Mode</string>
     <string name="selinux_permissive_title">Permissive</string>
     <string name="selinux_enforcing_title">Enforcing</string>
-	
+
 </resources>
