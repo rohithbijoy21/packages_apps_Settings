@@ -17,6 +17,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 
+import com.android.internal.util.du.CMDProcessor;
+
 // don't show unavoidable warnings
 @SuppressWarnings({
         "UnusedDeclaration",

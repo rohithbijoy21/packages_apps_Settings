@@ -217,6 +217,7 @@
    <string name="double_tap_sleep_anywhere_summary">Double tap lockscreen to put the device to sleep</string>
 
        <!-- Density Changer -->
+       <string name="ok">OK</string>
        <string name="dpi">DPI</string>
        <string name="su_dialog_error_title">Warning</string>
        <string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
