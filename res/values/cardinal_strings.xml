@@ -60,6 +60,8 @@
     <string name="dev10_description">Oneplus3</string>
     <string name="dev_11">Hamza Badar</string>
     <string name="dev11_description">Otus</string>
+    <string name="dev_12">Shivam Kumar(INSPIRE-REX)</string>
+    <string name="dev12_description">Condor</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
