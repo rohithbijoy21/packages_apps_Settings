@@ -248,4 +248,8 @@
        <!-- Quick settings disable on lockscreen -->
        <string name="block_on_secure_keyguard_title">Disable quick settings</string>
        <string name="block_on_secure_keyguard_summary">Disables quick settings in the keyguard for a secure lock only</string>
+
+       <!-- AudioDucking -->
+       <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
+       <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
 </resources>
