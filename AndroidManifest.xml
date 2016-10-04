@@ -2324,6 +2324,8 @@
                        android:resource="@id/notification_settings" />
         </activity>
 
+        <activity android:name="com.android.settings.cardinal.fragments.HeadsUpSettings" />
+
         <activity android:name="Settings$NotificationSettingsActivity"
                 android:label="@string/notification_settings"
                 android:exported="true"
