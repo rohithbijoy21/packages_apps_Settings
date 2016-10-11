@@ -44,7 +44,7 @@
     <string name="dev_3">Adarsh M.R &#40;Adarsh1998&#41;</string>
     <string name="dev3_description">Lead developer, Kenzo Co-Maintainer</string>
     <string name="dev_4">Rohit Poroli &#40;rohitporoli&#41;</string>
-    <string name="dev4_description">Developer/helper, Onyx/Lettuce Maintainer</string>
+    <string name="dev4_description">Developer/helper, Onyx Maintainer</string>
     <string name="maintainers_header">Maintainers</string>
     <string name="dev_5">Aashish Kumar</string>
     <string name="dev5_description">Sprout/Titan</string>
@@ -64,6 +64,9 @@
     <string name="dev12_description">Condor</string>
 	  <string name="dev_13">Jashaswee Jena</string>
     <string name="dev13_description">Sprout4/Sprout8</string>
+	<string name="dev_14">Aashish Toshniwal</string>
+	<string name="dev14_description">Lettuce</string>
+	
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
