@@ -132,16 +132,25 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <intent
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=7718607" />
-      </PreferenceScreen>
+    </PreferenceScreen>
 
-	  <PreferenceScreen
-          android:title="@string/dev_13"
-          android:summary="@string/dev13_description"
-          android:icon="@drawable/ic_devs_phone">
+    <PreferenceScreen
+    android:title="@string/dev_13"
+    android:summary="@string/dev13_description"
+    android:icon="@drawable/ic_devs_phone">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=5747062" />
-      </PreferenceScreen>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+    android:title="@string/dev_14"
+    android:summary="@string/dev14_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=7316514" />
+    </PreferenceScreen>
 </PreferenceCategory>
 
 <PreferenceCategory
