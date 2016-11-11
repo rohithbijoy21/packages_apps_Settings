@@ -62,11 +62,12 @@
     <string name="dev11_description">Otus</string>
     <string name="dev_12">Shivam Kumar(INSPIRE-REX)</string>
     <string name="dev12_description">Condor</string>
-	  <string name="dev_13">Jashaswee Jena</string>
+    <string name="dev_13">Jashaswee Jena</string>
     <string name="dev13_description">Sprout4/Sprout8</string>
-	<string name="dev_14">Aashish Toshniwal</string>
-	<string name="dev14_description">Lettuce</string>
-	
+    <string name="dev_14">Aashish Toshniwal</string>
+    <string name="dev14_description">Lettuce</string>
+    <string name="dev_15">Carlos Arriaga</string>
+    <string name="dev15_description">fortunaxx3g</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
