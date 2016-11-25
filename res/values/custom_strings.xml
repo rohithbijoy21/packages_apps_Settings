@@ -333,4 +333,9 @@
     <string name="night_bright_min">Minimum brightness</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
+
+   <!-- Quick Settings on lockscreen -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable shortcuts and expanding quick settings on secure lock screens</string>
+
 </resources>

@@ -14,6 +14,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_category" >
 
+     <com.android.settings.preferences.SecureSettingSwitchPreference
+        android:key="lockscreen_qs_disabled"
+        android:title="@string/lockscreen_qs_disabled_title"
+        android:summary="@string/lockscreen_qs_disabled_summary"/>
+
     <com.android.settings.preferences.CustomSeekBarPreference
         android:key="qs_layout_columns"
         android:title="@string/qs_columns_title"
