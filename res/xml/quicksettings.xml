@@ -19,6 +19,10 @@
         android:title="@string/lockscreen_qs_disabled_title"
         android:summary="@string/lockscreen_qs_disabled_summary"/>
 
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category">
+
     <com.android.settings.preferences.CustomSeekBarPreference
         android:key="qs_layout_columns"
         android:title="@string/qs_columns_title"
@@ -27,5 +31,22 @@
         settings:units=""
         android:persistent="false" />
 
+    <com.android.settings.preferences.CustomSeekBarPreference
+         android:key="qs_rows_portrait"
+         android:title="@string/qs_rows_portrait_title"
+         android:max="7"
+         settings:min="1"
+         settings:units=""
+         android:persistent="false" />
+
+     <com.android.settings.preferences.CustomSeekBarPreference
+         android:key="qs_rows_landscape"
+         android:title="@string/qs_rows_landscape_title"
+         android:max="3"
+         settings:min="1"
+         settings:units=""
+         android:persistent="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
