@@ -279,4 +279,11 @@
    <string name="android_functional_updates_title">Functional updates</string>
    <string name="android_functional_updates_summary">In addition to AOSP security updates, we include Google\'s functional updates. These are patches that Google push in addition to security updates for Pixel devices to address functionality issues such as connectivity, stability, and performance. Since we support more than just Pixel devices, they are included for all our devices.</string>
    <string name="vendor_security_title">Vendor patch level</string>
+
+   <!-- Per-app data restrictions -->
+   <string name="data_usage_app_restrict_data">Cellular data</string>
+   <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+   <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
 </resources>
