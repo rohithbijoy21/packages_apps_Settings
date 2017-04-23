@@ -428,4 +428,11 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
+
+    <!-- Device Specifc Gesture -->
+    <string name="device_gestures_title">Device gestures</string>
+    <string name="device_gestures_summary">Set up extra gestures for your device</string>
+
+    <string name="device_doze_title">Ambient display gestures</string>
+    <string name="device_doze_summary">Set up extra gestures for ambient display mode</string>
 </resources>
