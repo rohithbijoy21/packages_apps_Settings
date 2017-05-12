@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="dashboard_background_color">@*android:color/cardinal_dark_indigo</color>
+    <color name="dashboard_category_background_color">@*android:color/cardinal_dark_indigo</color>
     <color name="card_background">@*android:color/cardinal_dark_indigo</color>
     <color name="card_background_grey">@*android:color/cardinal_dark_indigo</color>
     <color name="lock_pattern_view_regular_color">@*android:color/secondary_text_default_material_dark</color>
@@ -7,4 +9,12 @@
     <color name="switch_accent_color">@*android:color/cardinal_accent_neon_green</color>
     <color name="theme_accent">#ff27e4a0</color>
     <drawable name="fp_enrollment_header_landscape">@*android:color/cardinal_accent_neon_green</drawable>
+    <color name="confirm_device_credential_dark_background">@*android:color/cardinal_dark_indigo</color>
+    <color name="condition_card_background_color">@*android:color/cardinal_dark_indigo</color>
+
+   <!-- Condition card colors -->
+    <color name="condition_card_background_color">#221B33</color>
+    <color name="condition_card_icon_color">@*android:color/cardinal_accent_neon_green</color>
+    <color name="condition_card_divider_color">@android:color/cardinal_accent_neon_green</color>
+
 </resources>
