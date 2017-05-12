@@ -180,5 +180,5 @@
 
     <!--Cardinal-AOSP Version-->
      <string name="cardinal_version">Cardinal-AOSP Version</string>
-     <string name="cardinal_version_default">Oops! Something's wrong</string>
+     <string name="cardinal_version_default">Oops! Something\'s wrong</string>
 </resources>
