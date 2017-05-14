@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:background">@*android:color/cardinal_dark_indigo</item>
+        <item name="android:elevation">0dip</item>
+    </style>
+
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/cardinal_dark_indigo</item>
+        <item name="android:colorPrimaryDark">#221B33</item>
+        <item name="android:windowBackground">@*android:color/cardinal_dark_indigo</item>
+        <item name="android:dividerVertical">@drawable/preference_list_divider_material</item>
+    </style>
+
+    <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@*android:color/cardinal_accent_neon_green</item>
+    </style>
+</resources>

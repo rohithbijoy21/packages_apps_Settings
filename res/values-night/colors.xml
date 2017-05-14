@@ -10,11 +10,16 @@
     <color name="theme_accent">#ff27e4a0</color>
     <drawable name="fp_enrollment_header_landscape">@*android:color/cardinal_accent_neon_green</drawable>
     <color name="confirm_device_credential_dark_background">@*android:color/cardinal_dark_indigo</color>
-    <color name="condition_card_background_color">@*android:color/cardinal_dark_indigo</color>
+    <color name="divider_color">@*android:color/cardinal_dark_indigo</color>
 
-   <!-- Condition card colors -->
+    <!-- Condition card colors -->
     <color name="condition_card_background_color">#221B33</color>
     <color name="condition_card_icon_color">@*android:color/cardinal_accent_neon_green</color>
-    <color name="condition_card_divider_color">@android:color/cardinal_accent_neon_green</color>
+    <color name="condition_card_title_text_color">@*android:color/primary_text_default_material_light</color>
+    <color name="condition_card_expander_color">@*android:color/cardinal_accent_neon_green</color>
+    <color name="condition_card_summary_text_color">@*android:color/primary_text_default_material_light</color>
+    <color name="condition_card_divider_color">@*android:color/cardinal_accent_neon_green</color>
+    <color name="condition_card_first_button_text_color">@*android:color/primary_text_default_material_light</color>
+    <color name="condition_card_second_button_text_color">@*android:color/primary_text_default_material_light</color>
 
 </resources>

@@ -16,4 +16,8 @@
 
 <resources>
  <dimen name="dashboard_category_elevation">0dip</dimen>
+    <dimen name="dashboard_padding_top">0.0dip</dimen>
+    <dimen name="dashboard_padding_start">0.0dip</dimen>
+    <dimen name="dashboard_padding_end">0.0dip</dimen>
+    <dimen name="dashboard_padding_bottom">0.0dip</dimen>
 </resources>
