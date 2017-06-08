@@ -187,6 +187,9 @@
      <string name="wings_settings_title">The Wings!</string>
      <string name="wings_settings_summary">Customize your device</string>
 
+     <!-- Buttons fragment -->
+     <string name="wings_settings_buttons_title">Buttons</string>
+
      <!-- Sound & Notification Settings -->
      <!-- Volume settings - Volume adjustment sound -->
      <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>

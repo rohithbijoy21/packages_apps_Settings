@@ -243,7 +243,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.WirelessSettingsActivity.class.getName(),
             //device_section
             Settings.WingsSettingsActivity.class.getName(),
-            Settings.ButtonsSettingsActivity.class.getName(),
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
             Settings.DisplaySettingsActivity.class.getName(),
@@ -363,7 +362,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             DisplayRotation.class.getName(),
-            ButtonsSettings.class.getName(),
             WingsSettings.class.getName()
     };
 

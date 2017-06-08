@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Buttons -->
-    <string name="buttons_pref_title">Buttons</string>
-    <string name="buttons_pref_summary">Customize your device keys and buttons</string>
+    <string name="hwkeys_settings_title">Hardware Buttons</string>
+    <string name="buttons_pref_summary">Customize your device hardware keys and buttons</string>
     <string name="enable_navigation_bar_title">Enable software keys</string>
     <string name="enable_navigation_bar_summary">Enable on-screen navigation keys</string>
     <string name="swap_navigation_keys_title">Swap keys</string>

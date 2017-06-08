@@ -30,7 +30,7 @@ public class Settings extends SettingsActivity {
     */
     public static class BluetoothSettingsActivity extends SettingsActivity { /* empty */ }
     public static class WirelessSettingsActivity extends SettingsActivity { /* empty */ }
-    public static class CustomSettings extends SettingsActivity { /* empty */ } 
+    public static class CustomSettings extends SettingsActivity { /* empty */ }
     public static class SimSettingsActivity extends SettingsActivity { /* empty */ }
     public static class TetherSettingsActivity extends SettingsActivity { /* empty */ }
     public static class VpnSettingsActivity extends SettingsActivity { /* empty */ }
@@ -163,6 +163,5 @@ public class Settings extends SettingsActivity {
 
     // Cardinal Additions.
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
-    public static class ButtonsSettingsActivity extends SettingsActivity { /* empty */ }
     public static class WingsSettingsActivity extends SettingsActivity { /* empty */ }
 }
