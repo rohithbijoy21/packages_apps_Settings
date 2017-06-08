@@ -181,4 +181,11 @@
     <!--Cardinal-AOSP Version-->
      <string name="cardinal_version">Cardinal-AOSP Version</string>
      <string name="cardinal_version_default">Oops! Something\'s wrong</string>
+
+    <!-- The Wings! -->
+     <string name="header_category_custom">Personalization</string>
+     <string name="wings_settings_title">The Wings!</string>
+     <string name="wings_settings_summary">Customize your device</string>
+
+
 </resources>

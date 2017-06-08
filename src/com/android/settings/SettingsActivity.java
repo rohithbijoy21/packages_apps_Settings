@@ -73,6 +73,7 @@ import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.VrListenerSettings;
 import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.cardinal.WingsSettings;
 import com.android.settings.dashboard.DashboardContainerFragment;
 import com.android.settings.dashboard.SearchResultsSummary;
 import com.android.settings.datausage.DataUsageSummary;
@@ -241,6 +242,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.SimSettingsActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
             //device_section
+            Settings.WingsSettingsActivity.class.getName(),
             Settings.ButtonsSettingsActivity.class.getName(),
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
@@ -361,7 +363,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             DisplayRotation.class.getName(),
-            ButtonsSettings.class.getName()
+            ButtonsSettings.class.getName(),
+            WingsSettings.class.getName()
     };
 
 
@@ -553,6 +556,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         mIsShowingDashboard = className.equals(Settings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName())
+                || className.equals(Settings.CustomSettings.class.getName())
                 || className.equals(Settings.DeviceSettings.class.getName())
                 || className.equals(Settings.PersonalSettings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName());
