@@ -17,6 +17,14 @@
            android:key="hwkeys_settings"
            android:title="@string/hwkeys_settings_title"/>
 
+      <PreferenceScreen
+           android:title="@string/navbar_tuner_title"
+           android:summary="@string/navbar_tuner_summary" >
+          <intent android:action="android.intent.action.MAIN"
+              android:targetPackage="com.android.systemui"
+              android:targetClass="com.android.systemui.tuner.NavbarActivity" />
+      </PreferenceScreen>
+
      <com.android.settings.preferences.SystemSettingSwitchPreference
          android:key="volbtn_music_controls"
          android:title="@string/volbtn_music_controls_title"
@@ -30,4 +38,21 @@
          android:summary="@string/button_wake_summary"
          android:defaultValue="false" />
 
+     <com.android.settings.preferences.SecureSettingSwitchPreference
+         android:key="sysui_volume_down_silent"
+         android:title="@string/volbtn_down_zen_title"
+         android:summary="@string/volbtn_down_zen_summary"
+         android:defaultValue="true"/>
+
+     <com.android.settings.preferences.SecureSettingSwitchPreference
+         android:key="sysui_volume_up_silent"
+         android:title="@string/volbtn_up_zen_title"
+         android:summary="@string/volbtn_up_zen_summary"
+         android:defaultValue="true" />
+
+     <com.android.settings.preferences.SecureSettingSwitchPreference
+         android:key="sysui_show_full_zen"
+         android:title="@string/vol_zen_title"
+         android:summary="@string/vol_zen_summary"
+         android:defaultValue="false"/>
 </PreferenceScreen>

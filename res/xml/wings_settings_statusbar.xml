@@ -30,5 +30,26 @@
          android:title="@string/nettraffic_settings_title"
          android:summary="@string/nettraffic_settings_summary" />
 
+    <com.android.settings.preferences.SecureSettingSwitchPreference
+         android:key="qs_show_brightness"
+         android:title="@string/qs_brightness_slider_title"
+         android:summary="@string/qs_brightness_slider_summary"
+         android:defaultValue="true"/>
+
+   <PreferenceScreen
+           android:title="@string/status_bar_icon_blacklist_title"
+           android:summary="@string/status_bar_icon_blacklist_summary" >
+       <intent android:action="android.intent.action.MAIN"
+               android:targetPackage="com.android.systemui"
+               android:targetClass="com.android.systemui.tuner.TunerActivity" />
+   </PreferenceScreen>
+
+    <PreferenceScreen
+             android:title="@string/power_notification_title"
+             android:summary="@string/power_notification_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
+    </PreferenceScreen>
 
 </PreferenceScreen>
