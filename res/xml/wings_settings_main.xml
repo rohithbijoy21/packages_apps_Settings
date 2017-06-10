@@ -17,6 +17,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/wings_settings_title" >
 
+
+       <PreferenceScreen
+           android:fragment="com.android.settings.cardinal.fragments.StatusBarSettings"
+           android:key="wings_statusbar_settings"
+           android:title="@string/wings_settings_statusbar_title"/>
+
        <PreferenceScreen
            android:fragment="com.android.settings.cardinal.fragments.ButtonsSettings"
            android:key="wings_buttons_settings"
@@ -24,7 +30,7 @@
            android:icon="@drawable/ic_settings_buttons"/>
 
        <PreferenceScreen
-           android:fragment="com.android.settings.cardinal.fragments.UserInterfaceSettings.java"
+           android:fragment="com.android.settings.cardinal.fragments.UserInterfaceSettings"
            android:key="wings_ui_settings"
            android:title="@string/wings_settings_ui_title"/>
 

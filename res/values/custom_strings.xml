@@ -190,6 +190,7 @@
      <!-- fragments -->
      <string name="wings_settings_buttons_title">Buttons</string>
      <string name="wings_settings_ui_title">User Interface</string>
+     <string name="wings_settings_statusbar_title">StatusBar</string>
 
      <!-- Sound & Notification Settings -->
      <!-- Volume settings - Volume adjustment sound -->
@@ -206,5 +207,9 @@
      <!-- Volume button wake -->
      <string name="volbtn_wake_device_title">Volume button wake</string>
      <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+
+     <!-- double tap statusbar to sleep -->
+     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
 
 </resources>
