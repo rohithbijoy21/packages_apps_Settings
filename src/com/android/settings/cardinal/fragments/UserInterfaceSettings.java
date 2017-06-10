@@ -16,9 +16,12 @@
 
 package com.android.settings.cardinal.fragments;
 
+import android.content.Context;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -28,11 +31,27 @@ import com.android.settings.preferences.SystemSettingSwitchPreference;
 
 public class UserInterfaceSettings extends SettingsPreferenceFragment {
 
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+
+    private static final String LS_SECURE_CAT = "lockscreen_secure_options";
+
+    private FingerprintManager mFingerprintManager;
+
+    private SystemSettingSwitchPreference mFingerprintVib;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.wings_settings_ui);
         PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory secureCategory = (PreferenceCategory) findPreference(LS_SECURE_CAT);
+
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        if (!mFingerprintManager.isHardwareDetected()){
+            secureCategory.removePreference(mFingerprintVib);
+        }
     }
 
     @Override
