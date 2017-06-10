@@ -187,11 +187,16 @@
      <string name="wings_settings_title">The Wings!</string>
      <string name="wings_settings_summary">Customize your device</string>
 
-     <!-- Buttons fragment -->
+     <!-- fragments -->
      <string name="wings_settings_buttons_title">Buttons</string>
+     <string name="wings_settings_ui_title">User Interface</string>
 
      <!-- Sound & Notification Settings -->
      <!-- Volume settings - Volume adjustment sound -->
      <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
+     <!-- Lockscreen cover art -->
+     <string name="media_art_title">Media cover art</string>
+     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
 </resources>
