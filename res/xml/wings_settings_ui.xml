@@ -24,4 +24,10 @@
          android:summary="@string/double_tap_sleep_anywhere_summary"
          android:defaultValue="false" />
 
+    <com.android.settings.preferences.GlobalSettingSwitchPreference
+         android:key="wake_when_plugged_or_unplugged"
+         android:title="@string/wake_when_plugged_or_unplugged_title"
+         android:summary="@string/wake_when_plugged_or_unplugged_summary"
+         android:defaultValue="false" />
+
 </PreferenceScreen>
