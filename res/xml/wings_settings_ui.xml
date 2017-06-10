@@ -18,4 +18,10 @@
          android:summary="@string/media_art_summary"
          android:defaultValue="true" />
 
+     <com.android.settings.preferences.SystemSettingSwitchPreference
+         android:key="double_tap_sleep_anywhere"
+         android:title="@string/double_tap_sleep_anywhere_title"
+         android:summary="@string/double_tap_sleep_anywhere_summary"
+         android:defaultValue="false" />
+
 </PreferenceScreen>
