@@ -199,4 +199,7 @@
      <string name="media_art_title">Media cover art</string>
      <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
+     <!-- Volume button track change -->
+     <string name="volbtn_music_controls_title">Music control</string>
+     <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
 </resources>
