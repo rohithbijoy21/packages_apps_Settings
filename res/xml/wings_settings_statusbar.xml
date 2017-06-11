@@ -28,6 +28,12 @@
         android:title="@string/status_bar_battery_style_category"
         android:fragment="com.android.settings.cardinal.fragments.StatusbarBatteryStyle" />
 
+     <PreferenceScreen
+        android:fragment="com.android.settings.cardinal.fragments.CarrierLabelSettings"
+        android:key="arrier_label_settings"
+        android:title="@string/carrier_label_settings_title"
+        android:summary="@string/carrier_label_settings_summary" />
+
     <com.android.settings.preferences.SystemSettingSwitchPreference
          android:key="double_tap_sleep_gesture"
          android:title="@string/double_tap_to_sleep_title"
