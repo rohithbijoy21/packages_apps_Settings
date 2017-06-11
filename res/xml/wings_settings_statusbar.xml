@@ -12,6 +12,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="quicksettings"
+        android:fragment="com.android.settings.cardinal.fragments.QuickSettings"
+        android:title="@string/quicksettings_category" />
+
     <PreferenceScreen
         android:fragment="com.android.settings.cardinal.fragments.ClockSettings"
         android:key="clock_settings"
