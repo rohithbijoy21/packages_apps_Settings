@@ -90,7 +90,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CARDINAL_SETTINGS;
+        return MetricsEvent.WINGS;
     }
 
     @Override

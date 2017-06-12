@@ -133,7 +133,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CARDINAL_SETTINGS;
+        return MetricsEvent.WINGS;
     }
 
     @Override
