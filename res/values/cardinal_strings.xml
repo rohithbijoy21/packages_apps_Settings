@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Cardinal-AOSP Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">About Project</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP is a Custom ROM Initially was based on AOSPB, later we moved on and rebased it with AOSP-RRO for better AOSP experience with Full RRO Layers Support, Built with UBER toolchain to optimize battery life and with some of the most required bare minimal features/customizations, the main aim of this ROM is to deliver light speed performance, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
+    <string name="dev_info">TeamCardinal</string>
+    <string name="devs_header">Developers</string>
+    <string name="dev_1">Adarsh M.R &#40;Adarsh1998&#41;</string>
+    <string name="dev1_description">Founder/Developer, Kenzo Co-Maintainer</string>
+    <string name="dev_2">Rohit Poroli &#40;rohitporoli&#41;</string>
+    <string name="dev2_description">Co-Founder/Developer, Onyx Maintainer</string>
+    <string name="maintainers_header">Maintainers</string>
+    <string name="dev_5">WIP #1</string>
+    <string name="dev5_description">Device</string>
+    <string name="dev_6">WIP #2</string>
+    <string name="dev6_description">Device</string>
+    <string name="dev_7">WIP #3</string>
+    <string name="dev7_description">Device</string>
+    <string name="dev_8">WIP #4</string>
+    <string name="dev8_description">Device</string>
+    <string name="dev_9">WIP #5</string>
+    <string name="dev9_description">Device</string>
+    <string name="dev_10">WIP #6</string>
+    <string name="dev10_description">Device</string>
+    <string name="dev_11">WIP #7</string>
+    <string name="dev11_description">Device</string>
+    <string name="dev_12">WIP #8</string>
+    <string name="dev12_description">Device</string>
+    <string name="dev_13">WIP #9</string>
+    <string name="dev13_description">Device</string>
+    <string name="dev_14">WIP #10</string>
+    <string name="dev14_description">Device</string>
+    <string name="dev_15">WIP #11</string>
+    <string name="dev15_description">Device</string>
+
+</resources>
