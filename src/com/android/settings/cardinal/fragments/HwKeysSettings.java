@@ -45,9 +45,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class HwKeysSettings extends SettingsPreferenceFragment implements
+public class NavBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener, Indexable {
-    private static final String TAG = "HwKeysSettings";
+    private static final String TAG = "NavBarSettings";
 
     private static final int KEY_MASK_HOME = 0x01;
     private static final int KEY_MASK_BACK = 0x02;
@@ -107,7 +107,7 @@ public class HwKeysSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.hwkeys_settings);
+        addPreferencesFromResource(R.xml.navbar_settings);
 
         mHandler = new Handler();
 
@@ -470,7 +470,7 @@ public class HwKeysSettings extends SettingsPreferenceFragment implements
             public List<SearchIndexableResource> getXmlResourcesToIndex(
                     Context context, boolean enabled) {
                 SearchIndexableResource sir = new SearchIndexableResource(context);
-                sir.xmlResId = R.xml.hwkeys_settings;
+                sir.xmlResId = R.xml.navbar_settings;
                 return Arrays.asList(sir);
             }
 

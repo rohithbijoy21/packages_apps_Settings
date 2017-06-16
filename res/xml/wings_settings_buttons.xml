@@ -13,9 +13,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
        <PreferenceScreen
-           android:fragment="com.android.settings.HwKeysSettings"
-           android:key="hwkeys_settings"
-           android:title="@string/hwkeys_settings_title"/>
+           android:fragment="com.android.settings.fragments.NavBarSettings"
+           android:key="navbar_settings"
+           android:title="@string/navbar_settings_title"/>
 
       <PreferenceScreen
            android:title="@string/navbar_tuner_title"
