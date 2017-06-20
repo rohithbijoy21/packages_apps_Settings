@@ -36,4 +36,10 @@
            android:title="@string/wings_settings_ui_title"
            android:icon="@drawable/ic_settings_ui"/>
 
+       <PreferenceScreen
+           android:fragment="com.android.settings.gestures.GestureSettings"
+           android:key="gesture_settings"
+           android:title="@string/gesture_preference_title"
+           android:icon="@drawable/ic_settings_gestures"/>
+
 </PreferenceScreen>
