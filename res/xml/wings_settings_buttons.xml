@@ -13,23 +13,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
        <PreferenceScreen
-           android:fragment="com.android.settings.HwKeysSettings"
-           android:key="hwkeys_settings"
-           android:title="@string/hwkeys_settings_title"/>
-
-      <PreferenceScreen
-           android:title="@string/navbar_tuner_title"
-           android:summary="@string/navbar_tuner_summary" >
-          <intent android:action="android.intent.action.MAIN"
-              android:targetPackage="com.android.systemui"
-              android:targetClass="com.android.systemui.tuner.NavbarActivity" />
-      </PreferenceScreen>
-
-      <com.android.settings.preferences.SystemSettingSwitchPreference
-         android:key="pixel_nav_animation"
-         android:title="@string/pixel_navbar_anim_title"
-         android:summary="@string/pixel_navbar_anim_summary"
-         android:defaultValue="true" />
+           android:fragment="com.android.settings.cardinal.fragments.NavBarSettings"
+           android:key="navbar_settings"
+           android:title="@string/navbar_settings_title"/>
 
      <com.android.settings.preferences.SystemSettingSwitchPreference
          android:key="volbtn_music_controls"

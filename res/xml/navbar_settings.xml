@@ -18,11 +18,43 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+<PreferenceCategory
+  android:title="@string/softkeys_settings_title">
+
     <SwitchPreference
         android:key="navigation_bar"
         android:title="@string/enable_navigation_bar_title"
         android:summary="@string/enable_navigation_bar_summary"
         android:defaultValue="false" />
+
+      <PreferenceScreen
+           android:title="@string/navbar_tuner_title"
+           android:summary="@string/navbar_tuner_summary"
+           android:dependency="navigation_bar" >
+          <intent android:action="android.intent.action.MAIN"
+              android:targetPackage="com.android.systemui"
+              android:targetClass="com.android.systemui.tuner.NavbarActivity" />
+      </PreferenceScreen>
+
+      <com.android.settings.preferences.SystemSettingSwitchPreference
+         android:key="pixel_nav_animation"
+         android:dependency="navigation_bar"
+         android:title="@string/pixel_navbar_anim_title"
+         android:summary="@string/pixel_navbar_anim_summary"
+         android:defaultValue="true" />
+
+      <com.android.settings.preferences.SystemSettingSwitchPreference
+         android:key="nav_bar_dynamic"
+         android:dependency="navigation_bar"
+         android:title="@string/nav_bar_dynamic_title"
+         android:summary="@string/nav_bar_dynamic_summary"
+         android:defaultValue="false" />
+
+</PreferenceCategory>
+
+<PreferenceCategory
+  android:title="@string/hwkeys_settings_title">
+</PreferenceCategory>
 
     <SwitchPreference
         android:key="swap_navigation_keys"
