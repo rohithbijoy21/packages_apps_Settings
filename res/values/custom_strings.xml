@@ -435,4 +435,7 @@
 
     <string name="device_doze_title">Ambient display gestures</string>
     <string name="device_doze_summary">Set up extra gestures for ambient display mode</string>
+
+    <!-- Additional Button Settings -->
+    <string name="device_additional_buttons_title">Notification Slider</string>
 </resources>

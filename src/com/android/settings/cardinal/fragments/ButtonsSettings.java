@@ -6,7 +6,7 @@
  * You may obtain a copy of the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
- *
+ *i
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,19 +18,33 @@ package com.android.settings.cardinal.fragments;
 
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceScreen;
+import android.content.Context;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.internal.util.custom.CustomUtils;
+
 public class ButtonsSettings extends SettingsPreferenceFragment {
+
+    private static final String PREF_KEY_DEVICE_ADDITIONAL_BUTTONS = "device_additional_buttons";
+    private static final String DEVICE_ADDITIONAL_BUTTONS_PACKAGE_NAME = "com.cyanogenmod.settings.device";
+
+    private PreferenceScreen mDeviceAdditionalButtons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.wings_settings_buttons);
         PreferenceScreen prefScreen = getPreferenceScreen();
+        Context context = getActivity();
+
+    mDeviceAdditionalButtons = (PreferenceScreen) findPreference(PREF_KEY_DEVICE_ADDITIONAL_BUTTONS);
+        if (!CustomUtils.isAvailableApp(DEVICE_ADDITIONAL_BUTTONS_PACKAGE_NAME,context)) {
+            removePreference(PREF_KEY_DEVICE_ADDITIONAL_BUTTONS);
+        }
     }
 
     @Override

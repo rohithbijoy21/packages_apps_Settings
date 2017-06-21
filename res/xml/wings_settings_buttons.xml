@@ -17,6 +17,15 @@
            android:key="navbar_settings"
            android:title="@string/navbar_settings_title"/>
 
+       <PreferenceScreen
+        android:key="device_additional_buttons"
+        android:title="@string/device_additional_buttons_title">
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.cyanogenmod.settings.device"
+            android:targetClass="com.cyanogenmod.settings.device.ButtonSettings" />
+    </PreferenceScreen>
+
      <com.android.settings.preferences.SystemSettingSwitchPreference
          android:key="volbtn_music_controls"
          android:title="@string/volbtn_music_controls_title"
