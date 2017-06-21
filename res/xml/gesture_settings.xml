@@ -57,7 +57,6 @@
 
     <PreferenceScreen
         android:key="device_gestures"
-        android:icon="@drawable/ic_settings_gestures"
         android:title="@string/device_gestures_title"
         android:summary="@string/device_gestures_summary">
         <intent
@@ -68,7 +67,6 @@
 
     <PreferenceScreen
         android:key="device_doze"
-        android:icon="@drawable/ic_settings_doze"
         android:title="@string/device_doze_title"
         android:summary="@string/device_doze_summary">
         <intent
