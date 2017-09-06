@@ -93,7 +93,7 @@
         <!-- Cardinal-AOSP  version -->
         <Preference android:key="cardinal_version"
                 android:title="@string/cardinal_version"
-                android:summary="@string/cardinal_version_default" />
+                android:summary="@string/device_info_default" />
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"

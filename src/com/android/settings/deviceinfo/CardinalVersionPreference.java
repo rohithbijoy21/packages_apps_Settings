@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo;
 import android.content.Context;
 import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
+import android.text.TextUtils;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceController;
@@ -38,7 +39,7 @@ public class CardinalVersionPreference extends PreferenceController {
 
     @Override
     public boolean isAvailable() {
-        return true;
+        return !TextUtils.isEmpty(SystemProperties.get(KEY_CARDINAL_VERSION));
     }
     
     @Override
