@@ -250,7 +250,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
             }
         });
         //light color pref
-        int color = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : 0X00FFFFFF);
+        int color = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : 0x00FFFFFF);
         mCustomLight.setAlphaSliderEnabled(true);
         mCustomLight.setNewPreviewColor(color);
         mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
