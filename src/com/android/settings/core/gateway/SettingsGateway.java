@@ -128,6 +128,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.cardinal.settings.WingsSettings;
+import com.cardinal.settings.fragments.QuickSettings;
 import com.cardinal.settings.fragments.NavigationBarSettings;
 
 public class SettingsGateway {
@@ -249,6 +250,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             WingsSettings.class.getName(),
             NavigationBarSettings.class.getName(),
+            QuickSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
