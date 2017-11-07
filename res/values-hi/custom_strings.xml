@@ -45,7 +45,13 @@
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
-  <string name="maintainer_rahif_manjatha_device">Falcon | Mido</string>
+  <string name="maintainer_rahif_manjatha_device">Falcon</string>
+  <string name="maintainer_keerten">Keerten</string>
+  <string name="maintainer_keerten_device">Athene</string>
+  <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
+  <string name="maintainer_ayush_dubey_device">Wt88047</string>
+  <string name="maintainer_sathish">Sathish (Sathish2026)</string>
+  <string name="maintainer_sathish_device">Mido</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">चमक</string>
   <string name="night_brightness_value_title">रात्री प्रकाश में चमक को धीमा करे</string>
@@ -144,4 +150,16 @@
   <string name="app_ops_app_start_foreground">अग्रभूमि प्रारंभ करें</string>
   <string name="app_ops_answer_phone_calls">कॉल का उत्तर दे</string>
   <string name="app_ops_boot_completed">स्वत: आरंभ</string>
+  <!-- Reset battery stats -->
+  <string name="ok">ठीक है</string>
+  <string name="menu_stats_reset">आँकड़े रीसेट करें</string>
+  <string name="reset_stats_msg">बैटरी के इतिहास के आँकड़े रीसेट किये जाने वाले हैं</string>
+  <!-- Screenshot shutter sound -->
+  <string name="screenshot_shutter_sound_title">स्क्रीनशॉट शटर ध्वनि</string>
+  <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">उपकरण एंक्रिप्टेड है</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">डिवाइस डीक्रिप्ट हो चुकी है</string>
+  <string name="twilight_mode_location_dialog">स्थान अक्षम किया गया</string>
+  <string name="twilight_mode_location_disabled">स्थान पहुंच अक्षम है</string>
+  <string name="twilight_mode_location_enable">सक्षम करें</string>
 </resources>
