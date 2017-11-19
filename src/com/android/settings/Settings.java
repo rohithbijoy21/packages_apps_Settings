@@ -182,5 +182,5 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SupportDashboardActivity extends SettingsActivity {}
     public static class CardinalSettingsActivity extends SettingsActivity {}
-
+    public static class ThemesActivity extends SettingsActivity {}
 }
