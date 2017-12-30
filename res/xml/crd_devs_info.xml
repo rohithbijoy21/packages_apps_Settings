@@ -148,6 +148,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/+PrakharSrivastavaLuv" />
         </Preference>
 
+        <Preference
+            android:title="@string/maintainer_vimal_raj"
+            android:summary="@string/maintainer_vimal_raj_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+vimalraj" />
+        </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
