@@ -149,6 +149,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
+            android:title="@string/maintainer_sanchit_rohilla" 
+            android:summary="@string/maintainer_sanchit_rohilla_device" 
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/117815626406140889210" />
+        </Preference>
+
+        <Preference
             android:title="@string/maintainer_vimal_raj"
             android:summary="@string/maintainer_vimal_raj_device"
             android:icon="@drawable/ic_devs_phone">
