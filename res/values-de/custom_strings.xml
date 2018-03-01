@@ -20,9 +20,7 @@
   <string name="changelog_custom_summary">Liste der Änderungen seit dem letzten Build</string>
   <string name="changelog_custom_error">Changelog kann nicht geladen werden</string>
   <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal-AOSP Version</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">Nicht nötig, Entwickleroptionen sind standardmäßig aktiviert.</string>
+  <string name="cardinal_version">Cardinal-AOSP-Version</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">Maintainer</string>
   <!-- Wings Settings -->
@@ -31,17 +29,15 @@
   <!-- Dev Info -->
   <string name="cardinal_about_info">Über das Projekt</string>
   <string name="cardinal_about_info_summary_title">Erfahren Sie mehr über uns!</string>
-  <string name="cardinal_about_info_summary">Kardinal-AOSP ist ein Custom-ROM basierend auf AOSP, mit kleinen Patches von CAF um Non-AOSP Geräte mit einigen benötigten Funktionen zu unterstützen. Das Hauptziel dabei ist, so nah wie möglich an AOSP zu bleiben und ein blitzschnelles, flüssiges System mit guter Akkulaufzeit zu garantieren. Wir hoffen, dass Sie dieses Projekt lieben und uns helfen es in Zukunft noch besser zu gestalten.</string>
+  <string name="cardinal_about_info_summary">Cardinal-AOSP ist ein Custom-ROM basierend auf AOSP, mit kleinen Patches von CAF, um Non-AOSP-Geräte mit einigen benötigten Funktionen zu unterstützen. Das Hauptziel dabei ist, so nah wie möglich an AOSP zu bleiben und ein blitzschnelles, flüssiges System mit guter Akkulaufzeit zu garantieren. Wir hoffen, dass Sie dieses Projekt lieben und uns helfen, es in Zukunft noch besser zu gestalten.</string>
   <string name="devs_header">Entwickler</string>
   <string name="maintainers_header">Maintainer</string>
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Gründer/Entwickler, Kenzo Co-Maintainer</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Co-Gründer/Entwickler</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (Rahifm)</string>
@@ -51,12 +47,15 @@
   <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">Land</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Helligkeit</string>
-  <string name="night_brightness_value_title">Helligkeit zu senken, wenn Nachtlicht</string>
+  <string name="night_brightness_value_title">Helligkeit absenken, wenn Nachtlicht aktiv ist</string>
   <string name="night_bright_disabled">Deaktiviert</string>
   <string name="night_bright_minimum">Minimale Helligkeit</string>
   <string name="night_bright_low">Niedrige Helligkeit</string>
@@ -70,36 +69,34 @@
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Standort</string>
   <string name="app_ops_cat_personal">Persönlich</string>
-  <string name="app_ops_cat_messaging">Sms/Mms</string>
+  <string name="app_ops_cat_messaging">Nachrichten</string>
   <string name="app_ops_cat_media">Medien</string>
   <string name="app_ops_cat_device">Gerät</string>
   <string name="app_ops_cat_bootup">Hochfahren</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">Kamera</string>
-  <string name="app_ops_access_location">Standort</string>
   <string name="app_ops_access_notifications">Benachrichtigungen</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">Autostart</string>
-  <string name="app_ops_delete_call_log">Anrufsliste löschen</string>
+  <string name="app_ops_delete_call_log">Anrufliste löschen</string>
   <string name="app_ops_delete_contacts">Kontakte löschen</string>
   <string name="app_ops_delete_mms">MMS löschen</string>
   <string name="app_ops_delete_sms">SMS löschen</string>
   <string name="app_ops_draw_on_top">Über andere Apps einblenden</string>
   <string name="app_ops_get_usage_stats">Nutzungsstatistiken abrufen</string>
-  <string name="app_ops_keep_device_awake">aktiv lassen</string>
-  <string name="app_ops_make_phone_call">anrufen</string>
+  <string name="app_ops_keep_device_awake">Aktiv lassen</string>
+  <string name="app_ops_make_phone_call">Telefonanrufe</string>
   <string name="app_ops_modify_calendar">Kalendereinträge bearbeiten</string>
   <string name="app_ops_modify_call_log">Anrufliste bearbeiten</string>
-  <string name="app_ops_modify_clipboard">zwischenablage anpassen</string>
+  <string name="app_ops_modify_clipboard">Zwischenablage ändern</string>
   <string name="app_ops_modify_contacts">Kontakte bearbeiten</string>
   <string name="app_ops_modify_settings">Einstellungen bearbeiten</string>
-  <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
   <string name="app_ops_play_audio">Audio wiedergeben</string>
-  <string name="app_ops_post_notification">sende Benachrichtigung</string>
-  <string name="app_ops_project_media">medien zu projizieren</string>
+  <string name="app_ops_post_notification">Benachrichtigung erstellen</string>
+  <string name="app_ops_project_media">Medienzugriff</string>
   <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
   <string name="app_ops_read_call_log">Anrufliste lesen</string>
-  <string name="app_ops_read_clipboard">zwischenablage lesen</string>
+  <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
   <string name="app_ops_read_contacts">Kontakte lesen</string>
   <string name="app_ops_read_mms">MMS lesen</string>
   <string name="app_ops_read_sms">SMS lesen</string>
@@ -119,7 +116,6 @@
   <string name="app_ops_use_vibrate">Haptisches Feedback</string>
   <string name="app_ops_use_voice_volume">Sprachlautstärke</string>
   <string name="app_ops_write_mms">MMS schreiben</string>
-  <string name="app_ops_write_sms">SMS schreiben</string>
   <string name="app_ops_use_fingerprint">Fingerabdruck</string>
   <string name="app_ops_add_voicemail">Sprachnachricht</string>
   <string name="app_ops_read_phone_state">Auf Telefonstatus zugreifen</string>
@@ -127,19 +123,19 @@
   <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
   <string name="app_ops_assist_structure">Strukturassistent</string>
   <string name="app_ops_assist_screenshot">Screenshot</string>
-  <string name="app_ops_use_body_sensors">körpersensoren zu verwenden</string>
-  <string name="app_ops_read_cell_broadcasts">cell-Broadcasts zu lesen</string>
+  <string name="app_ops_use_body_sensors">Sensorzugriff</string>
+  <string name="app_ops_read_cell_broadcasts">Mobilfunkkommunikation</string>
   <string name="app_ops_mock_location">Standort simulieren</string>
-  <string name="app_ops_read_external_storage">externen Speicher lesen.</string>
-  <string name="app_ops_write_external_storage">auf externen Speicher schreiben.</string>
+  <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
+  <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Geräte-Konten</string>
-  <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
-  <string name="app_ops_accessibility_volume">barrierefreiheit-Volumen</string>
-  <string name="app_ops_read_phone_numbers">Telefonnummer lesen.</string>
+  <string name="app_ops_run_in_background">Im Hintergrund ausführen</string>
+  <string name="app_ops_accessibility_volume">Bedienungshilfen-Lautstärke</string>
+  <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
   <string name="app_ops_request_install_packages">Paket installieren</string>
   <string name="app_ops_picture_in_picture">Bild in Bild</string>
-  <string name="app_ops_app_start_foreground">im Vordergrund starten</string>
+  <string name="app_ops_app_start_foreground">Im Vordergrund starten</string>
   <string name="app_ops_answer_phone_calls">Anruf annehmen</string>
   <string name="app_ops_boot_completed">Autostart</string>
   <!-- Reset battery stats -->
@@ -147,19 +143,40 @@
   <string name="menu_stats_reset">Statistik zurücksetzen</string>
   <string name="reset_stats_msg">Akkustatistiken werden zurückgesetzt</string>
   <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Screenshot Auslöserton</string>
+  <string name="screenshot_shutter_sound_title">Screenshot-Auslöseton</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">Gerät ist verschlüsselt</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Gerät ist entschlüsselt</string>
-  <string name="twilight_mode_location_dialog">Standort Deaktiviert</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Gerät ist unverschlüsselt</string>
+  <string name="twilight_mode_location_dialog">Standort ist deaktiviert</string>
   <string name="twilight_mode_location_disabled">Ortungsdienste deaktiviert</string>
   <string name="twilight_mode_location_enable">Aktivieren</string>
   <!-- Themes -->
-  <string name="themes_title">Themen</string>
+  <string name="themes_title">Themes</string>
+  <string name="themes_dashboard_summary">Themes-Verwaltung</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum-Overlays</string>
+  <string name="menu_show_substratum">Overlays anzeigen</string>
+  <string name="menu_hide_substratum">Overlays ausblenden</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+  <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wird</string>
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Alle Dateitypen akzeptieren</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">Verbinde Lautstärke für Klingelton und Benachrichtigungen</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Bildschirmausrichtung</string>
+  <string name="display_rotation_disabled">Deaktiviert</string>
+  <string name="display_rotation_unit">Grad</string>
+  <string name="display_rotation_category_title">Rotationsmodus</string>
+  <string name="display_rotation_0_title">0 Grad</string>
+  <string name="display_rotation_90_title">90 Grad</string>
+  <string name="display_rotation_180_title">180 Grad</string>
+  <string name="display_rotation_270_title">270 Grad</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
   <!--Cardinal-AOSP Version-->
+  <string name="cardinal_version">கார்டினல்-ஆதிமூதி (AOSP) பதிப்பு</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <!-- Wings Settings -->
   <!-- Dev Info -->
@@ -26,6 +27,9 @@
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_activate_vpn">மெதபி(VPN)</string>
+  <string name="app_ops_read_external_storage">ext. stor. படி</string>
+  <string name="app_ops_read_phone_numbers">தொலைபேசி num. படிக்க</string>
   <!-- Reset battery stats -->
   <!-- Screenshot shutter sound -->
   <!-- Encryption and credential -->

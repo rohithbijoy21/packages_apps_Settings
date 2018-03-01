@@ -21,8 +21,6 @@
   <string name="changelog_custom_error">无法加载更新日志</string>
   <!--Cardinal-AOSP Version-->
   <string name="cardinal_version">Cardinal-AOSP 版本</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">您已处于开发者模式，无需进行此操作。</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">维护者</string>
   <!-- Wings Settings -->
@@ -31,17 +29,15 @@
   <!-- Dev Info -->
   <string name="cardinal_about_info">关于本项目</string>
   <string name="cardinal_about_info_summary_title">来了解我们吧！</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSP基于AOSP，同时采用CAF代码以支持非Non-AOSP设备，具有必须且重要的功能。我们开发这个项目主要目的就是保持尽可能的接近AOSP, 更快、更省电。我们希望你喜欢这个项目并帮助我们构建更好的未来。</string>
+  <string name="cardinal_about_info_summary">Cardinal-AOSP基于AOSP(Android Open Source Project, 安卓开源计划，也即Google官方放出的源码)，同时采用CAF代码以支持非AOSP设备。我们开发这个项目主要目的就是保持尽可能的接近AOSP，因此并不加入一些多余特性 ，并且为你的设备带来更快更省电的体验。我们希望你喜欢这个项目并且帮助我们使它变得更好。</string>
   <string name="devs_header">开发者</string>
   <string name="maintainers_header">维护人员</string>
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">核心开发者与合作维护者</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">共同创始人/开发商</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
@@ -51,9 +47,12 @@
   <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">Land</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">亮度</string>
   <string name="night_brightness_value_title">夜晚灯低亮度</string>
@@ -76,7 +75,6 @@
   <string name="app_ops_cat_bootup">启动</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">相机</string>
-  <string name="app_ops_access_location">位置</string>
   <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">自动启动</string>
@@ -93,7 +91,6 @@
   <string name="app_ops_modify_clipboard">修改剪贴板</string>
   <string name="app_ops_modify_contacts">更新通讯录</string>
   <string name="app_ops_modify_settings">更新设置</string>
-  <string name="app_ops_mute_unmute_microphone">麦克静音/取消静音</string>
   <string name="app_ops_play_audio">播放音频</string>
   <string name="app_ops_post_notification">允许使用通知栏</string>
   <string name="app_ops_project_media">放映媒体</string>
@@ -119,7 +116,6 @@
   <string name="app_ops_use_vibrate">触摸反馈</string>
   <string name="app_ops_use_voice_volume">语音通话音量</string>
   <string name="app_ops_write_mms">编写彩信</string>
-  <string name="app_ops_write_sms">编写短信</string>
   <string name="app_ops_use_fingerprint">指纹</string>
   <string name="app_ops_add_voicemail">语音邮件</string>
   <string name="app_ops_read_phone_state">访问手机状态</string>
@@ -167,5 +163,20 @@
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">接受所有文件类型</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">关联铃声和通知的音量</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">旋转</string>
+  <string name="display_rotation_disabled">禁用</string>
+  <string name="display_rotation_unit">度</string>
+  <string name="display_rotation_category_title">旋转模式</string>
+  <string name="display_rotation_0_title">0 度</string>
+  <string name="display_rotation_90_title">90 度</string>
+  <string name="display_rotation_180_title">180 度</string>
+  <string name="display_rotation_270_title">270 度</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

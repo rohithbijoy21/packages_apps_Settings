@@ -21,8 +21,6 @@
   <string name="changelog_custom_error">Não foi possível carregar as alterações</string>
   <!--Cardinal-AOSP Version-->
   <string name="cardinal_version">Cardinal-AOSP Version</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">Desnecessário, Configurações de desenvolvimento estão ativadas por padrão.</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">Mantido por</string>
   <!-- Wings Settings -->
@@ -37,11 +35,9 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Fundador/desenvolvedor, Kenzo co-mantenedor</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Co-Founder/desenvolvedor</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
@@ -51,9 +47,12 @@
   <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">País</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brilho</string>
   <string name="night_brightness_value_title">Diminuir o brilho se luz noturna</string>
@@ -76,7 +75,6 @@
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">câmera</string>
-  <string name="app_ops_access_location">localização</string>
   <string name="app_ops_access_notifications">notificações</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">inicio automático</string>
@@ -93,7 +91,6 @@
   <string name="app_ops_modify_clipboard">modificar área de transferência</string>
   <string name="app_ops_modify_contacts">atualizar contactos</string>
   <string name="app_ops_modify_settings">atualizar configurações</string>
-  <string name="app_ops_mute_unmute_microphone">ligar/desligar microfone</string>
   <string name="app_ops_play_audio">reproduzir áudio</string>
   <string name="app_ops_post_notification">publicar notificação</string>
   <string name="app_ops_project_media">projetar multimédia</string>
@@ -119,7 +116,6 @@
   <string name="app_ops_use_vibrate">feedback háptico</string>
   <string name="app_ops_use_voice_volume">volume de voz</string>
   <string name="app_ops_write_mms">escrever MMS</string>
-  <string name="app_ops_write_sms">escrever SMS</string>
   <string name="app_ops_use_fingerprint">impressão digital</string>
   <string name="app_ops_add_voicemail">correio de voz</string>
   <string name="app_ops_read_phone_state">aceder ao estado do telefone</string>
@@ -167,5 +163,20 @@
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Aceitar todo o tipo de ficheiros</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">Associar volumes de toque e notificação</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotação</string>
+  <string name="display_rotation_disabled">Desativado</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 graus</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

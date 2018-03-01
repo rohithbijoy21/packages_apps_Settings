@@ -21,8 +21,6 @@
   <string name="changelog_custom_error">Ошибка загрузки списка изменений</string>
   <!--Cardinal-AOSP Version-->
   <string name="cardinal_version">Версия Cardinal - AOSP</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">Не нужно, настройки для разработчиков включены по умолчанию.</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">Мейнтейнер</string>
   <!-- Wings Settings -->
@@ -37,11 +35,9 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Основатель/разработчик, Помощник Kenzo</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Создатель/Разработчик</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
@@ -51,9 +47,12 @@
   <string name="maintainer_ayush_dubey">AYUSH Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">KunTao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">Land</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Яркость</string>
   <string name="night_brightness_value_title">Снижение яркости при использовании ночного режима</string>
@@ -76,7 +75,6 @@
   <string name="app_ops_cat_bootup">Загрузка</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">камера</string>
-  <string name="app_ops_access_location">расположение</string>
   <string name="app_ops_access_notifications">Уведомления</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">автозапуск</string>
@@ -93,7 +91,6 @@
   <string name="app_ops_modify_clipboard">изменение буфера обмена</string>
   <string name="app_ops_modify_contacts">изменение данных контактов</string>
   <string name="app_ops_modify_settings">изменение настроек</string>
-  <string name="app_ops_mute_unmute_microphone">включение/выключение микрофона</string>
   <string name="app_ops_play_audio">воспроизводить аудио</string>
   <string name="app_ops_post_notification">выведение уведомлений</string>
   <string name="app_ops_project_media">выполнить трансляцию контента</string>
@@ -119,7 +116,6 @@
   <string name="app_ops_use_vibrate">виброотклик</string>
   <string name="app_ops_use_voice_volume">громкость при разговоре</string>
   <string name="app_ops_write_mms">создание MMS</string>
-  <string name="app_ops_write_sms">создание SMS</string>
   <string name="app_ops_use_fingerprint">отпечатки</string>
   <string name="app_ops_add_voicemail">Голосовая почта</string>
   <string name="app_ops_read_phone_state">Доступ к состоянию телефона</string>
@@ -167,5 +163,20 @@
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Принимать все типы файлов</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">Объединить громкость звонка и уведомлений</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Поворот экрана</string>
+  <string name="display_rotation_disabled">Отключено</string>
+  <string name="display_rotation_unit">градусов</string>
+  <string name="display_rotation_category_title">Режимы поворота</string>
+  <string name="display_rotation_0_title">0 градусов</string>
+  <string name="display_rotation_90_title">90 градусов</string>
+  <string name="display_rotation_180_title">180 градусов</string>
+  <string name="display_rotation_270_title">270 градусов</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

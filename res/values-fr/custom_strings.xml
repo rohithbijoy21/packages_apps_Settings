@@ -21,8 +21,6 @@
   <string name="changelog_custom_error">Impossible de charger le journal des modifications</string>
   <!--Cardinal-AOSP Version-->
   <string name="cardinal_version">Version de Cardinal-AOSP</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">Inutile, les options de développement sont activées par défaut.</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">Mainteneur</string>
   <!-- Wings Settings -->
@@ -37,11 +35,9 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Fondateur/développeur, co-mainteneur du Kenzo</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Co-Fondateur/développeur</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
@@ -51,7 +47,12 @@
   <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
+  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
+  <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">Land</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosité</string>
   <string name="night_brightness_value_title">Baisser la luminosité dans la nuit</string>
@@ -74,7 +75,6 @@
   <string name="app_ops_cat_bootup">Démarrage</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">appareil photo</string>
-  <string name="app_ops_access_location">position</string>
   <string name="app_ops_access_notifications">notifications</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">démarrage automatique</string>
@@ -91,7 +91,6 @@
   <string name="app_ops_modify_clipboard">modifier le presse-papiers</string>
   <string name="app_ops_modify_contacts">mise à jour des contacts</string>
   <string name="app_ops_modify_settings">mise à jour des paramètres</string>
-  <string name="app_ops_mute_unmute_microphone">activer/désactiver le micro</string>
   <string name="app_ops_play_audio">lire des sons</string>
   <string name="app_ops_post_notification">afficher les notifications</string>
   <string name="app_ops_project_media">projet média</string>
@@ -117,7 +116,6 @@
   <string name="app_ops_use_vibrate">retour haptique</string>
   <string name="app_ops_use_voice_volume">volume de la voix lors de l\'appel</string>
   <string name="app_ops_write_mms">écrire des MMS</string>
-  <string name="app_ops_write_sms">écrire un SMS</string>
   <string name="app_ops_use_fingerprint">empreinte digitale</string>
   <string name="app_ops_add_voicemail">messagerie vocale</string>
   <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
@@ -153,10 +151,32 @@
   <string name="twilight_mode_location_disabled">Accès de l’emplacement est désactivé</string>
   <string name="twilight_mode_location_enable">Activer</string>
   <!-- Themes -->
+  <string name="themes_title">Thèmes</string>
+  <string name="themes_dashboard_summary">Gérez vos thèmes</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Surcouches Substratum</string>
+  <string name="menu_show_substratum">Afficher les surcouches</string>
+  <string name="menu_hide_substratum">Masquer les surcouches</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+  <string name="unlock_quick_unlock_control_summary">Déverouille automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Accepter tous les types de fichiers</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">Lier les volumes des notifications et de la sonnerie</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotation</string>
+  <string name="display_rotation_disabled">Désactivé</string>
+  <string name="display_rotation_unit">degrés</string>
+  <string name="display_rotation_category_title">Modes de rotation</string>
+  <string name="display_rotation_0_title">0 degrés</string>
+  <string name="display_rotation_90_title">90 degrés</string>
+  <string name="display_rotation_180_title">180 degrés</string>
+  <string name="display_rotation_270_title">270 degrés</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

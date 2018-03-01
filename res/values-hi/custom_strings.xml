@@ -21,8 +21,6 @@
   <string name="changelog_custom_error">परिवर्तन लॉग लोड करने में असमर्थ है</string>
   <!--Cardinal-AOSP Version-->
   <string name="cardinal_version">Cardinal-AOSP संस्करण</string>
-  <!-- Developee options -->
-  <string name="show_dev_already_enabled">कोई जरूरत नहीं, विकास सेटिंग्स पूर्व निर्धारित रूप से सक्षम हैं।</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">अनुरक्षण कर्ता</string>
   <!-- Wings Settings -->
@@ -37,11 +35,9 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">संस्थापक/विकासक, Kenzo सह-अनुरक्षण कर्ता</string>
   <string name="dev_2">Rohit Paroli</string>
-  <string name="dev2_description">सह-संस्थापक/विकासक</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">Gemini | OnePlus 3</string>
   <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
   <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
   <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
@@ -51,9 +47,12 @@
   <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-  <string name="maintainer_sathish_device">Mido</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+  <string name="maintainer_prakash_choudhary_device">Land</string>
+  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">चमक</string>
   <string name="night_brightness_value_title">रात्री प्रकाश में चमक को धीमा करे</string>
@@ -76,7 +75,6 @@
   <string name="app_ops_cat_bootup">बूटअप</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">कैमरा</string>
-  <string name="app_ops_access_location">स्थान</string>
   <string name="app_ops_access_notifications">सूचनाएँ</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">स्वत: आरंभ</string>
@@ -93,7 +91,6 @@
   <string name="app_ops_modify_clipboard">क्लिपबोर्ड को संशोधित करें</string>
   <string name="app_ops_modify_contacts">संपर्कों को अद्यतन करें</string>
   <string name="app_ops_modify_settings">सेटिंग अद्यतन करें</string>
-  <string name="app_ops_mute_unmute_microphone">मूक/विमूक माइक्रोफोन</string>
   <string name="app_ops_play_audio">ऑडियो चलाएँ</string>
   <string name="app_ops_post_notification">अधिसूचना पोस्ट करें</string>
   <string name="app_ops_project_media">मीडिया प्रक्षेपित करे</string>
@@ -119,7 +116,6 @@
   <string name="app_ops_use_vibrate">हैप्टिक प्रतिक्रिया</string>
   <string name="app_ops_use_voice_volume">वॉइस कॉल वॉल्यूम</string>
   <string name="app_ops_write_mms">MMS लिखें</string>
-  <string name="app_ops_write_sms">SMS लिखें</string>
   <string name="app_ops_use_fingerprint">फिंगरप्रिंट</string>
   <string name="app_ops_add_voicemail">ध्वनि डाक</string>
   <string name="app_ops_read_phone_state">फ़ोन की स्थिति पढ़ें</string>
@@ -167,5 +163,20 @@
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">सभी प्रकार के फ़ाइल को स्वीकार करें</string>
   <!-- Unlink notification volume -->
+  <string name="link_volume_option_title">घंटी और अधिसूचना वॉल्यूम सम्बद्ध करें</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">घूर्णन</string>
+  <string name="display_rotation_disabled">अक्षम कर दिया गया</string>
+  <string name="display_rotation_unit">अंश</string>
+  <string name="display_rotation_category_title">रोटेशन मोड</string>
+  <string name="display_rotation_0_title">० अंश</string>
+  <string name="display_rotation_90_title">९० अंश</string>
+  <string name="display_rotation_180_title">१८० अंश</string>
+  <string name="display_rotation_270_title">२७० अंश</string>
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>

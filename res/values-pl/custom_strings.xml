@@ -17,9 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
   <string name="changelog_custom_title">Rejestr Zmian</string>
-  <string name="changelog_custom_error">Nie można było załadować rejestru zmian</string>
+  <string name="changelog_custom_error">Nie można załadować listy zmian</string>
   <!--Cardinal-AOSP Version-->
-  <!-- Developee options -->
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <!-- Wings Settings -->
   <!-- Dev Info -->
@@ -38,7 +37,6 @@
   <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">aparat</string>
-  <string name="app_ops_access_location">lokalizacja</string>
   <string name="app_ops_access_notifications">powiadomienia</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">start automatyczny</string>
@@ -55,7 +53,6 @@
   <string name="app_ops_modify_clipboard">zmodyfikuj schowek</string>
   <string name="app_ops_modify_contacts">aktualizuj kontakty</string>
   <string name="app_ops_modify_settings">aktualizuj ustawienia</string>
-  <string name="app_ops_mute_unmute_microphone">wyscisz/włacz mikrofon</string>
   <string name="app_ops_play_audio">odtwarzaj dźwięk</string>
   <string name="app_ops_post_notification">powiadomienia publikacji</string>
   <string name="app_ops_project_media">projekt multimedialny</string>
@@ -81,7 +78,6 @@
   <string name="app_ops_use_vibrate">wibracja dla informacji zwrotnych</string>
   <string name="app_ops_use_voice_volume">głośność rozmów głosowych</string>
   <string name="app_ops_write_mms">napisz MMS</string>
-  <string name="app_ops_write_sms">napisz SMS</string>
   <string name="app_ops_use_fingerprint">odcisk palca</string>
   <string name="app_ops_add_voicemail">poczta głosowa</string>
   <string name="app_ops_read_phone_state">dostęp do stanu teleonu</string>
@@ -113,4 +109,10 @@
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <!-- Unlink notification volume -->
   <!-- Display : Rotation -->
+  <!--Build date-->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Face unlock -->
+  <!-- Format string for fingerprint location message -->
+  <!-- Fingerprint sensor locations -->
+  <!-- Manual provisioning support -->
 </resources>
