@@ -65,6 +65,8 @@
     <string name="maintainer_sanchit_rohilla_device">tomato</string>
     <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
     <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
