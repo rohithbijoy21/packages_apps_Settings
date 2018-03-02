@@ -183,7 +183,7 @@ public abstract class AppInfoBase extends SettingsPreferenceFragment
 
     @Override
     public void onRunningStateChanged(boolean running) {
-        // No op.
+        refreshUi();
     }
 
     @Override
@@ -218,7 +218,9 @@ public abstract class AppInfoBase extends SettingsPreferenceFragment
 
     @Override
     public void onPackageListChanged() {
-        refreshUi();
+        if (!refreshUi()) {
+            setIntentAndFinish(true, true);
+        }
     }
 
     public static void startAppInfoFragment(Class<?> fragment, int titleRes,
