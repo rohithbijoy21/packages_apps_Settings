@@ -22,7 +22,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/cardinal_about_info" >
 
         <Preference
-               android:summary="@string/cardinal_about_info_summary" 
+               android:summary="@string/cardinal_about_info_summary"
                android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
                 android:data="https://plus.google.com/communities/110928715574226998482" />
@@ -129,7 +129,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+subhampadhi" />
         </Preference>
-     
+
         <Preference
             android:title="@string/maintainer_prakash_choudhary"
             android:summary="@string/maintainer_prakash_choudhary_device"
@@ -149,8 +149,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
-            android:title="@string/maintainer_sanchit_rohilla" 
-            android:summary="@string/maintainer_sanchit_rohilla_device" 
+            android:title="@string/maintainer_sanchit_rohilla"
+            android:summary="@string/maintainer_sanchit_rohilla_device"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
@@ -167,8 +167,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
-            android:title="@string/maintainer_renji" 
-            android:summary="@string/maintainer_renji_device" 
+            android:title="@string/maintainer_renji"
+            android:summary="@string/maintainer_renji_device"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
@@ -177,4 +177,45 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
+<PreferenceCategory
+    android:key="honorable_mentions"
+    android:title="@string/mentions_header">
+
+        <Preference
+            android:title="@string/mentions_recenz"
+            android:summary="@string/mentions_recenz_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+RecenzTastic" />
+        </Preference>
+
+        <Preference
+            android:title="@string/mentions_robin"
+            android:summary="@string/mentions_robin_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/117026074377022472462" />
+        </Preference>
+
+        <Preference
+            android:title="@string/mentions_savio"
+            android:summary="@string/mentions_savio_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+Wizper99" />
+        </Preference>
+
+        <Preference
+            android:title="@string/mentions_vikas"
+            android:summary="@string/mentions_vikas_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/105334632017893500097" />
+        </Preference>
+
+    </PreferenceCategory>
 </PreferenceScreen>
