@@ -42,7 +42,7 @@
     <string name="dev_1">Adarsh M.R</string>
     <string name="dev1_description">Founder/Developer, Kenzo Co-Maintainer</string>
     <string name="dev_2">Rohit Poroli</string>
-    <string name="dev2_description">Co-Founder/Developer, Mido Co-Maintainer</string>
+    <string name="dev2_description">Co-Founder/Developer, Mido Maintainer</string>
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_vikas">Vikas Kumar</string>
     <string name="mentions_vikas_description">Localization manager</string>
@@ -65,7 +65,7 @@
     <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
     <string name="maintainer_ayush_dubey_device">Wt88047</string>
     <string name="maintainer_sathish">Sathish (Sathish2026)</string>
-    <string name="maintainer_sathish_device">Mido | Oneplus 5/T</string>
+    <string name="maintainer_sathish_device">Cheeseburger | Dumpling</string>
     <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
     <string name="maintainer_subham_p_device">Kuntao</string>
     <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
