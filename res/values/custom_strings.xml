@@ -78,6 +78,8 @@
     <string name="maintainer_vimal_raj_device">Santoni</string>
     <string name="maintainer_renji">Renji (renjian2)</string>
     <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>  
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
