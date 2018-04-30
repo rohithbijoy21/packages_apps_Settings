@@ -72,6 +72,8 @@
     <string name="maintainer_renji_device">s2</string>
     <string name="maintainer_adesh">Adesh (Adesh15)</string>
     <string name="maintainer_adesh_device">Mido</string>  
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>   
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
