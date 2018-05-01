@@ -129,7 +129,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+sathishkumar2026" />
         </Preference>
-
+     
         <Preference
             android:title="@string/maintainer_simrat"
             android:summary="@string/maintainer_simrat_device"
@@ -139,6 +139,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/u/0/117792567838876175485" />
         </Preference>
 
+        <Preference
+            android:title="@string/maintainer_sipun"
+            android:summary="@string/maintainer_sipun_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+DarkstarSipun" />
+        </Preference>
+  
         <Preference
             android:title="@string/maintainer_subham_p"
             android:summary="@string/maintainer_subham_p_device"
