@@ -51,6 +51,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/+RohitPoroli" />
         </Preference>
 
+        <Preference
+            android:title="@string/dev_3"
+            android:summary="@string/dev3_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent        
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+sathishkumar2026" />
+        </Preference>
+
 </PreferenceCategory>
 
 
@@ -119,15 +128,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/117815626406140889210" />
-        </Preference>
-
-        <Preference
-            android:title="@string/maintainer_sathish"
-            android:summary="@string/maintainer_sathish_device"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/+sathishkumar2026" />
         </Preference>
      
         <Preference
