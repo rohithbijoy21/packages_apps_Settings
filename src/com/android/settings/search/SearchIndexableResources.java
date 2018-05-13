@@ -93,6 +93,9 @@ import com.cardinal.settings.WingsSettings;
 import com.cardinal.settings.fragments.BatterySettings;
 import com.cardinal.settings.fragments.ButtonsSettings;
 import com.cardinal.settings.fragments.GeneralSettings;
+import com.cardinal.settings.fragments.ClockDateSettings;
+import com.cardinal.settings.fragments.AmbientTicker;
+import com.cardinal.settings.fragments.SuspendActions;
 import com.cardinal.settings.fragments.LockScreenSettings;
 import com.cardinal.settings.fragments.NavigationBarSettings;
 import com.cardinal.settings.fragments.NotificationSettings;
@@ -234,9 +237,11 @@ public final class SearchIndexableResources {
                 R.drawable.ic_settings_storage);
 
         // Cardinal additions start
+        addIndex(AmbientTicker.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(BatterySettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(BatteryLightSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(ButtonsSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(ClockDateSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(GeneralSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(LockScreenSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(NavigationBarSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
@@ -246,6 +251,7 @@ public final class SearchIndexableResources {
         addIndex(QuickSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(RecentsUI.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(StatusBarSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(SuspendActions.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(Traffic.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
         addIndex(WingsSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
     }
