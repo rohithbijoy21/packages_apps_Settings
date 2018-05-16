@@ -93,6 +93,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/u/2/112917473520794326399" />
         </Preference>
+
+        <Preference
+            android:title="@string/maintainer_danish"
+            android:summary="@string/maintainer_danish_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/u/0/110234611587269654773" />
+        </Preference>
  
         <Preference
             android:title="@string/maintainer_keerten"
