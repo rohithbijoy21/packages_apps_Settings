@@ -48,5 +48,8 @@
   <!-- Manual provisioning support -->
   <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum overlays -->
-  <!-- App details: open app store link -->
+  <!-- Proximity wake -->
+  <!-- Search -->
+  <!-- Security dialog -->
+  <!-- Per-app data restrictions -->
 </resources>

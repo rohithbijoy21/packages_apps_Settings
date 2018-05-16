@@ -22,7 +22,7 @@
   <string name="changelog_custom_summary">Son güncelleme değişiklik listesi</string>
   <string name="changelog_custom_error">Değişiklik listesi yüklenemedi</string>
   <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal-AOSP Sürümü</string>
+  <string name="cardinal_version">Cardinal sürümü</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
   <string name="device_maintainer">Sorumlu</string>
   <!-- Wings Settings -->
@@ -35,31 +35,33 @@
   <string name="devs_header">Geliştiriciler</string>
   <string name="maintainers_header">Sorumlular</string>
   <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Kurucu/Geliştirici, Kenzo Co-Sorumlusu</string>
+  <string name="dev1_description">Kurucu/Geliştirici, Kenzo Sorumlusu</string>
   <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Kurucu/Geliştirici, Mido Co-Sorumlusu</string>
+  <string name="dev2_description">Kurucu/Geliştirici, Mido Sorumlusu</string>
+  <string name="mentions_header">Takdir edilecekler</string>
+  <string name="mentions_vikas">Vikas Kumar</string>
+  <string name="mentions_vikas_description">Yerelleştirme yöneticisi</string>
+  <string name="mentions_robin">Robin Goyal</string>
+  <string name="mentions_robin_description">Tasarımcı</string>
+  <string name="mentions_savio">Savio Perera</string>
+  <string name="mentions_savio_description">Duvar kağıdı tasarımcısı</string>
+  <string name="mentions_recenz">Recenz</string>
+  <string name="mentions_recenz_description">Açılış animasyonu tasarımcısı</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
-  <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
-  <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
-  <string name="maintainer_rahif_manjatha_device">Falcon</string>
+  <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
-  <string name="maintainer_ayush_dubey_device">Wt88047</string>
-  <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
-  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
-  <string name="maintainer_prakash_choudhary_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
   <string name="maintainer_sanchit_rohilla_device">tomato</string>
   <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
   <string name="maintainer_vimal_raj_device">Santoni</string>
+  <string name="maintainer_renji">Renji (renjian2)</string>
+  <string name="maintainer_renji_device">s2</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Parlaklık</string>
   <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
@@ -160,8 +162,8 @@
   <!-- Screenshot shutter sound -->
   <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
   <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">Cihaz şifrelenmiş</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Cihaz şifresi çözülmüş</string>
+  <string name="custom_encryption_and_credential_settings_summary_on">Telefon şifreli</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Telefon şifreli değil</string>
   <string name="twilight_mode_location_dialog">Konum devre dışı</string>
   <string name="twilight_mode_location_disabled">Konuma erişimi devre dışı</string>
   <string name="twilight_mode_location_enable">Etkinleştir</string>
@@ -188,10 +190,9 @@
   <string name="build_date">Yapı tarihi</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
-  <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
+  <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştırır</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">Otomatik kilit açma</string>
-  <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını otomatik kapat(NOT: kendi sorumluluğunuzdadır!)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun üzerinde bulunan <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
   <!-- Fingerprint sensor locations -->
@@ -216,9 +217,14 @@
   <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
   <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Her tema uygulamasını zorla yetkilendir</string>
+  <string name="force_authorize_substratum_packages_summary">Bilinmeyen kaynaklardan tema uygulamalarına izin ver</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum temaları</string>
   <string name="menu_show_substratum">Temaları göster</string>
   <string name="menu_hide_substratum">Temaları gizle</string>
-  <!-- App details: open app store link -->
+  <!-- Proximity wake -->
+  <!-- Search -->
+  <!-- Security dialog -->
+  <!-- Per-app data restrictions -->
 </resources>

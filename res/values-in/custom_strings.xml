@@ -38,21 +38,11 @@
   <string name="dev1_description">Pendiri/pengembang, Maintainer Co Kenzo</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo | Selada</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
-  <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
-  <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
-  <string name="maintainer_rahif_manjatha_device">Falcon</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
-  <string name="maintainer_ayush_dubey_device">Wt88047</string>
-  <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
-  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
-  <string name="maintainer_prakash_choudhary_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
@@ -182,5 +172,8 @@
   <string name="filter_substratum_apps">Substratum overlay</string>
   <string name="menu_show_substratum">Tampilkan overlay</string>
   <string name="menu_hide_substratum">Sembunyikan overlay</string>
-  <!-- App details: open app store link -->
+  <!-- Proximity wake -->
+  <!-- Search -->
+  <!-- Security dialog -->
+  <!-- Per-app data restrictions -->
 </resources>

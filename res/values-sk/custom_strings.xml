@@ -38,28 +38,30 @@
   <string name="dev1_description">Zakladateľ/vývojár, Kenzo spolu-správca</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="dev2_description">Spolu-zakladateľ/vývojár, Kenzo spolu-správca</string>
+  <string name="mentions_header">Čestné uznanie</string>
+  <string name="mentions_vikas">Vikas Kumar</string>
+  <string name="mentions_vikas_description">Správca prekladov</string>
+  <string name="mentions_robin">Robin Goyal</string>
+  <string name="mentions_robin_description">Dizajnér</string>
+  <string name="mentions_savio">Savio Perera</string>
+  <string name="mentions_savio_description">Dizajnér tapiet</string>
+  <string name="mentions_recenz">Recenz</string>
+  <string name="mentions_recenz_description">Dizajnér spúšťacej animácie</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_davide_garberi">Davide Garberi (DD3BOH)</string>
-  <string name="maintainer_davide_garberi_device">Lenovo Z2 Plus | Zuk Z2</string>
-  <string name="maintainer_rahif_manjatha">Rahif Manjatha (rahifm)</string>
-  <string name="maintainer_rahif_manjatha_device">Falcon</string>
+  <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
-  <string name="maintainer_ayush_dubey_device">Wt88047</string>
-  <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
-  <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
-  <string name="maintainer_prakash_choudhary_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
   <string name="maintainer_sanchit_rohilla_device">tomato</string>
   <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
   <string name="maintainer_vimal_raj_device">Santoni</string>
+  <string name="maintainer_renji">Renji (renjian2)</string>
+  <string name="maintainer_renji_device">s2</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jas</string>
   <string name="night_brightness_value_title">Nižší jas pri nočnom svetle</string>
@@ -191,7 +193,6 @@
   <string name="unlock_scramble_pin_layout_summary">Pomiešať rozloženie kláves pre zadanie kódu PIN pri odomykaní zariadenia</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">Rýchle odomknutie pomocou tváre</string>
-  <string name="face_auto_unlock_summary">Automatické preskočenie obrazovky uzamknutia pri odomknutí tvárou (POZNÁMKA: použitie na vlastné riziko!)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhľadajte snímač odtlačkov prstov <xliff:g id="sensor_location">%1$s</xliff:g> na telefóne.</string>
   <!-- Fingerprint sensor locations -->
@@ -216,9 +217,14 @@
   <string name="sub_deactivate_success">SIM bola deaktivovaná.</string>
   <string name="sub_deactivate_failed">Deaktivácia sa nepodarila.</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Vyžadovať povolenie pre každú tému</string>
+  <string name="force_authorize_substratum_packages_summary">Povoliť inštaláciu tém z neznámych zdrojov</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum prekrytia</string>
   <string name="menu_show_substratum">Zobraziť prekrytia</string>
   <string name="menu_hide_substratum">Skryť prekrytia</string>
-  <!-- App details: open app store link -->
+  <!-- Proximity wake -->
+  <!-- Search -->
+  <!-- Security dialog -->
+  <!-- Per-app data restrictions -->
 </resources>
