@@ -76,6 +76,7 @@
     <string name="maintainer_adesh_device">Mido</string>  
     <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
     <string name="maintainer_simrat_device">j7velte</string>   
+    <string name="maintainer_danish_device">z2_plus</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
