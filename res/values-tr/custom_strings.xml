@@ -38,6 +38,8 @@
   <string name="dev1_description">Kurucu/Geliştirici, Kenzo Sorumlusu</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="dev2_description">Kurucu/Geliştirici, Mido Sorumlusu</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">Geliştirici, Cheeseburger | Dumpling Sorumlusu</string>
   <string name="mentions_header">Takdir edilecekler</string>
   <string name="mentions_vikas">Vikas Kumar</string>
   <string name="mentions_vikas_description">Yerelleştirme yöneticisi</string>
@@ -48,12 +50,15 @@
   <string name="mentions_recenz">Recenz</string>
   <string name="mentions_recenz_description">Açılış animasyonu tasarımcısı</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
   <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
@@ -62,6 +67,12 @@
   <string name="maintainer_vimal_raj_device">Santoni</string>
   <string name="maintainer_renji">Renji (renjian2)</string>
   <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Parlaklık</string>
   <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
@@ -193,15 +204,16 @@
   <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştırır</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">Otomatik kilit açma</string>
+  <string name="face_auto_unlock_summary">Yüz kilidini kullanırken kilit ekranını otomatik olarak kapat (Not: Gapps nano paketi veya üzeri)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun üzerinde bulunan <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">geri</string>
-  <string name="security_settings_fingerprint_sensor_location_front">ileri</string>
+  <string name="security_settings_fingerprint_sensor_location_back">arka</string>
+  <string name="security_settings_fingerprint_sensor_location_front">ön</string>
   <string name="security_settings_fingerprint_sensor_location_left">sol taraf</string>
   <string name="security_settings_fingerprint_sensor_location_right">sağ taraf</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_disabled">devre dışı</string>
   <string name="sim_missing">eksik veya hatalı</string>
   <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istiyor musunuz?</string>
@@ -224,7 +236,23 @@
   <string name="menu_show_substratum">Temaları göster</string>
   <string name="menu_hide_substratum">Temaları gizle</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+  <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
   <!-- Search -->
+  <string name="menu_search">Uygulamalar ara</string>
+  <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
   <!-- Security dialog -->
+  <string name="aosp_security_bulletin_url">https://source.android.com/security/bulletin/2018-04-01</string>
+  <string name="security_dialog_title">Güvenlik güncellemeleri</string>
+  <string name="security_dialog_neutral_button">AOSP Güvenlik Bültenleri</string>
+  <string name="android_security_title">AOSP güvenlik yaması düzeyi</string>
+  <string name="android_security_summary">Android güvenlik güncellemeleri, Android platformuna ve çalıştırılmasına yardımcı olan üretici ikili dosyalarına ait bir yamalar koleksiyonudur. Bu ikili dosyalar kapalı kaynak olduğundan, OEM\'lerİ tedarik etmek için satıcılara güvenmek zorundayız ve OEM\'leri kullanıcılara gönderecek ve bu sayede bunları oluşturduğumuz yapılara ekleyebileceğiz. Bu süreci hiçbir şekilde kontrol edemediğimizden, Android Açık Kaynak Projesinden gelen depolardan yalnızca güvenlik düzeltme ekini güncellediğimizi açıklığa kavuşturmak istiyoruz. Genel olarak, satıcı güvenlik yaması seviyesi, en yeni stok ROM\'unun hangi yama seviyesinde olursa olsun olacaktır.</string>
+  <string name="android_functional_updates_title">Fonksiyonel güncellemeler</string>
+  <string name="android_functional_updates_summary">AOSP güvenlik güncellemelerine ek olarak, Google\'ın işlevsel güncellemelerini de içerir. Bunlar, Google\'ın, bağlantı, kararlılık ve performans gibi işlevsellik sorunlarını gidermek adına Pixel cihazları için güvenlik güncellemelerine ek olarak uyguladığı yamalardır. Sadece Pixel cihazlarından daha fazlasını desteklediğimizden, tüm cihazlarımıza dahil edilir.</string>
+  <string name="vendor_security_title">Üretici yaması düzeyi</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Hücresel veri</string>
+  <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
 </resources>

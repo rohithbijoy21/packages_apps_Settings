@@ -38,6 +38,8 @@
   <string name="dev1_description">Zakladateľ/vývojár, Kenzo spolu-správca</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="dev2_description">Spolu-zakladateľ/vývojár, Kenzo spolu-správca</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">Vývojár, Cheeseburger | Správca, Dumpling</string>
   <string name="mentions_header">Čestné uznanie</string>
   <string name="mentions_vikas">Vikas Kumar</string>
   <string name="mentions_vikas_description">Správca prekladov</string>
@@ -48,12 +50,15 @@
   <string name="mentions_recenz">Recenz</string>
   <string name="mentions_recenz_description">Dizajnér spúšťacej animácie</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
   <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
@@ -62,6 +67,12 @@
   <string name="maintainer_vimal_raj_device">Santoni</string>
   <string name="maintainer_renji">Renji (renjian2)</string>
   <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jas</string>
   <string name="night_brightness_value_title">Nižší jas pri nočnom svetle</string>
@@ -193,6 +204,7 @@
   <string name="unlock_scramble_pin_layout_summary">Pomiešať rozloženie kláves pre zadanie kódu PIN pri odomykaní zariadenia</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">Rýchle odomknutie pomocou tváre</string>
+  <string name="face_auto_unlock_summary">Automatické preskočenie obrazovky uzamknutia pri odomknutí tvárou (POZNÁMKA: použitie na vlastné riziko!)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhľadajte snímač odtlačkov prstov <xliff:g id="sensor_location">%1$s</xliff:g> na telefóne.</string>
   <!-- Fingerprint sensor locations -->
@@ -224,7 +236,23 @@
   <string name="menu_show_substratum">Zobraziť prekrytia</string>
   <string name="menu_hide_substratum">Skryť prekrytia</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zabrániť nechcenému prebudeniu</string>
+  <string name="proximity_wake_summary">Kontrolovať snímač priblíženia pre zabránenie nechcenému prebudeniu</string>
   <!-- Search -->
+  <string name="menu_search">Vyhľadávanie aplikácií</string>
+  <string name="menu_search_hint">Vyhľadávanie aplikácií...</string>
   <!-- Security dialog -->
+  <string name="aosp_security_bulletin_url">https://source.android.com/security/bulletin/2018-04-01</string>
+  <string name="security_dialog_title">Aktualizácie zabezpečenia</string>
+  <string name="security_dialog_neutral_button">Bezpečnostné bulletiny AOSP</string>
+  <string name="android_security_title">Úroveň opravy zabezpečenia AOSP</string>
+  <string name="android_security_summary">Aktualizácie zabezpečenia systému Android predstavujú sadu záplat platformy Android a binárnych súborov od dodávateľov, ktoré im pomáhajú sa spúšťať. Pretože tieto binárne súbory sú uzavretý zdroj, musíme spoliehať na dodávateľov, aby ich dodávali výrobcom OEM a výrobcovia OEM ich odosielali užívateľom, my ich tak môžeme pridať do našich zostáv. Keďže tento proces vôbec nevieme riadiť, chceme jasne uviesť, že aktualizujeme úroveň opravy zabezpečenia iba v repozitároch, ktoré pochádzajú z Android Open Source Project. Všeobecne platí, že úroveň opravy zabezpečenia dodávateľa bude bez ohľadu na úroveň opravy zabezpečenia, ktorá je v najnovšom zostavení ROM.</string>
+  <string name="android_functional_updates_title">Účelné aktualizácie</string>
+  <string name="android_functional_updates_summary">Okrem bezpečnostných aktualizácií AOSP vykonávame taktiež účelné aktualizácie Google. Ide o bezpečnostné záplaty, ktoré Google vypúšťa pre svoje zariadenia Pixel. Tieto záplaty riešia problémy s funkčnosťou, pripojením, stabilitou a výkonom. Keďže podporujeme viac než len zariadenia Pixel, sú tieto záplaty súčasťou všetkých našich podporovaných zariadení.</string>
+  <string name="vendor_security_title">Úroveň opravy dodávateľa</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Mobilné dáta</string>
+  <string name="data_usage_app_restrict_data_summary">Povoliť používanie mobilných dát</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi dáta</string>
+  <string name="data_usage_app_restrict_wifi_summary">Povoliť používanie Wi\u2011Fi dát</string>
 </resources>

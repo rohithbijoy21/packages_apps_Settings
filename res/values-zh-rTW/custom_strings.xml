@@ -38,6 +38,8 @@
   <string name="dev1_description">投資者/開發者, Kenzo 共同維護者</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="dev2_description">共同投資者/開發者, Mido 共同維護者</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">開發者, Cheeseburger | Dumpling 裝置維護者</string>
   <string name="mentions_header">特別表揚</string>
   <string name="mentions_vikas">Vikas Kumar</string>
   <string name="mentions_vikas_description">翻譯管理者</string>
@@ -48,12 +50,15 @@
   <string name="mentions_recenz">Recenz</string>
   <string name="mentions_recenz_description">開機動畫設計師</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
   <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
   <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
   <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
@@ -62,6 +67,12 @@
   <string name="maintainer_vimal_raj_device">Santoni</string>
   <string name="maintainer_renji">Renji (renjian2)</string>
   <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">亮度</string>
   <string name="night_brightness_value_title">夜燈啟用時降低亮度</string>
@@ -193,6 +204,7 @@
   <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">快速面部辨識解鎖</string>
+  <string name="face_auto_unlock_summary">使用面部辨識時自動解除鎖定螢幕介面 (必備：GAPPS nano包或以上)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">在您的手機 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指紋感應器。</string>
   <!-- Fingerprint sensor locations -->
@@ -224,7 +236,23 @@
   <string name="menu_show_substratum">顯示重疊</string>
   <string name="menu_hide_substratum">隱藏重疊</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">防止意外喚醒</string>
+  <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
   <!-- Search -->
+  <string name="menu_search">搜尋應用程式</string>
+  <string name="menu_search_hint">搜尋應用程式\u2026</string>
   <!-- Security dialog -->
+  <string name="aosp_security_bulletin_url">https://source.android.com/security/bulletin/2018-04-01</string>
+  <string name="security_dialog_title">安全性更新</string>
+  <string name="security_dialog_neutral_button">AOSP 安全性更新公告</string>
+  <string name="android_security_title">AOSP 安全性修補程式等級</string>
+  <string name="android_security_summary">Android 安全更新是 Android 平臺和幫助它運行的供應商二進位檔案的補丁的集合。由於這些二進位檔案是閉源的, 我們必須依靠供應商向 OEM 提供和 OEM 提供給使用者, 以便將它們加入我們的建構。由於我們無法控制這一過程, 我們希望明確指出, 我們只更新來自 Android 開源專案中的安全修補程式級別。通常情況下, 供應商安全修補程式級別將是最新的原廠 ROM 上的任何補丁級別。</string>
+  <string name="android_functional_updates_title">功能更新</string>
+  <string name="android_functional_updates_summary">除了 AOSP 安全更新之外, 我們還包括 Google 的功能更新。這些補丁是 Google 除了針對 Pixel 系列設備的安全更新外, 還為解決功能問題 (如連線性、穩定性和性能) 而進行的修補程式。由於我們支援的不僅僅是 Pixel 系列設備, 它們都包含在我們的所有設備中。</string>
+  <string name="vendor_security_title">供應商修補程式級別</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">行動數據</string>
+  <string name="data_usage_app_restrict_data_summary">啟用行動網路</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 資料</string>
+  <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 資料</string>
 </resources>
