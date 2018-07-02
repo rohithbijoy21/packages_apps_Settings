@@ -55,7 +55,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:title="@string/dev_3"
             android:summary="@string/dev3_description"
             android:icon="@drawable/ic_devs_pc" >
-        <intent        
+        <intent
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+sathishkumar2026" />
         </Preference>
@@ -86,15 +86,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
-            android:title="@string/maintainer_aditya_garg"
-            android:summary="@string/maintainer_aditya_garg_device"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/118340790645933812226" />
-        </Preference>
-
-        <Preference
             android:title="@string/maintainer_adesh"
             android:summary="@string/maintainer_adesh_device"
             android:icon="@drawable/ic_devs_phone">
@@ -111,7 +102,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/u/0/110234611587269654773" />
         </Preference>
- 
+
         <Preference
             android:title="@string/maintainer_keerten"
             android:summary="@string/maintainer_keerten_device"
@@ -147,7 +138,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/117815626406140889210" />
         </Preference>
-     
+
         <Preference
             android:title="@string/maintainer_simrat"
             android:summary="@string/maintainer_simrat_device"
@@ -165,7 +156,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+DarkstarSipun" />
         </Preference>
-  
+
         <Preference
             android:title="@string/maintainer_subham_p"
             android:summary="@string/maintainer_subham_p_device"
@@ -173,6 +164,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+subhampadhi" />
+        </Preference>
+
+        <Preference
+            android:title="@string/maintainer_sainath"
+            android:summary="@string/maintainer_sainath_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/u/0/101781507753831351476" />
         </Preference>
 
         <Preference
