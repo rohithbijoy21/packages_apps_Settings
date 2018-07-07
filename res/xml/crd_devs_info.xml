@@ -158,8 +158,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
-            android:title="@string/maintainer_subham_p"
-            android:summary="@string/maintainer_subham_p_device"
+            android:title="@string/maintainer_subham"
+            android:summary="@string/maintainer_subham_device"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
