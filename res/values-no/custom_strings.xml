@@ -23,11 +23,60 @@
   <!-- Wings Settings -->
   <!-- Dev Info -->
   <!-- Advanced night mode brightness -->
+  <string name="night_bright_disabled">Deaktivert</string>
   <!-- Volume settings - Volume adjustment sound -->
   <!-- OTA -->
+  <string name="cardinal_ota_settings_title">OTA oppdateringen</string>
+  <string name="cardinal_ota_settings_summary">Se etter nye oppdateringer!</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Sted</string>
+  <string name="app_ops_cat_personal">Personlig</string>
+  <string name="app_ops_cat_messaging">Meldinger</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Enhet</string>
+  <string name="app_ops_cat_bootup">Oppstart</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_notifications">varsler</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">autostart</string>
+  <string name="app_ops_delete_call_log">slett anropslogg</string>
+  <string name="app_ops_delete_contacts">slett kontakter</string>
+  <string name="app_ops_delete_mms">slett MMS</string>
+  <string name="app_ops_delete_sms">slett SMS</string>
+  <string name="app_ops_draw_on_top">tegn på toppen</string>
+  <string name="app_ops_get_usage_stats">få bruksstatistikker</string>
+  <string name="app_ops_keep_device_awake">hold våken</string>
+  <string name="app_ops_make_phone_call">foreta anrop</string>
+  <string name="app_ops_modify_calendar">oppdater kalenderen</string>
+  <string name="app_ops_modify_call_log">oppdater samtaleloggen</string>
+  <string name="app_ops_modify_clipboard">endre utklippstavlen</string>
+  <string name="app_ops_modify_contacts">oppdater kontakter</string>
+  <string name="app_ops_modify_settings">oppdater innstillingene</string>
+  <string name="app_ops_play_audio">spill av lyd</string>
+  <string name="app_ops_post_notification">vis notifikasjoner</string>
+  <string name="app_ops_project_media">prosjekt media</string>
+  <string name="app_ops_read_calendar">les kalender</string>
+  <string name="app_ops_read_call_log">les samtaleloggen</string>
+  <string name="app_ops_read_clipboard">les utklippstavlen</string>
+  <string name="app_ops_read_contacts">les kontakter</string>
+  <string name="app_ops_read_mms">les MMS</string>
+  <string name="app_ops_read_sms">les SMS</string>
+  <string name="app_ops_receive_sms">motta SMS</string>
+  <string name="app_ops_record_audio">ta opp lyd</string>
+  <string name="app_ops_send_mms">send MMS</string>
+  <string name="app_ops_send_sms">send SMS</string>
+  <string name="app_ops_toast_window">popup-meldinger</string>
+  <string name="app_ops_use_alarm_volume">alarmvolum</string>
+  <string name="app_ops_use_audio_focus">lydfokus</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth volum</string>
+  <string name="app_ops_use_master_volume">hovedvolum</string>
+  <string name="app_ops_use_media_buttons">mediaknapper</string>
+  <string name="app_ops_use_media_volume">medievolum</string>
+  <string name="app_ops_use_notification_volume">varslingsvolum</string>
+  <string name="app_ops_use_ring_volume">ringetonevolum</string>
+  <string name="app_ops_use_vibrate">haptisk tilbakemelding</string>
   <!-- Reset battery stats -->
   <!-- Screenshot shutter sound -->
   <!-- Encryption and credential -->
@@ -47,5 +96,6 @@
   <!-- Proximity wake -->
   <!-- Search -->
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <!-- Per-app data restrictions -->
 </resources>

@@ -48,12 +48,8 @@
   <string name="mentions_recenz">Recenz</string>
   <string name="mentions_recenz_description">Diseñador de la animacion de inicio</string>
   <string name="maintainer_aashish_t">Manuel Toshniwal (Aashish16)</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
@@ -226,5 +222,6 @@
   <!-- Proximity wake -->
   <!-- Search -->
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <!-- Per-app data restrictions -->
 </resources>

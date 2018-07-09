@@ -37,14 +37,38 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Fondateur/développeur, co-mainteneur du Kenzo</string>
   <string name="dev_2">Rohit Poroli</string>
+  <string name="dev2_description">Fondateur/développeur, co-mainteneur du Mido</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">Développeur, Cheeseburger | Dumpling Maintainer</string>
+  <string name="mentions_header">Mentions honorables</string>
+  <string name="mentions_vikas">Vikas Kumar</string>
+  <string name="mentions_vikas_description">Responsable de traduction</string>
+  <string name="mentions_robin">Robin Goyal</string>
+  <string name="mentions_robin_description">Concepteur</string>
+  <string name="mentions_savio">Savio Perera</string>
+  <string name="mentions_savio_description">Wallpaper Designer</string>
+  <string name="mentions_recenz">Recenz</string>
+  <string name="mentions_recenz_description">Concepteur de l\'animation de démarrage</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+  <string name="maintainer_sanchit_rohilla_device">tomato</string>
+  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+  <string name="maintainer_vimal_raj_device">Santoni</string>
+  <string name="maintainer_renji">Renji (renjian2)</string>
+  <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosité</string>
   <string name="night_brightness_value_title">Baisser la luminosité dans la nuit</string>
@@ -67,6 +91,11 @@
   <string name="app_ops_cat_bootup">Démarrage</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">appareil photo</string>
+  <string name="app_ops_access_gps">gps</string>
+  <string name="app_ops_access_coarse_location">position approximative</string>
+  <string name="app_ops_access_fine_location">position précise</string>
+  <string name="app_ops_access_monitor_location">surveiller la position</string>
+  <string name="app_ops_monitor_high_power_location">surveiller les requêtes de localisation qui consomment beaucoup d\'énergie</string>
   <string name="app_ops_access_notifications">notifications</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">démarrage automatique</string>
@@ -108,6 +137,7 @@
   <string name="app_ops_use_vibrate">retour haptique</string>
   <string name="app_ops_use_voice_volume">volume de la voix lors de l\'appel</string>
   <string name="app_ops_write_mms">écrire des MMS</string>
+  <string name="app_ops_write_sms">écrire un SMS</string>
   <string name="app_ops_use_fingerprint">empreinte digitale</string>
   <string name="app_ops_add_voicemail">messagerie vocale</string>
   <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
@@ -167,6 +197,9 @@
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Manual provisioning support -->
+  <string name="sim_disabled">désactivée</string>
+  <string name="sub_activate_success">Carte SIM activée.</string>
+  <string name="sub_deactivate_success">SIM désactivée.</string>
   <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Surcouches Substratum</string>
@@ -174,6 +207,8 @@
   <string name="menu_hide_substratum">Masquer les surcouches</string>
   <!-- Proximity wake -->
   <!-- Search -->
+  <string name="menu_search">Rechercher des applications</string>
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <!-- Per-app data restrictions -->
 </resources>

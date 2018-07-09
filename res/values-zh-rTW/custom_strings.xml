@@ -51,12 +51,8 @@
   <string name="mentions_recenz_description">開機動畫設計師</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">OnePlus 3</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
   <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
   <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
@@ -242,6 +238,7 @@
   <string name="menu_search">搜尋應用程式</string>
   <string name="menu_search_hint">搜尋應用程式\u2026</string>
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <string name="security_dialog_title">安全性更新</string>
   <string name="security_dialog_neutral_button">AOSP 安全性更新公告</string>
   <string name="android_security_title">AOSP 安全性修補程式等級</string>

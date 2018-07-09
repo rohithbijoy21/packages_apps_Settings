@@ -37,14 +37,38 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Fundador/desenvolvedor, Kenzo co-mantenedor</string>
   <string name="dev_2">Rohit Poroli</string>
+  <string name="dev2_description">Co-Fundador/Desenvolvedor, Co-Mantedor Mido</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">Desenvolvedor, Cheeseburger | Mantedor de bolinhos</string>
+  <string name="mentions_header">Menções honrosas</string>
+  <string name="mentions_vikas">Vikas Kumar</string>
+  <string name="mentions_vikas_description">Gerenciador de Localização</string>
+  <string name="mentions_robin">Robin Goyal</string>
+  <string name="mentions_robin_description">Designer</string>
+  <string name="mentions_savio">Savio Perera</string>
+  <string name="mentions_savio_description">Designer de Wallpaper</string>
+  <string name="mentions_recenz">Recenz</string>
+  <string name="mentions_recenz_description">Designer da animação de boot</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+  <string name="maintainer_sanchit_rohilla_device">tomato</string>
+  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+  <string name="maintainer_vimal_raj_device">Santoni</string>
+  <string name="maintainer_renji">Renji (renjian2)</string>
+  <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brilho</string>
   <string name="night_brightness_value_title">Diminuir o brilho se luz noturna</string>
@@ -67,6 +91,12 @@
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">câmera</string>
+  <string name="app_ops_access_gps">gps</string>
+  <string name="app_ops_access_coarse_location">localização imprecisa</string>
+  <string name="app_ops_access_fine_location">localização precisa</string>
+  <string name="app_ops_access_monitor_location">monitorizar localização</string>
+  <string name="app_ops_monitor_high_power_location">vigiar a localização de potência alta</string>
+  <string name="app_ops_neighboring_cells">verificação de rede</string>
   <string name="app_ops_access_notifications">notificações</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">inicio automático</string>
@@ -83,6 +113,7 @@
   <string name="app_ops_modify_clipboard">modificar área de transferência</string>
   <string name="app_ops_modify_contacts">atualizar contactos</string>
   <string name="app_ops_modify_settings">atualizar configurações</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar microfone</string>
   <string name="app_ops_play_audio">reproduzir áudio</string>
   <string name="app_ops_post_notification">publicar notificação</string>
   <string name="app_ops_project_media">projetar multimédia</string>
@@ -108,6 +139,7 @@
   <string name="app_ops_use_vibrate">feedback háptico</string>
   <string name="app_ops_use_voice_volume">volume de voz</string>
   <string name="app_ops_write_mms">escrever MMS</string>
+  <string name="app_ops_write_sms">escrever SMS</string>
   <string name="app_ops_use_fingerprint">impressão digital</string>
   <string name="app_ops_add_voicemail">correio de voz</string>
   <string name="app_ops_read_phone_state">aceder ao estado do telefone</string>
@@ -162,18 +194,61 @@
   <string name="display_rotation_180_title">180 graus</string>
   <string name="display_rotation_270_title">270 graus</string>
   <!--Build date-->
+  <string name="build_date">Data de compilação</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
+  <string name="unlock_scramble_pin_layout_summary">Embaralhar o layout do PIN quando desbloquear o dispositivo</string>
   <!-- Face unlock -->
+  <string name="face_auto_unlock_title">Desbloqueio facial rápido</string>
+  <string name="face_auto_unlock_summary">Dispensar tela de bloqueio automaticamente enquanto estiver usando desbloqueio facial (NECESSÁRIO: Gappa nano package ou mais recente)</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localize o leitor biométrico na parte <xliff:g id="sensor_location">%1$s</xliff:g> do seu telefone.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">traseira</string>
+  <string name="security_settings_fingerprint_sensor_location_front">frontal</string>
+  <string name="security_settings_fingerprint_sensor_location_left">lateral esquerda</string>
+  <string name="security_settings_fingerprint_sensor_location_right">lateral direita</string>
   <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_disabled">desativado</string>
+  <string name="sim_missing">faltando ou com defeito</string>
+  <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Quer continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenção</string>
+  <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para os serviços de dados. Tem a certeza que deseja continuar?</string>
+  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo de avião estiver ativado.</string>
+  <string name="sim_enabler_in_call">Não é possível executar a operação enquanto estiver numa chamada.</string>
+  <string name="sim_enabler_both_inactive">Não é possível desativar todos os cartões SIM</string>
+  <string name="sim_enabler_enabling">Ativando\u2026</string>
+  <string name="sim_enabler_disabling">Desativando\u2026</string>
+  <string name="sub_activate_success">SIM ativado.</string>
+  <string name="sub_activate_failed">Ativação mal sucedida.</string>
+  <string name="sub_deactivate_success">SIM desativado.</string>
+  <string name="sub_deactivate_failed">Desativação mal sucedida.</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Permitir aplicações de temas de fontes desconhecidas</string>
+  <string name="force_authorize_substratum_packages_summary">Forçãr autorização de todas as aplicações de temas</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Camadas do Substratum</string>
   <string name="menu_show_substratum">Mostrar camadas</string>
   <string name="menu_hide_substratum">Esconder camadas</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Previna que a tela ligue acidentalmente</string>
+  <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
   <!-- Search -->
+  <string name="menu_search">Procurar aplicativos</string>
+  <string name="menu_search_hint">Procurar aplicativos\u2026</string>
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
+  <string name="security_dialog_title">Atualizações de segurança</string>
+  <string name="security_dialog_neutral_button">Boletins de Segurança da AOSP</string>
+  <string name="android_security_title">Nível do patch de segurança da AOSP</string>
+  <string name="android_security_summary">Atualizações de segurança do Android são uma coleção de patches para a plataforma Android e os binários do fornecedor que ajudam a executar. Uma vez que esses binários são de origem fechada, temos de contar com os fornecedores para fornecê-los para os OEMs e os OEMs para enviá-los para os usuários para que possamos adicioná-los às nossas compilações. Como não podemos controlar esse processo, queremos deixar claro que só atualizamos o nível de patch de segurança nos repositórios que vêm do projeto Open Source do Android. Geralmente, o nível de patch de segurança do fornecedor será o nível de patch da última ROM stock lançada.</string>
+  <string name="android_functional_updates_title">Atualizações funcionais</string>
+  <string name="android_functional_updates_summary">Além das atualizações de segurança AOSP, nós incluímos as atualizações funcionais do Google. Estes são os patches que o Google trás para os dispositivos Pixel para resolver problemas de funcionalidade, como conectividade, estabilidade e desempenho. Desde que nós suportamos mais do que apenas dispositivos Pixel, eles estão incluídos para todos nossos dispositivos.</string>
+  <string name="vendor_security_title">Nível do patch do fornecedor</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Dados móveis</string>
+  <string name="data_usage_app_restrict_data_summary">Ativar o uso de dados móveis</string>
+  <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
 </resources>

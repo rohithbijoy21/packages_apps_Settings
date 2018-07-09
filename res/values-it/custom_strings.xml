@@ -38,6 +38,8 @@
   <string name="dev1_description">Fondatore/Sviluppatore, Kenzo Co-Maintainer</string>
   <string name="dev_2">Rohit Poroli</string>
   <string name="dev2_description">Co-fondatore/Sviluppatore, Mido Co-Manutentore</string>
+  <string name="dev_3">Sathish K</string>
+  <string name="dev3_description">Svikuppatore, Cheeseburger | Dumpling Manutentore</string>
   <string name="mentions_header">Apprezzamenti</string>
   <string name="mentions_vikas">Vikas Kumar</string>
   <string name="mentions_vikas_description">Gestore di localizzazione</string>
@@ -48,12 +50,11 @@
   <string name="mentions_recenz">Recenz</string>
   <string name="mentions_recenz_description">Bootanimation designer</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
-  <string name="maintainer_aditya_garg_device">OnePlus 3</string>
+  <string name="maintainer_aashish_t_device">Kenzo</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
+  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+  <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
@@ -62,6 +63,12 @@
   <string name="maintainer_vimal_raj_device">Santoni</string>
   <string name="maintainer_renji">Renji (renjian2)</string>
   <string name="maintainer_renji_device">s2</string>
+  <string name="maintainer_adesh">Adesh (Adesh15)</string>
+  <string name="maintainer_adesh_device">Mido</string>
+  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+  <string name="maintainer_simrat_device">j7velte</string>
+  <string name="maintainer_danish">Danish (Danish1999)</string>
+  <string name="maintainer_danish_device">z2_plus</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosità</string>
   <string name="night_brightness_value_title">Luminosità abbassata durante la Luce Notturna</string>
@@ -193,6 +200,7 @@
   <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione grafica dei numeri PIN per lo sblocco del dispositivo</string>
   <!-- Face unlock -->
   <string name="face_auto_unlock_title">Sblocco rapido con viso</string>
+  <string name="face_auto_unlock_summary">Ignora la schermata di blocco automaticamente quando si utilizza la funzione di sblocco con viso (Nota: Usare pacchetto Gapps nano o superiore)</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
   <!-- Fingerprint sensor locations -->
@@ -224,7 +232,23 @@
   <string name="menu_show_substratum">Mostra overlay</string>
   <string name="menu_hide_substratum">Nascondi overlay</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+  <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
   <!-- Search -->
+  <string name="menu_search">Cerca App</string>
+  <string name="menu_search_hint">Cerca App\u2026</string>
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
+  <string name="security_dialog_title">Aggiornamenti di sicurezza</string>
+  <string name="security_dialog_neutral_button">Comunicati sulla sicurezza AOSP</string>
+  <string name="android_security_title">Livello patch di sicurezza AOSP</string>
+  <string name="android_security_summary">Gli aggiornamenti per la sicurezza di Android sono una raccolta di patch per la piattaforma Android e i binari del fornitore che lo aiutano a funzionare. Poiché questi binari sono closed source, dobbiamo affidarci ai fornitori per fornirli agli OEM e agli OEM per spedirli agli utenti in modo che possiamo aggiungerli alle nostre build. Poiché non possiamo controllare questo processo, vogliamo chiarire che aggiorniamo solo il livello di patch di sicurezza nei repos che provengono dal progetto Open Source Android. Generalmente, il livello di patch di sicurezza del fornitore sarà qualsiasi livello di patch sull\'ultima ROM di riserva.</string>
+  <string name="android_functional_updates_title">Update funzionale</string>
+  <string name="android_functional_updates_summary">Oltre agli aggiornamenti di sicurezza AOSP, includiamo aggiornamenti funzionali di Google. Queste sono le patch che Google pubblica in aggiunta agli aggiornamenti di sicurezza per i dispositivi Pixel allo scopo di risolvere problemi di funzionalità in merito a connettività, stabilità e prestazioni. Queste patch sono incluse non soltanto nei Pixel, ma in tutti i dispositivi da noi supportati.</string>
+  <string name="vendor_security_title">Livello patch vendor</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Dati mobili</string>
+  <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati del cellulare</string>
+  <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
 </resources>

@@ -18,11 +18,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog_custom_title">Changelog</string>
+  <string name="changelog_custom_summary">Lijst van wijzigingen sinds de laatste versie</string>
+  <string name="changelog_custom_error">Kon wijzigingen niet laden</string>
   <!--Cardinal-AOSP Version-->
+  <string name="cardinal_version">Cardinal-AOSP Versie</string>
   <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+  <string name="device_maintainer">Onderhouder</string>
   <!-- Wings Settings -->
+  <string name="cardinal_settings_activity">De vleugels!</string>
+  <string name="cardinal_settings_activity_summary">Aanvullende aanpassingen</string>
   <!-- Dev Info -->
+  <string name="cardinal_about_info">Over dit project</string>
+  <string name="cardinal_about_info_summary_title">Kom meer te weten over ons!</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_bright_disabled">Uitgeschakeld</string>
   <!-- Volume settings - Volume adjustment sound -->
   <!-- OTA -->
   <!-- App Ops Settings -->
@@ -47,5 +57,6 @@
   <!-- Proximity wake -->
   <!-- Search -->
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <!-- Per-app data restrictions -->
 </resources>

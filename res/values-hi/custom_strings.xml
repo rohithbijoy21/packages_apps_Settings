@@ -38,11 +38,8 @@
   <string name="dev1_description">संस्थापक/विकासक, Kenzo सह-अनुरक्षण कर्ता</string>
   <string name="dev_2">Rohit Paroli</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
-  <string name="maintainer_subham_p_device">Kuntao</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
   <string name="maintainer_prakhar_srivastava_device">Z00L</string>
   <!-- Advanced night mode brightness -->
@@ -175,5 +172,6 @@
   <!-- Proximity wake -->
   <!-- Search -->
   <!-- Security dialog -->
+  <!-- DO NOT TRANSLATE -->
   <!-- Per-app data restrictions -->
 </resources>
