@@ -40,6 +40,8 @@
   <string name="dev2_description">Spoluzakladatel/vývojář, spolusprávce Mido</string>
   <string name="dev_3">Sathish K</string>
   <string name="dev3_description">Vývojář, Cheeseburger | Správce, Dumpling</string>
+  <string name="dev_4">Satyabrat Sahoo</string>
+  <string name="dev4_description">Vývojář, správce Tissot</string>
   <string name="mentions_header">Čestná uznání</string>
   <string name="mentions_vikas">Vikas Kumar</string>
   <string name="mentions_vikas_description">Manažer lokalizace</string>
@@ -51,8 +53,12 @@
   <string name="mentions_recenz_description">Designér spouštěcí animace</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo</string>
+  <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
+  <string name="maintainer_sainath_device">OnePlus 3/3T</string>
   <string name="maintainer_keerten">Keerten</string>
   <string name="maintainer_keerten_device">Athene</string>
+  <string name="maintainer_subham">Subham (Subhaam)</string>
+  <string name="maintainer_subham_device">Kuntao | Whyred</string>
   <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
   <string name="maintainer_sipun_device">Land</string>
   <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
