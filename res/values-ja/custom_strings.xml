@@ -17,244 +17,233 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">更新履歴</string>
-  <string name="changelog_custom_summary">前回の更新からの変更リスト</string>
-  <string name="changelog_custom_error">更新履歴を読み込めませんでした</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal-AOSP バージョン</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">メンテナー</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">The Wings!</string>
-  <string name="cardinal_settings_activity_summary">追加の設定</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">プロジェクトについて</string>
-  <string name="cardinal_about_info_summary_title">私たちについて知る</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSPはAOSPに基づいたカスタムROMであり、非AOSPデバイスをサポートするために少々のCitrus-CAFパッチを使用しています。必要最小限の機能をいくつか備えています。プロジェクトの開発の主な目的は、可能な限りAOSPの近くに留まり、高い性能・なめらかさ・良好な電力消費を提供することです。このプロジェクトを楽しんで、より良いものにしていって下さい。</string>
-  <string name="devs_header">開発者</string>
-  <string name="maintainers_header">メンテナー </string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">設立者/開発者/Kenzo 共同メンテナー</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">共同設立者/開発者/Mido 共同メンテナー</string>
-  <string name="dev_3">Sathish K</string>
-  <string name="dev3_description">開発者/Cheeseburger,Dumpling メンテナー</string>
-  <string name="dev_4">Satyabrat Sahoo</string>
-  <string name="dev4_description">開発者/Tissotメンテナ</string>
-  <string name="mentions_header">スペシャルサンクス</string>
-  <string name="mentions_vikas">Vikas Kumar</string>
-  <string name="mentions_vikas_description">ローカライズマネージャー</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">デザイナー</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">壁紙デザイナー</string>
-  <string name="mentions_recenz">Recenz</string>
-  <string name="mentions_recenz_description">ブートアニメーションデザイナー</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
-  <string name="maintainer_sainath_device">OnePlus 3/3T</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham">Subham (Subhaam)</string>
-  <string name="maintainer_subham_device">Kuntao | Whyred</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_sipun_device">Land</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">s2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">画面の明るさ</string>
-  <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
-  <string name="night_bright_disabled">無効</string>
-  <string name="night_bright_minimum">最低輝度</string>
-  <string name="night_bright_low">低輝度</string>
-  <string name="night_bright_medium">中輝度</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">音量調整の音</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA アップデート</string>
-  <string name="cardinal_ota_settings_summary">新しいアップデートを確認する</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">位置情報</string>
-  <string name="app_ops_cat_personal">個人情報</string>
-  <string name="app_ops_cat_messaging">メッセージ</string>
-  <string name="app_ops_cat_media">メディア</string>
-  <string name="app_ops_cat_device">端末</string>
-  <string name="app_ops_cat_bootup">ブート時の実行</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">カメラ</string>
-  <string name="app_ops_access_gps">GPS</string>
-  <string name="app_ops_access_coarse_location">おおよその位置情報</string>
-  <string name="app_ops_access_fine_location">精細な位置情報</string>
-  <string name="app_ops_access_monitor_location">位置情報の監視</string>
-  <string name="app_ops_monitor_high_power_location">正確な位置情報の監視</string>
-  <string name="app_ops_neighboring_cells">セルスキャン</string>
-  <string name="app_ops_access_notifications">通知</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">自動起動</string>
-  <string name="app_ops_delete_call_log">通話履歴の削除</string>
-  <string name="app_ops_delete_contacts">連絡先の削除</string>
-  <string name="app_ops_delete_mms">MMSの削除</string>
-  <string name="app_ops_delete_sms">SMSの削除</string>
-  <string name="app_ops_draw_on_top">上部に描画</string>
-  <string name="app_ops_get_usage_stats">使用統計の取得</string>
-  <string name="app_ops_keep_device_awake">スリープモードにしない</string>
-  <string name="app_ops_make_phone_call">発信</string>
-  <string name="app_ops_modify_calendar">カレンダーの更新</string>
-  <string name="app_ops_modify_call_log">通話履歴の更新</string>
-  <string name="app_ops_modify_clipboard">クリップボードの変更</string>
-  <string name="app_ops_modify_contacts">連絡先の更新</string>
-  <string name="app_ops_modify_settings">設定の更新</string>
-  <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
-  <string name="app_ops_play_audio">音声の再生</string>
-  <string name="app_ops_post_notification">通知の配信</string>
-  <string name="app_ops_project_media">メディアの投影</string>
-  <string name="app_ops_read_calendar">カレンダーの読み取り</string>
-  <string name="app_ops_read_call_log">通話履歴の読み取り</string>
-  <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
-  <string name="app_ops_read_contacts">連絡先の読み取り</string>
-  <string name="app_ops_read_mms">MMSの読み取り</string>
-  <string name="app_ops_read_sms">SMSの読み取り</string>
-  <string name="app_ops_receive_sms">SMSの受信</string>
-  <string name="app_ops_record_audio">音声の録音</string>
-  <string name="app_ops_send_mms">MMSの送信</string>
-  <string name="app_ops_send_sms">SMSの送信</string>
-  <string name="app_ops_toast_window">トーストメッセージ</string>
-  <string name="app_ops_use_alarm_volume">アラームの音量</string>
-  <string name="app_ops_use_audio_focus">音声フォーカス</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
-  <string name="app_ops_use_master_volume">主音量</string>
-  <string name="app_ops_use_media_buttons">メディアボタン</string>
-  <string name="app_ops_use_media_volume">メディアの音量</string>
-  <string name="app_ops_use_notification_volume">通知の音量</string>
-  <string name="app_ops_use_ring_volume">着信の音量</string>
-  <string name="app_ops_use_vibrate">振動フィードバック</string>
-  <string name="app_ops_use_voice_volume">音声通話の音量</string>
-  <string name="app_ops_write_mms">MMSの書き込み</string>
-  <string name="app_ops_write_sms">SMSの書き込み</string>
-  <string name="app_ops_use_fingerprint">指紋</string>
-  <string name="app_ops_add_voicemail">ボイスメール</string>
-  <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
-  <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
-  <string name="app_ops_change_wallpaper">壁紙の変更</string>
-  <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
-  <string name="app_ops_assist_screenshot">スクリーンショット</string>
-  <string name="app_ops_use_body_sensors">ボディーセンサー</string>
-  <string name="app_ops_read_cell_broadcasts">緊急警報</string>
-  <string name="app_ops_mock_location">仮想位置情報</string>
-  <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
-  <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
-  <string name="app_ops_turn_on_screen">画面の点灯</string>
-  <string name="app_ops_get_accounts">端末のアカウント</string>
-  <string name="app_ops_run_in_background">バックグラウンドで実行する</string>
-  <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
-  <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
-  <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
-  <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
-  <string name="app_ops_answer_phone_calls">着信への応答</string>
-  <string name="app_ops_boot_completed">自動実行</string>
-  <!-- Reset battery stats -->
-  <string name="ok">OK</string>
-  <string name="menu_stats_reset">統計のリセット</string>
-  <string name="reset_stats_msg">バッテリーの使用統計はリセットされます</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">スクリーンショットのシャッター音</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">デバイスは暗号化されています</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">デバイスは暗号化されていません</string>
-  <string name="twilight_mode_location_dialog">位置情報が無効です</string>
-  <string name="twilight_mode_location_disabled">位置情報アクセスが無効です</string>
-  <string name="twilight_mode_location_enable">有効</string>
-  <!-- Themes -->
-  <string name="themes_title">テーマ</string>
-  <string name="themes_dashboard_summary">テーマを管理する</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
-  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">すべてのファイル形式を受け入れる</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">着信と通知の音量をリンク</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">回転</string>
-  <string name="display_rotation_disabled">無効</string>
-  <string name="display_rotation_unit">角度</string>
-  <string name="display_rotation_category_title">回転モード</string>
-  <string name="display_rotation_0_title">0度</string>
-  <string name="display_rotation_90_title">90度</string>
-  <string name="display_rotation_180_title">180度</string>
-  <string name="display_rotation_270_title">270度</string>
-  <!--Build date-->
-  <string name="build_date">ビルド日時</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
-  <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">クイックフェイスアンロック</string>
-  <string name="face_auto_unlock_summary">フェイスアンロックを使用中はロック画面を自動的に解除する（必須：Gapps nanoパッケージ以上）</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">戻る</string>
-  <string name="security_settings_fingerprint_sensor_location_front">前面</string>
-  <string name="security_settings_fingerprint_sensor_location_left">左側面</string>
-  <string name="security_settings_fingerprint_sensor_location_right">右側面</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
-  <string name="sim_disabled">無効</string>
-  <string name="sim_missing">挿入されていないか、問題があります。</string>
-  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
-  <string name="sim_enabler_will_disable_sim_title">注意</string>
-  <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
-  <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません。</string>
-  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
-  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
-  <string name="sim_enabler_enabling">アクティベート中\u2026</string>
-  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-  <string name="sub_activate_success">SIMをアクティベートしました</string>
-  <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-  <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
-  <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">すべてのテーマアプリを強制的に承認する</string>
-  <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratumオーバーレイ</string>
-  <string name="menu_show_substratum">オーバーレイを表示</string>
-  <string name="menu_hide_substratum">オーバーレイを非表示</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
-  <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
-  <!-- Search -->
-  <string name="menu_search">アプリを検索</string>
-  <string name="menu_search_hint">アプリを検索\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">セキュリティアップデート</string>
-  <string name="security_dialog_neutral_button">AOSP セキュリティ情報</string>
-  <string name="android_security_title">AOSP セキュリティパッチレベル</string>
-  <string name="android_security_summary">Androidセキュリティアップデートは、Androidプラットフォームとその実行を助けるベンダーバイナリへのパッチの集合です。これらのバイナリはクローズドソースなので、OEMやOEMが提供してユーザーに配布してビルドに追加できるように、ベンダーに依存する必要があります。私たちはこのプロセスをまったく制御できないので、Androidオープンソースプロジェクトから来たrepoのセキュリティパッチレベルのみを更新することを明確にしたいと考えています。 一般に、ベンダーのセキュリティーパッチレベルは、最新のストックROMのパッチレベルに関係なくなります。</string>
-  <string name="android_functional_updates_title">機能アップデート</string>
-  <string name="android_functional_updates_summary">AOSPのセキュリティアップデートに加えて、Googleの機能アップデートも含まれています。これらは、GoogleがPixelデバイスのためのセキュリティアップデートに加えて、接続性・安定性・パフォーマンスなどの機能に関する問題に取り組むためのパッチです。 Pixelデバイスだけでなく全てのデバイスに対応しています。</string>
-  <string name="vendor_security_title">ベンダーパッチレベル</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">モバイルデータ</string>
-  <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
-  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">更新履歴</string>
+    <string name="changelog_custom_summary">前回の更新からの変更リスト</string>
+    <string name="changelog_custom_error">更新履歴を読み込めませんでした</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Cardinal-AOSP バージョン</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">メンテナー</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">The Wings!</string>
+    <string name="cardinal_settings_activity_summary">追加の設定</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">プロジェクトについて</string>
+    <string name="cardinal_about_info_summary_title">私たちについて知る</string>
+    <string name="devs_header">開発者</string>
+    <string name="maintainers_header">メンテナー </string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">設立者/開発者/Kenzo 共同メンテナー</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">共同設立者/開発者/Mido 共同メンテナー</string>
+    <string name="dev_3">Sathish K</string>
+    <string name="dev3_description">開発者/Cheeseburger,Dumpling メンテナー</string>
+    <string name="dev_4">Satyabrat Sahoo</string>
+    <string name="dev4_description">開発者/Tissotメンテナ</string>
+    <string name="mentions_header">スペシャルサンクス</string>
+    <string name="mentions_vikas">Vikas Kumar</string>
+    <string name="mentions_vikas_description">ローカライズマネージャー</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">デザイナー</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">壁紙デザイナー</string>
+    <string name="mentions_recenz">Recenz</string>
+    <string name="mentions_recenz_description">ブートアニメーションデザイナー</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo</string>
+    <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_subham">Subham (Subhaam)</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">画面の明るさ</string>
+    <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+    <string name="night_bright_disabled">無効</string>
+    <string name="night_bright_minimum">最低輝度</string>
+    <string name="night_bright_low">低輝度</string>
+    <string name="night_bright_medium">中輝度</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">音量調整の音</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA アップデート</string>
+    <string name="cardinal_ota_settings_summary">新しいアップデートを確認する</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置情報</string>
+    <string name="app_ops_cat_personal">個人情報</string>
+    <string name="app_ops_cat_messaging">メッセージ</string>
+    <string name="app_ops_cat_media">メディア</string>
+    <string name="app_ops_cat_device">端末</string>
+    <string name="app_ops_cat_bootup">ブート時の実行</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">カメラ</string>
+    <string name="app_ops_access_gps">GPS</string>
+    <string name="app_ops_access_coarse_location">おおよその位置情報</string>
+    <string name="app_ops_access_fine_location">精細な位置情報</string>
+    <string name="app_ops_access_monitor_location">位置情報の監視</string>
+    <string name="app_ops_monitor_high_power_location">正確な位置情報の監視</string>
+    <string name="app_ops_neighboring_cells">セルスキャン</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自動起動</string>
+    <string name="app_ops_delete_call_log">通話履歴の削除</string>
+    <string name="app_ops_delete_contacts">連絡先の削除</string>
+    <string name="app_ops_delete_mms">MMSの削除</string>
+    <string name="app_ops_delete_sms">SMSの削除</string>
+    <string name="app_ops_draw_on_top">上部に描画</string>
+    <string name="app_ops_get_usage_stats">使用統計の取得</string>
+    <string name="app_ops_keep_device_awake">スリープモードにしない</string>
+    <string name="app_ops_make_phone_call">発信</string>
+    <string name="app_ops_modify_calendar">カレンダーの更新</string>
+    <string name="app_ops_modify_call_log">通話履歴の更新</string>
+    <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+    <string name="app_ops_modify_contacts">連絡先の更新</string>
+    <string name="app_ops_modify_settings">設定の更新</string>
+    <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
+    <string name="app_ops_play_audio">音声の再生</string>
+    <string name="app_ops_post_notification">通知の配信</string>
+    <string name="app_ops_project_media">メディアの投影</string>
+    <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+    <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+    <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+    <string name="app_ops_read_contacts">連絡先の読み取り</string>
+    <string name="app_ops_read_mms">MMSの読み取り</string>
+    <string name="app_ops_read_sms">SMSの読み取り</string>
+    <string name="app_ops_receive_sms">SMSの受信</string>
+    <string name="app_ops_record_audio">音声の録音</string>
+    <string name="app_ops_send_mms">MMSの送信</string>
+    <string name="app_ops_send_sms">SMSの送信</string>
+    <string name="app_ops_toast_window">トーストメッセージ</string>
+    <string name="app_ops_use_alarm_volume">アラームの音量</string>
+    <string name="app_ops_use_audio_focus">音声フォーカス</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">メディアボタン</string>
+    <string name="app_ops_use_media_volume">メディアの音量</string>
+    <string name="app_ops_use_notification_volume">通知の音量</string>
+    <string name="app_ops_use_ring_volume">着信の音量</string>
+    <string name="app_ops_use_vibrate">振動フィードバック</string>
+    <string name="app_ops_use_voice_volume">音声通話の音量</string>
+    <string name="app_ops_write_mms">MMSの書き込み</string>
+    <string name="app_ops_write_sms">SMSの書き込み</string>
+    <string name="app_ops_use_fingerprint">指紋</string>
+    <string name="app_ops_add_voicemail">ボイスメール</string>
+    <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
+    <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+    <string name="app_ops_change_wallpaper">壁紙の変更</string>
+    <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
+    <string name="app_ops_assist_screenshot">スクリーンショット</string>
+    <string name="app_ops_use_body_sensors">ボディーセンサー</string>
+    <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+    <string name="app_ops_mock_location">仮想位置情報</string>
+    <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
+    <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
+    <string name="app_ops_turn_on_screen">画面の点灯</string>
+    <string name="app_ops_get_accounts">端末のアカウント</string>
+    <string name="app_ops_run_in_background">バックグラウンドで実行する</string>
+    <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
+    <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
+    <string name="app_ops_request_install_packages">パッケージのインストール</string>
+    <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
+    <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_answer_phone_calls">着信への応答</string>
+    <string name="app_ops_boot_completed">自動実行</string>
+    <!-- Reset battery stats -->
+    <string name="ok">OK</string>
+    <string name="menu_stats_reset">統計のリセット</string>
+    <string name="reset_stats_msg">バッテリーの使用統計はリセットされます</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">スクリーンショットのシャッター音</string>
+    <!-- Encryption and credential -->
+    <string name="twilight_mode_location_dialog">位置情報が無効です</string>
+    <string name="twilight_mode_location_disabled">位置情報アクセスが無効です</string>
+    <string name="twilight_mode_location_enable">有効</string>
+    <!-- Themes -->
+    <string name="themes_title">テーマ</string>
+    <string name="themes_dashboard_summary">テーマを管理する</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">着信と通知の音量をリンク</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!--Build date-->
+    <string name="build_date">ビルド日時</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">クイックフェイスアンロック</string>
+    <string name="face_auto_unlock_summary">フェイスアンロックを使用中はロック画面を自動的に解除する（必須：Gapps nanoパッケージ以上）</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">戻る</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左側面</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右側面</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_disabled">無効</string>
+    <string name="sim_missing">挿入されていないか、問題があります。</string>
+    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
+    <string name="sim_enabler_will_disable_sim_title">注意</string>
+    <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
+    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません。</string>
+    <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
+    <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+    <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratumオーバーレイ</string>
+    <string name="menu_show_substratum">オーバーレイを表示</string>
+    <string name="menu_hide_substratum">オーバーレイを非表示</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
+    <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
+    <!-- Search -->
+    <string name="menu_search">アプリを検索</string>
+    <string name="menu_search_hint">アプリを検索\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">セキュリティアップデート</string>
+    <string name="security_dialog_neutral_button">AOSP セキュリティ情報</string>
+    <string name="android_security_title">AOSP セキュリティパッチレベル</string>
+    <string name="android_security_summary">Androidセキュリティアップデートは、Androidプラットフォームとその実行を助けるベンダーバイナリへのパッチの集合です。これらのバイナリはクローズドソースなので、OEMやOEMが提供してユーザーに配布してビルドに追加できるように、ベンダーに依存する必要があります。私たちはこのプロセスをまったく制御できないので、Androidオープンソースプロジェクトから来たrepoのセキュリティパッチレベルのみを更新することを明確にしたいと考えています。 一般に、ベンダーのセキュリティーパッチレベルは、最新のストックROMのパッチレベルに関係なくなります。</string>
+    <string name="android_functional_updates_title">機能アップデート</string>
+    <string name="vendor_security_title">ベンダーパッチレベル</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">モバイルデータ</string>
+    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
 </resources>

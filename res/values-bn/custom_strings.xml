@@ -17,79 +17,79 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">পরিবর্তনগুলি</string>
-  <string name="changelog_custom_summary">শেষ বিল্ডের পর পরিবর্তনগুলি</string>
-  <string name="changelog_custom_error">পরিবর্তনগুলির তালিকা লোড করতে অক্ষম</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">কার্ডিনাল এওএসপির সংস্করণ</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">মেনটেনার</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">ডানা!</string>
-  <string name="cardinal_settings_activity_summary">অতিরক্ত স্বনির্ধারণের বিকল্পগুলি</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">প্রকল্পের সম্বন্ধে জানুন</string>
-  <string name="cardinal_about_info_summary_title">আমাদের সম্বন্ধে জানুন!</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">উজ্জ্বলতা</string>
-  <string name="night_bright_disabled">নিষ্ক্রিয়</string>
-  <string name="night_bright_minimum">সর্বনিম্ন উজ্জ্বলতা</string>
-  <string name="night_bright_low">কম উজ্জ্বলতা</string>
-  <string name="night_bright_medium">মাঝারি উজ্জ্বলতা</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">ভলিউম সমন্বয় শব্দ</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">ওটিএ আপডেট</string>
-  <string name="cardinal_ota_settings_summary">নতুন আপডেট চেক করুন!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">অবস্থান</string>
-  <string name="app_ops_cat_personal">ব্যক্তিগত</string>
-  <string name="app_ops_cat_messaging">বার্তা প্রেরণ</string>
-  <string name="app_ops_cat_media">মিডিয়া</string>
-  <string name="app_ops_cat_device">ডিভাইস</string>
-  <string name="app_ops_cat_bootup">বুটআপ</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">ক্যামেরা</string>
-  <string name="app_ops_access_notifications">বিজ্ঞপ্তি</string>
-  <string name="app_ops_activate_vpn">ভিপিএন</string>
-  <string name="app_ops_auto_start">স্বয়ংচলন</string>
-  <string name="app_ops_delete_call_log">কল লগ মুছে ফেলুন</string>
-  <string name="app_ops_delete_contacts">কন্ট্যাক্ট মুছে ফেলুন</string>
-  <string name="app_ops_delete_mms">এমএমএস মুছে ফেলুন</string>
-  <string name="app_ops_delete_sms">এমএমএস মুছে ফেলুন</string>
-  <string name="app_ops_draw_on_top">উপরে আঁকা</string>
-  <string name="app_ops_get_usage_stats">ব্যবহারের পরিসংখ্যান পান</string>
-  <string name="app_ops_keep_device_awake">জাগ্রত রাখুন</string>
-  <string name="app_ops_make_phone_call">কল করুন</string>
-  <string name="app_ops_modify_calendar">ক্যালেন্ডার আপডেট করুন</string>
-  <string name="app_ops_modify_call_log">কল লগ আপডেট করুন</string>
-  <string name="app_ops_modify_clipboard">ক্লিপবোর্ডের বিষয়বস্তু পরিবর্তন করুন</string>
-  <string name="app_ops_modify_contacts">কন্ট্যাক্ট আপডেট করুন</string>
-  <string name="app_ops_modify_settings">আপডেট সেটিংস</string>
-  <string name="app_ops_play_audio">অডিও প্লে করা</string>
-  <string name="app_ops_post_notification">বিজ্ঞপ্তি পোস্ট করা</string>
-  <string name="app_ops_project_media">মিডিয়া অভিক্ষেপ করুন</string>
-  <!-- Reset battery stats -->
-  <!-- Screenshot shutter sound -->
-  <!-- Encryption and credential -->
-  <!-- Themes -->
-  <!-- Quick unlock -->
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <!-- Unlink notification volume -->
-  <!-- Display : Rotation -->
-  <!--Build date-->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Face unlock -->
-  <!-- Format string for fingerprint location message -->
-  <!-- Fingerprint sensor locations -->
-  <!-- Manual provisioning support -->
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Proximity wake -->
-  <!-- Search -->
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <!-- Per-app data restrictions -->
+    <!-- Changelog -->
+    <string name="changelog_custom_title">পরিবর্তনগুলি</string>
+    <string name="changelog_custom_summary">শেষ বিল্ডের পর পরিবর্তনগুলি</string>
+    <string name="changelog_custom_error">পরিবর্তনগুলির তালিকা লোড করতে অক্ষম</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">কার্ডিনাল এওএসপির সংস্করণ</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">মেনটেনার</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">ডানা!</string>
+    <string name="cardinal_settings_activity_summary">অতিরক্ত স্বনির্ধারণের বিকল্পগুলি</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">প্রকল্পের সম্বন্ধে জানুন</string>
+    <string name="cardinal_about_info_summary_title">আমাদের সম্বন্ধে জানুন!</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">উজ্জ্বলতা</string>
+    <string name="night_bright_disabled">নিষ্ক্রিয়</string>
+    <string name="night_bright_minimum">সর্বনিম্ন উজ্জ্বলতা</string>
+    <string name="night_bright_low">কম উজ্জ্বলতা</string>
+    <string name="night_bright_medium">মাঝারি উজ্জ্বলতা</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">ভলিউম সমন্বয় শব্দ</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">ওটিএ আপডেট</string>
+    <string name="cardinal_ota_settings_summary">নতুন আপডেট চেক করুন!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">অবস্থান</string>
+    <string name="app_ops_cat_personal">ব্যক্তিগত</string>
+    <string name="app_ops_cat_messaging">বার্তা প্রেরণ</string>
+    <string name="app_ops_cat_media">মিডিয়া</string>
+    <string name="app_ops_cat_device">ডিভাইস</string>
+    <string name="app_ops_cat_bootup">বুটআপ</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">ক্যামেরা</string>
+    <string name="app_ops_access_notifications">বিজ্ঞপ্তি</string>
+    <string name="app_ops_activate_vpn">ভিপিএন</string>
+    <string name="app_ops_auto_start">স্বয়ংচলন</string>
+    <string name="app_ops_delete_call_log">কল লগ মুছে ফেলুন</string>
+    <string name="app_ops_delete_contacts">কন্ট্যাক্ট মুছে ফেলুন</string>
+    <string name="app_ops_delete_mms">এমএমএস মুছে ফেলুন</string>
+    <string name="app_ops_delete_sms">এমএমএস মুছে ফেলুন</string>
+    <string name="app_ops_draw_on_top">উপরে আঁকা</string>
+    <string name="app_ops_get_usage_stats">ব্যবহারের পরিসংখ্যান পান</string>
+    <string name="app_ops_keep_device_awake">জাগ্রত রাখুন</string>
+    <string name="app_ops_make_phone_call">কল করুন</string>
+    <string name="app_ops_modify_calendar">ক্যালেন্ডার আপডেট করুন</string>
+    <string name="app_ops_modify_call_log">কল লগ আপডেট করুন</string>
+    <string name="app_ops_modify_clipboard">ক্লিপবোর্ডের বিষয়বস্তু পরিবর্তন করুন</string>
+    <string name="app_ops_modify_contacts">কন্ট্যাক্ট আপডেট করুন</string>
+    <string name="app_ops_modify_settings">আপডেট সেটিংস</string>
+    <string name="app_ops_play_audio">অডিও প্লে করা</string>
+    <string name="app_ops_post_notification">বিজ্ঞপ্তি পোস্ট করা</string>
+    <string name="app_ops_project_media">মিডিয়া অভিক্ষেপ করুন</string>
+    <!-- Reset battery stats -->
+    <!-- Screenshot shutter sound -->
+    <!-- Encryption and credential -->
+    <!-- Themes -->
+    <!-- Quick unlock -->
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <!-- Unlink notification volume -->
+    <!-- Display : Rotation -->
+    <!--Build date-->
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <!-- Face unlock -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Manual provisioning support -->
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
+    <!-- Proximity wake -->
+    <!-- Search -->
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- Per-app data restrictions -->
 </resources>

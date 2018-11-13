@@ -17,244 +17,241 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">更新日誌</string>
-  <string name="changelog_custom_summary">自上次生成以來的更改清單</string>
-  <string name="changelog_custom_error">無法載入更新日誌</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal-AOSP 版本</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">維護者</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">強壯的翅膀!</string>
-  <string name="cardinal_settings_activity_summary">客製化</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">關於本專案</string>
-  <string name="cardinal_about_info_summary_title">了解我們！</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSP 是一個基於 AOSP 的客製化 ROM, 並包含了來自 CAF 小部分的補丁以支援非 AOSP 的裝置, 與一些最需要的小功能, 這個 ROM 的主要目標是盡可能維持與 AOSP 一樣, 提供光速般的性能, 高流暢度以及較好的電池續航。我們希望你會喜歡這個專案, 並幫助我們在未來把它塑造得更好。</string>
-  <string name="devs_header">開發人員</string>
-  <string name="maintainers_header">維護人員</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">投資者/開發者, Kenzo 共同維護者</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">共同投資者/開發者, Mido 共同維護者</string>
-  <string name="dev_3">Sathish K</string>
-  <string name="dev3_description">開發者, Cheeseburger | Dumpling 裝置維護者</string>
-  <string name="dev_4">Satyabrat Sahoo</string>
-  <string name="dev4_description">開發者，Tissot 維護者</string>
-  <string name="mentions_header">特別表揚</string>
-  <string name="mentions_vikas">Vikas Kumar</string>
-  <string name="mentions_vikas_description">翻譯管理者</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">設計師</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">桌布設計師</string>
-  <string name="mentions_recenz">Recenz</string>
-  <string name="mentions_recenz_description">開機動畫設計師</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
-  <string name="maintainer_sainath_device">OnePlus 3/3T</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham">Subham (Subhaam)</string>
-  <string name="maintainer_subham_device">Kuntao |Whyred</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_sipun_device">Land</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">s2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">亮度</string>
-  <string name="night_brightness_value_title">夜燈啟用時降低亮度</string>
-  <string name="night_bright_disabled">已停用</string>
-  <string name="night_bright_minimum">最小亮度</string>
-  <string name="night_bright_low">低亮度</string>
-  <string name="night_bright_medium">中等亮度</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">音量調整音效</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA 更新</string>
-  <string name="cardinal_ota_settings_summary">檢查更新</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">位置</string>
-  <string name="app_ops_cat_personal">個人</string>
-  <string name="app_ops_cat_messaging">簡訊</string>
-  <string name="app_ops_cat_media">媒體</string>
-  <string name="app_ops_cat_device">裝置</string>
-  <string name="app_ops_cat_bootup">啟動時</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">相機</string>
-  <string name="app_ops_access_gps">gps</string>
-  <string name="app_ops_access_coarse_location">約略位置</string>
-  <string name="app_ops_access_fine_location">精確位置</string>
-  <string name="app_ops_access_monitor_location">監控位置</string>
-  <string name="app_ops_monitor_high_power_location">監控高耗電定位功能</string>
-  <string name="app_ops_neighboring_cells">手機網路掃描</string>
-  <string name="app_ops_access_notifications">通知</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">自動啟動</string>
-  <string name="app_ops_delete_call_log">刪除通話記錄</string>
-  <string name="app_ops_delete_contacts">刪除聯絡人</string>
-  <string name="app_ops_delete_mms">刪除多媒體簡訊</string>
-  <string name="app_ops_delete_sms">刪除簡訊</string>
-  <string name="app_ops_draw_on_top">在最上層繪製</string>
-  <string name="app_ops_get_usage_stats">取得使用統計資訊</string>
-  <string name="app_ops_keep_device_awake">保持喚醒</string>
-  <string name="app_ops_make_phone_call">撥打電話</string>
-  <string name="app_ops_modify_calendar">更新日曆</string>
-  <string name="app_ops_modify_call_log">更新通話記錄</string>
-  <string name="app_ops_modify_clipboard">修改剪貼簿</string>
-  <string name="app_ops_modify_contacts">更新聯絡人</string>
-  <string name="app_ops_modify_settings">更新設定</string>
-  <string name="app_ops_mute_unmute_microphone">麥克風靜音/取消靜音</string>
-  <string name="app_ops_play_audio">播放音訊</string>
-  <string name="app_ops_post_notification">發佈通知</string>
-  <string name="app_ops_project_media">放映媒體</string>
-  <string name="app_ops_read_calendar">讀取日曆</string>
-  <string name="app_ops_read_call_log">讀取通話記錄</string>
-  <string name="app_ops_read_clipboard">讀取剪貼簿</string>
-  <string name="app_ops_read_contacts">讀取聯絡人</string>
-  <string name="app_ops_read_mms">讀取多媒體簡訊</string>
-  <string name="app_ops_read_sms">讀取簡訊</string>
-  <string name="app_ops_receive_sms">接收簡訊</string>
-  <string name="app_ops_record_audio">錄製音訊</string>
-  <string name="app_ops_send_mms">傳送多媒體簡訊</string>
-  <string name="app_ops_send_sms">傳送簡訊</string>
-  <string name="app_ops_toast_window">提示訊息</string>
-  <string name="app_ops_use_alarm_volume">鬧鐘音量</string>
-  <string name="app_ops_use_audio_focus">音訊焦點</string>
-  <string name="app_ops_use_bluetooth_volume">藍牙音量</string>
-  <string name="app_ops_use_master_volume">主音量</string>
-  <string name="app_ops_use_media_buttons">媒體鍵</string>
-  <string name="app_ops_use_media_volume">媒體音量</string>
-  <string name="app_ops_use_notification_volume">通知音量</string>
-  <string name="app_ops_use_ring_volume">鈴聲音量</string>
-  <string name="app_ops_use_vibrate">觸控震動</string>
-  <string name="app_ops_use_voice_volume">語音通話音量</string>
-  <string name="app_ops_write_mms">撰寫多媒體簡訊</string>
-  <string name="app_ops_write_sms">撰寫簡訊</string>
-  <string name="app_ops_use_fingerprint">指紋</string>
-  <string name="app_ops_add_voicemail">語音信箱</string>
-  <string name="app_ops_read_phone_state">存取電話狀態</string>
-  <string name="app_ops_scan_wifi">掃描 WiFi 網路</string>
-  <string name="app_ops_change_wallpaper">變更桌布</string>
-  <string name="app_ops_assist_structure">協助結構</string>
-  <string name="app_ops_assist_screenshot">擷取螢幕畫面</string>
-  <string name="app_ops_use_body_sensors">身體感應器</string>
-  <string name="app_ops_read_cell_broadcasts">區域廣播</string>
-  <string name="app_ops_mock_location">模擬位置</string>
-  <string name="app_ops_read_external_storage">讀取外部儲存空間</string>
-  <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
-  <string name="app_ops_turn_on_screen">開啟螢幕</string>
-  <string name="app_ops_get_accounts">裝置帳戶</string>
-  <string name="app_ops_run_in_background">在背景執行</string>
-  <string name="app_ops_accessibility_volume">協助工具音量</string>
-  <string name="app_ops_read_phone_numbers">讀取電話號碼。</string>
-  <string name="app_ops_request_install_packages">安裝套件</string>
-  <string name="app_ops_picture_in_picture">PiP</string>
-  <string name="app_ops_app_start_foreground">開始前景</string>
-  <string name="app_ops_answer_phone_calls">接聽電話</string>
-  <string name="app_ops_boot_completed">自動啟動</string>
-  <!-- Reset battery stats -->
-  <string name="ok">確定</string>
-  <string name="menu_stats_reset">重設統計數據</string>
-  <string name="reset_stats_msg">電池統計數據將會被重設</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">螢幕擷取快門聲</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">裝置已加密</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">裝置已解密</string>
-  <string name="twilight_mode_location_dialog">位置已禁用</string>
-  <string name="twilight_mode_location_disabled">網路存取已關閉。</string>
-  <string name="twilight_mode_location_enable">啟用</string>
-  <!-- Themes -->
-  <string name="themes_title">主題</string>
-  <string name="themes_dashboard_summary">管理您的主題</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-  <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">接受所有檔案類型</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">連結鈴聲與通知音量</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">旋轉</string>
-  <string name="display_rotation_disabled">已停用</string>
-  <string name="display_rotation_unit">度</string>
-  <string name="display_rotation_category_title">旋轉模式</string>
-  <string name="display_rotation_0_title">0 度</string>
-  <string name="display_rotation_90_title">90 度</string>
-  <string name="display_rotation_180_title">180 度</string>
-  <string name="display_rotation_270_title">270 度</string>
-  <!--Build date-->
-  <string name="build_date">建置日期</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">亂序布局</string>
-  <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">快速面部辨識解鎖</string>
-  <string name="face_auto_unlock_summary">使用面部辨識時自動解除鎖定螢幕介面 (必備：GAPPS nano包或以上)</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">在您的手機 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指紋感應器。</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">後面</string>
-  <string name="security_settings_fingerprint_sensor_location_front">前面</string>
-  <string name="security_settings_fingerprint_sensor_location_left">左側</string>
-  <string name="security_settings_fingerprint_sensor_location_right">右側</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> 是 <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">停用</string>
-  <string name="sim_missing">遺失或毀損</string>
-  <string name="sim_enabler_need_disable_sim">SIM 卡將被停用，您確定要繼續嗎？</string>
-  <string name="sim_enabler_will_disable_sim_title">注意</string>
-  <string name="sim_enabler_need_switch_data_service">此 SIM 卡將被停用，並且將使用 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 於數據服務中，您確定要繼續嗎？</string>
-  <string name="sim_enabler_airplane_on">飛航模式開啟時無法進行此操作。</string>
-  <string name="sim_enabler_in_call">通話時無法進行此操作。</string>
-  <string name="sim_enabler_both_inactive">無法停用所有 SIM 卡</string>
-  <string name="sim_enabler_enabling">正在啟動\u2026</string>
-  <string name="sim_enabler_disabling">停用中\u2026</string>
-  <string name="sub_activate_success">SIM 卡已啟用。</string>
-  <string name="sub_activate_failed">啟用失敗。</string>
-  <string name="sub_deactivate_success">SIM 卡已停用。</string>
-  <string name="sub_deactivate_failed">停用失敗。</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">強制授權每個主題應用程式</string>
-  <string name="force_authorize_substratum_packages_summary">允許來源不明的主題應用程式</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">底層重疊</string>
-  <string name="menu_show_substratum">顯示重疊</string>
-  <string name="menu_hide_substratum">隱藏重疊</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">防止意外喚醒</string>
-  <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
-  <!-- Search -->
-  <string name="menu_search">搜尋應用程式</string>
-  <string name="menu_search_hint">搜尋應用程式\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">安全性更新</string>
-  <string name="security_dialog_neutral_button">AOSP 安全性更新公告</string>
-  <string name="android_security_title">AOSP 安全性修補程式等級</string>
-  <string name="android_security_summary">Android 安全更新是 Android 平臺和幫助它運行的供應商二進位檔案的補丁的集合。由於這些二進位檔案是閉源的, 我們必須依靠供應商向 OEM 提供和 OEM 提供給使用者, 以便將它們加入我們的建構。由於我們無法控制這一過程, 我們希望明確指出, 我們只更新來自 Android 開源專案中的安全修補程式級別。通常情況下, 供應商安全修補程式級別將是最新的原廠 ROM 上的任何補丁級別。</string>
-  <string name="android_functional_updates_title">功能更新</string>
-  <string name="android_functional_updates_summary">除了 AOSP 安全更新之外, 我們還包括 Google 的功能更新。這些補丁是 Google 除了針對 Pixel 系列設備的安全更新外, 還為解決功能問題 (如連線性、穩定性和性能) 而進行的修補程式。由於我們支援的不僅僅是 Pixel 系列設備, 它們都包含在我們的所有設備中。</string>
-  <string name="vendor_security_title">供應商修補程式級別</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">行動數據</string>
-  <string name="data_usage_app_restrict_data_summary">啟用行動網路</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 資料</string>
-  <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 資料</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">更新日誌</string>
+    <string name="changelog_custom_summary">自上次生成以來的更改清單</string>
+    <string name="changelog_custom_error">無法載入更新日誌</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Cardinal-AOSP 版本</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">維護者</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">強壯的翅膀!</string>
+    <string name="cardinal_settings_activity_summary">客製化</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">關於本專案</string>
+    <string name="cardinal_about_info_summary_title">了解我們！</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP 是一個基於 AOSP 的客製化 ROM, 並包含了來自 CAF 小部分的補丁以支援非 AOSP 的裝置, 與一些最需要的小功能, 這個 ROM 的主要目標是盡可能維持與 AOSP 一樣, 提供光速般的性能, 高流暢度以及較好的電池續航。我們希望你會喜歡這個專案, 並幫助我們在未來把它塑造得更好。</string>
+    <string name="devs_header">開發人員</string>
+    <string name="maintainers_header">維護人員</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">投資者/開發者, Kenzo 共同維護者</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">共同投資者/開發者, Mido 共同維護者</string>
+    <string name="dev_3">Sathish K</string>
+    <string name="dev3_description">開發者, Cheeseburger | Dumpling 裝置維護者</string>
+    <string name="dev_4">Satyabrat Sahoo</string>
+    <string name="dev4_description">開發者，Tissot 維護者</string>
+    <string name="mentions_header">特別表揚</string>
+    <string name="mentions_vikas">Vikas Kumar</string>
+    <string name="mentions_vikas_description">翻譯管理者</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">設計師</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">桌布設計師</string>
+    <string name="mentions_recenz">Recenz</string>
+    <string name="mentions_recenz_description">開機動畫設計師</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo</string>
+    <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_subham">Subham (Subhaam)</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">亮度</string>
+    <string name="night_brightness_value_title">夜燈啟用時降低亮度</string>
+    <string name="night_bright_disabled">已停用</string>
+    <string name="night_bright_minimum">最小亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_medium">中等亮度</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">音量調整音效</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA 更新</string>
+    <string name="cardinal_ota_settings_summary">檢查更新</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置</string>
+    <string name="app_ops_cat_personal">個人</string>
+    <string name="app_ops_cat_messaging">簡訊</string>
+    <string name="app_ops_cat_media">媒體</string>
+    <string name="app_ops_cat_device">裝置</string>
+    <string name="app_ops_cat_bootup">啟動時</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">相機</string>
+    <string name="app_ops_access_gps">gps</string>
+    <string name="app_ops_access_coarse_location">約略位置</string>
+    <string name="app_ops_access_fine_location">精確位置</string>
+    <string name="app_ops_access_monitor_location">監控位置</string>
+    <string name="app_ops_monitor_high_power_location">監控高耗電定位功能</string>
+    <string name="app_ops_neighboring_cells">手機網路掃描</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自動啟動</string>
+    <string name="app_ops_delete_call_log">刪除通話記錄</string>
+    <string name="app_ops_delete_contacts">刪除聯絡人</string>
+    <string name="app_ops_delete_mms">刪除多媒體簡訊</string>
+    <string name="app_ops_delete_sms">刪除簡訊</string>
+    <string name="app_ops_draw_on_top">在最上層繪製</string>
+    <string name="app_ops_get_usage_stats">取得使用統計資訊</string>
+    <string name="app_ops_keep_device_awake">保持喚醒</string>
+    <string name="app_ops_make_phone_call">撥打電話</string>
+    <string name="app_ops_modify_calendar">更新日曆</string>
+    <string name="app_ops_modify_call_log">更新通話記錄</string>
+    <string name="app_ops_modify_clipboard">修改剪貼簿</string>
+    <string name="app_ops_modify_contacts">更新聯絡人</string>
+    <string name="app_ops_modify_settings">更新設定</string>
+    <string name="app_ops_mute_unmute_microphone">麥克風靜音/取消靜音</string>
+    <string name="app_ops_play_audio">播放音訊</string>
+    <string name="app_ops_post_notification">發佈通知</string>
+    <string name="app_ops_project_media">放映媒體</string>
+    <string name="app_ops_read_calendar">讀取日曆</string>
+    <string name="app_ops_read_call_log">讀取通話記錄</string>
+    <string name="app_ops_read_clipboard">讀取剪貼簿</string>
+    <string name="app_ops_read_contacts">讀取聯絡人</string>
+    <string name="app_ops_read_mms">讀取多媒體簡訊</string>
+    <string name="app_ops_read_sms">讀取簡訊</string>
+    <string name="app_ops_receive_sms">接收簡訊</string>
+    <string name="app_ops_record_audio">錄製音訊</string>
+    <string name="app_ops_send_mms">傳送多媒體簡訊</string>
+    <string name="app_ops_send_sms">傳送簡訊</string>
+    <string name="app_ops_toast_window">提示訊息</string>
+    <string name="app_ops_use_alarm_volume">鬧鐘音量</string>
+    <string name="app_ops_use_audio_focus">音訊焦點</string>
+    <string name="app_ops_use_bluetooth_volume">藍牙音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">媒體鍵</string>
+    <string name="app_ops_use_media_volume">媒體音量</string>
+    <string name="app_ops_use_notification_volume">通知音量</string>
+    <string name="app_ops_use_ring_volume">鈴聲音量</string>
+    <string name="app_ops_use_vibrate">觸控震動</string>
+    <string name="app_ops_use_voice_volume">語音通話音量</string>
+    <string name="app_ops_write_mms">撰寫多媒體簡訊</string>
+    <string name="app_ops_write_sms">撰寫簡訊</string>
+    <string name="app_ops_use_fingerprint">指紋</string>
+    <string name="app_ops_add_voicemail">語音信箱</string>
+    <string name="app_ops_read_phone_state">存取電話狀態</string>
+    <string name="app_ops_scan_wifi">掃描 WiFi 網路</string>
+    <string name="app_ops_change_wallpaper">變更桌布</string>
+    <string name="app_ops_assist_structure">協助結構</string>
+    <string name="app_ops_assist_screenshot">擷取螢幕畫面</string>
+    <string name="app_ops_use_body_sensors">身體感應器</string>
+    <string name="app_ops_read_cell_broadcasts">區域廣播</string>
+    <string name="app_ops_mock_location">模擬位置</string>
+    <string name="app_ops_read_external_storage">讀取外部儲存空間</string>
+    <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
+    <string name="app_ops_turn_on_screen">開啟螢幕</string>
+    <string name="app_ops_get_accounts">裝置帳戶</string>
+    <string name="app_ops_run_in_background">在背景執行</string>
+    <string name="app_ops_accessibility_volume">協助工具音量</string>
+    <string name="app_ops_read_phone_numbers">讀取電話號碼。</string>
+    <string name="app_ops_request_install_packages">安裝套件</string>
+    <string name="app_ops_picture_in_picture">PiP</string>
+    <string name="app_ops_app_start_foreground">開始前景</string>
+    <string name="app_ops_answer_phone_calls">接聽電話</string>
+    <string name="app_ops_boot_completed">自動啟動</string>
+    <!-- Reset battery stats -->
+    <string name="ok">確定</string>
+    <string name="menu_stats_reset">重設統計數據</string>
+    <string name="reset_stats_msg">電池統計數據將會被重設</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">螢幕擷取快門聲</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">裝置已加密</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">裝置已解密</string>
+    <string name="twilight_mode_location_dialog">位置已禁用</string>
+    <string name="twilight_mode_location_disabled">網路存取已關閉。</string>
+    <string name="twilight_mode_location_enable">啟用</string>
+    <!-- Themes -->
+    <string name="themes_title">主題</string>
+    <string name="themes_dashboard_summary">管理您的主題</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">接受所有檔案類型</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">連結鈴聲與通知音量</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋轉</string>
+    <string name="display_rotation_disabled">已停用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+    <!--Build date-->
+    <string name="build_date">建置日期</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">亂序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">快速面部辨識解鎖</string>
+    <string name="face_auto_unlock_summary">使用面部辨識時自動解除鎖定螢幕介面 (必備：GAPPS nano包或以上)</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">在您的手機 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指紋感應器。</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">後面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左側</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右側</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> 是 <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">停用</string>
+    <string name="sim_missing">遺失或毀損</string>
+    <string name="sim_enabler_need_disable_sim">SIM 卡將被停用，您確定要繼續嗎？</string>
+    <string name="sim_enabler_will_disable_sim_title">注意</string>
+    <string name="sim_enabler_need_switch_data_service">此 SIM 卡將被停用，並且將使用 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 於數據服務中，您確定要繼續嗎？</string>
+    <string name="sim_enabler_airplane_on">飛航模式開啟時無法進行此操作。</string>
+    <string name="sim_enabler_in_call">通話時無法進行此操作。</string>
+    <string name="sim_enabler_both_inactive">無法停用所有 SIM 卡</string>
+    <string name="sim_enabler_enabling">正在啟動\u2026</string>
+    <string name="sim_enabler_disabling">停用中\u2026</string>
+    <string name="sub_activate_success">SIM 卡已啟用。</string>
+    <string name="sub_activate_failed">啟用失敗。</string>
+    <string name="sub_deactivate_success">SIM 卡已停用。</string>
+    <string name="sub_deactivate_failed">停用失敗。</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">強制授權每個主題應用程式</string>
+    <string name="force_authorize_substratum_packages_summary">允許來源不明的主題應用程式</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">底層重疊</string>
+    <string name="menu_show_substratum">顯示重疊</string>
+    <string name="menu_hide_substratum">隱藏重疊</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
+    <!-- Search -->
+    <string name="menu_search">搜尋應用程式</string>
+    <string name="menu_search_hint">搜尋應用程式\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">安全性更新</string>
+    <string name="security_dialog_neutral_button">AOSP 安全性更新公告</string>
+    <string name="android_security_title">AOSP 安全性修補程式等級</string>
+    <string name="android_security_summary">Android 安全更新是 Android 平臺和幫助它運行的供應商二進位檔案的補丁的集合。由於這些二進位檔案是閉源的, 我們必須依靠供應商向 OEM 提供和 OEM 提供給使用者, 以便將它們加入我們的建構。由於我們無法控制這一過程, 我們希望明確指出, 我們只更新來自 Android 開源專案中的安全修補程式級別。通常情況下, 供應商安全修補程式級別將是最新的原廠 ROM 上的任何補丁級別。</string>
+    <string name="android_functional_updates_title">功能更新</string>
+    <string name="android_functional_updates_summary">除了 AOSP 安全更新之外, 我們還包括 Google 的功能更新。這些補丁是 Google 除了針對 Pixel 系列設備的安全更新外, 還為解決功能問題 (如連線性、穩定性和性能) 而進行的修補程式。由於我們支援的不僅僅是 Pixel 系列設備, 它們都包含在我們的所有設備中。</string>
+    <string name="vendor_security_title">供應商修補程式級別</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">行動數據</string>
+    <string name="data_usage_app_restrict_data_summary">啟用行動網路</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 資料</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 資料</string>
 </resources>

@@ -17,36 +17,36 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <!--Cardinal-AOSP Version-->
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <!-- Wings Settings -->
-  <!-- Dev Info -->
-  <!-- Advanced night mode brightness -->
-  <!-- Volume settings - Volume adjustment sound -->
-  <!-- OTA -->
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <!-- Reset battery stats -->
-  <!-- Screenshot shutter sound -->
-  <!-- Encryption and credential -->
-  <!-- Themes -->
-  <!-- Quick unlock -->
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <!-- Unlink notification volume -->
-  <!-- Display : Rotation -->
-  <!--Build date-->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Face unlock -->
-  <!-- Format string for fingerprint location message -->
-  <!-- Fingerprint sensor locations -->
-  <!-- Manual provisioning support -->
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Proximity wake -->
-  <!-- Search -->
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <!-- Per-app data restrictions -->
+    <!-- Changelog -->
+    <!--Cardinal-AOSP Version-->
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <!-- Wings Settings -->
+    <!-- Dev Info -->
+    <!-- Advanced night mode brightness -->
+    <!-- Volume settings - Volume adjustment sound -->
+    <!-- OTA -->
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <!-- Reset battery stats -->
+    <!-- Screenshot shutter sound -->
+    <!-- Encryption and credential -->
+    <!-- Themes -->
+    <!-- Quick unlock -->
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <!-- Unlink notification volume -->
+    <!-- Display : Rotation -->
+    <!--Build date-->
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <!-- Face unlock -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Manual provisioning support -->
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
+    <!-- Proximity wake -->
+    <!-- Search -->
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- Per-app data restrictions -->
 </resources>

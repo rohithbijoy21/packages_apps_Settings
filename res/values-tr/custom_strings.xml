@@ -17,244 +17,241 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">Değişiklikler</string>
-  <string name="changelog_custom_summary">Son güncelleme değişiklik listesi</string>
-  <string name="changelog_custom_error">Değişiklik listesi yüklenemedi</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal sürümü</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">Sorumlu</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">Eklentiler</string>
-  <string name="cardinal_settings_activity_summary">Çeşitli özelleştirmeler</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">Hakkımızda</string>
-  <string name="cardinal_about_info_summary_title">Bizim hakkımızda bilgi edinin!</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSP, AOSP temelli özel bir ROM\'dur ve CAF\'in AOSP\'siz cihazları destekleyecek küçük yamaları olan, en zorunlu bazı minimum özelliklere sahip bu ROM\'un temel amacı, mümkün olduğunca AOSP\'ye yakın kalmak, hafif hız performansı sağlamak, pürüzsüzlük ve iyi bir pil yedekleme. Umarız bu projeye bayılacaksınız ve gelecekte daha da iyi şekillendirmemize yardımcı olabilirsiniz.</string>
-  <string name="devs_header">Geliştiriciler</string>
-  <string name="maintainers_header">Sorumlular</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Kurucu/Geliştirici, Kenzo Sorumlusu</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Kurucu/Geliştirici, Mido Sorumlusu</string>
-  <string name="dev_3">Sathish K</string>
-  <string name="dev3_description">Geliştirici, Cheeseburger | Dumpling Sorumlusu</string>
-  <string name="dev_4">Satyabrat Sahoo</string>
-  <string name="dev4_description">Geliştirici, Tissot Sorumlusu</string>
-  <string name="mentions_header">Takdir edilecekler</string>
-  <string name="mentions_vikas">Vikas Kumar</string>
-  <string name="mentions_vikas_description">Yerelleştirme yöneticisi</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">Tasarımcı</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">Duvar kağıdı tasarımcısı</string>
-  <string name="mentions_recenz">Recenz</string>
-  <string name="mentions_recenz_description">Açılış animasyonu tasarımcısı</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
-  <string name="maintainer_sainath_device">OnePlus 3/3T</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham">Subham (Subhaam)</string>
-  <string name="maintainer_subham_device">Kuntao | Whyred</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_sipun_device">Land</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">s2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Parlaklık</string>
-  <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
-  <string name="night_bright_disabled">Devre dışı</string>
-  <string name="night_bright_minimum">Minimum parlaklık</string>
-  <string name="night_bright_low">Düşük parlaklık</string>
-  <string name="night_bright_medium">Orta parlaklık</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">Güncellemeler</string>
-  <string name="cardinal_ota_settings_summary">Yeni güncellemeleri kontrol et!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Konum</string>
-  <string name="app_ops_cat_personal">Kişisel</string>
-  <string name="app_ops_cat_messaging">Mesajlaşma</string>
-  <string name="app_ops_cat_media">Medya</string>
-  <string name="app_ops_cat_device">Cihaz</string>
-  <string name="app_ops_cat_bootup">Açılış</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">kamera</string>
-  <string name="app_ops_access_gps">gps</string>
-  <string name="app_ops_access_coarse_location">yaklaşık konum</string>
-  <string name="app_ops_access_fine_location">kesin konum</string>
-  <string name="app_ops_access_monitor_location">konumu izle</string>
-  <string name="app_ops_monitor_high_power_location">yüksek güç konumu izle</string>
-  <string name="app_ops_neighboring_cells">hücre tarama</string>
-  <string name="app_ops_access_notifications">bildirimler</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">otomatik başlatma</string>
-  <string name="app_ops_delete_call_log">arama günlüğünü sil</string>
-  <string name="app_ops_delete_contacts">kişileri sil</string>
-  <string name="app_ops_delete_mms">MMS sil</string>
-  <string name="app_ops_delete_sms">SMS sil</string>
-  <string name="app_ops_draw_on_top">üstüne çiz</string>
-  <string name="app_ops_get_usage_stats">kullanım istatistikleri elde et</string>
-  <string name="app_ops_keep_device_awake">uyanık tut</string>
-  <string name="app_ops_make_phone_call">arama yap</string>
-  <string name="app_ops_modify_calendar">takvimi güncelle</string>
-  <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
-  <string name="app_ops_modify_clipboard">panoyu düzenle</string>
-  <string name="app_ops_modify_contacts">kişileri güncelle</string>
-  <string name="app_ops_modify_settings">ayarları güncelle</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofonu kapat/aç</string>
-  <string name="app_ops_play_audio">sesi oynat</string>
-  <string name="app_ops_post_notification">bildirim gönder</string>
-  <string name="app_ops_project_media">proje medyası</string>
-  <string name="app_ops_read_calendar">takvimi oku</string>
-  <string name="app_ops_read_call_log">çağrı kaydını oku</string>
-  <string name="app_ops_read_clipboard">panoyu oku</string>
-  <string name="app_ops_read_contacts">kişileri oku</string>
-  <string name="app_ops_read_mms">MMS oku</string>
-  <string name="app_ops_read_sms">SMS oku</string>
-  <string name="app_ops_receive_sms">SMS al</string>
-  <string name="app_ops_record_audio">ses kaydetme</string>
-  <string name="app_ops_send_mms">MMS gönder</string>
-  <string name="app_ops_send_sms">SMS gönder</string>
-  <string name="app_ops_toast_window">toast mesajları</string>
-  <string name="app_ops_use_alarm_volume">alarm sesi seviyesi</string>
-  <string name="app_ops_use_audio_focus">ses odağı</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth ses seviyesi</string>
-  <string name="app_ops_use_master_volume">ana ses seviyesi</string>
-  <string name="app_ops_use_media_buttons">medya tuşları</string>
-  <string name="app_ops_use_media_volume">medya ses seviyesi</string>
-  <string name="app_ops_use_notification_volume">bildirim ses seviyesi</string>
-  <string name="app_ops_use_ring_volume">zil sesi seviyesi</string>
-  <string name="app_ops_use_vibrate">dokunsal geri bildirim</string>
-  <string name="app_ops_use_voice_volume">sesli arama ses seviyesi</string>
-  <string name="app_ops_write_mms">MMS yaz</string>
-  <string name="app_ops_write_sms">SMS yaz</string>
-  <string name="app_ops_use_fingerprint">parmak izi</string>
-  <string name="app_ops_add_voicemail">sesli mesaj</string>
-  <string name="app_ops_read_phone_state">telefon durumuna erişme</string>
-  <string name="app_ops_scan_wifi">Wifi ağlarını tara</string>
-  <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
-  <string name="app_ops_assist_structure">yardımcı yapısı</string>
-  <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
-  <string name="app_ops_use_body_sensors">vücut sensörleri</string>
-  <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
-  <string name="app_ops_mock_location">sahte konum</string>
-  <string name="app_ops_read_external_storage">harici depolamayı oku.</string>
-  <string name="app_ops_write_external_storage">harici depolamaya yaz.</string>
-  <string name="app_ops_turn_on_screen">ekranı aç</string>
-  <string name="app_ops_get_accounts">cihaz hesapları</string>
-  <string name="app_ops_run_in_background">arka planda çalıştır</string>
-  <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
-  <string name="app_ops_read_phone_numbers">telefon numarasını oku.</string>
-  <string name="app_ops_request_install_packages">paketleri yükle</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">ön planda başlat</string>
-  <string name="app_ops_answer_phone_calls">çağrıya cevap ver</string>
-  <string name="app_ops_boot_completed">otomatik başlat</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Tamam</string>
-  <string name="menu_stats_reset">İstatistikleri sıfırla</string>
-  <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlanacak</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">Telefon şifreli</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Telefon şifreli değil</string>
-  <string name="twilight_mode_location_dialog">Konum devre dışı</string>
-  <string name="twilight_mode_location_disabled">Konuma erişimi devre dışı</string>
-  <string name="twilight_mode_location_enable">Etkinleştir</string>
-  <!-- Themes -->
-  <string name="themes_title">Temalar</string>
-  <string name="themes_dashboard_summary">Temalarınızı yönetin</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
-  <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">Tüm dosya türlerini kabul et</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">Döndürme</string>
-  <string name="display_rotation_disabled">Devre dışı</string>
-  <string name="display_rotation_unit">dereceler</string>
-  <string name="display_rotation_category_title">Döndürme modları</string>
-  <string name="display_rotation_0_title">0 derece</string>
-  <string name="display_rotation_90_title">90 derece</string>
-  <string name="display_rotation_180_title">180 derece</string>
-  <string name="display_rotation_270_title">270 derece</string>
-  <!--Build date-->
-  <string name="build_date">Yapı tarihi</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
-  <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştırır</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">Otomatik kilit açma</string>
-  <string name="face_auto_unlock_summary">Yüz kilidini kullanırken kilit ekranını otomatik olarak kapat (Not: Gapps nano paketi veya üzeri)</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun üzerinde bulunan <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">arka</string>
-  <string name="security_settings_fingerprint_sensor_location_front">ön</string>
-  <string name="security_settings_fingerprint_sensor_location_left">sol taraf</string>
-  <string name="security_settings_fingerprint_sensor_location_right">sağ taraf</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">devre dışı</string>
-  <string name="sim_missing">eksik veya hatalı</string>
-  <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istiyor musunuz?</string>
-  <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
-  <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri hizmetleri için kullanılacak. Devam etmek istediğinizden emin misiniz?</string>
-  <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
-  <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
-  <string name="sim_enabler_both_inactive">Tüm SIM kartları devre dışı bırakılamıyor</string>
-  <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
-  <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
-  <string name="sub_activate_success">SIM etkinleştirildi.</string>
-  <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
-  <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
-  <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Her tema uygulamasını zorla yetkilendir</string>
-  <string name="force_authorize_substratum_packages_summary">Bilinmeyen kaynaklardan tema uygulamalarına izin ver</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum temaları</string>
-  <string name="menu_show_substratum">Temaları göster</string>
-  <string name="menu_hide_substratum">Temaları gizle</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
-  <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
-  <!-- Search -->
-  <string name="menu_search">Uygulamalar ara</string>
-  <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">Güvenlik güncellemeleri</string>
-  <string name="security_dialog_neutral_button">AOSP Güvenlik Bültenleri</string>
-  <string name="android_security_title">AOSP güvenlik yaması düzeyi</string>
-  <string name="android_security_summary">Android güvenlik güncellemeleri, Android platformuna ve çalıştırılmasına yardımcı olan üretici ikili dosyalarına ait bir yamalar koleksiyonudur. Bu ikili dosyalar kapalı kaynak olduğundan, OEM\'lerİ tedarik etmek için satıcılara güvenmek zorundayız ve OEM\'leri kullanıcılara gönderecek ve bu sayede bunları oluşturduğumuz yapılara ekleyebileceğiz. Bu süreci hiçbir şekilde kontrol edemediğimizden, Android Açık Kaynak Projesinden gelen depolardan yalnızca güvenlik düzeltme ekini güncellediğimizi açıklığa kavuşturmak istiyoruz. Genel olarak, satıcı güvenlik yaması seviyesi, en yeni stok ROM\'unun hangi yama seviyesinde olursa olsun olacaktır.</string>
-  <string name="android_functional_updates_title">Fonksiyonel güncellemeler</string>
-  <string name="android_functional_updates_summary">AOSP güvenlik güncellemelerine ek olarak, Google\'ın işlevsel güncellemelerini de içerir. Bunlar, Google\'ın, bağlantı, kararlılık ve performans gibi işlevsellik sorunlarını gidermek adına Pixel cihazları için güvenlik güncellemelerine ek olarak uyguladığı yamalardır. Sadece Pixel cihazlarından daha fazlasını desteklediğimizden, tüm cihazlarımıza dahil edilir.</string>
-  <string name="vendor_security_title">Üretici yaması düzeyi</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Hücresel veri</string>
-  <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
-  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">Değişiklikler</string>
+    <string name="changelog_custom_summary">Son güncelleme değişiklik listesi</string>
+    <string name="changelog_custom_error">Değişiklik listesi yüklenemedi</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Cardinal sürümü</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">Sorumlu</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">Eklentiler</string>
+    <string name="cardinal_settings_activity_summary">Çeşitli özelleştirmeler</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">Hakkımızda</string>
+    <string name="cardinal_about_info_summary_title">Bizim hakkımızda bilgi edinin!</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP, AOSP temelli özel bir ROM\'dur ve CAF\'in AOSP\'siz cihazları destekleyecek küçük yamaları olan, en zorunlu bazı minimum özelliklere sahip bu ROM\'un temel amacı, mümkün olduğunca AOSP\'ye yakın kalmak, hafif hız performansı sağlamak, pürüzsüzlük ve iyi bir pil yedekleme. Umarız bu projeye bayılacaksınız ve gelecekte daha da iyi şekillendirmemize yardımcı olabilirsiniz.</string>
+    <string name="devs_header">Geliştiriciler</string>
+    <string name="maintainers_header">Sorumlular</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Kurucu/Geliştirici, Kenzo Sorumlusu</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">Kurucu/Geliştirici, Mido Sorumlusu</string>
+    <string name="dev_3">Sathish K</string>
+    <string name="dev3_description">Geliştirici, Cheeseburger | Dumpling Sorumlusu</string>
+    <string name="dev_4">Satyabrat Sahoo</string>
+    <string name="dev4_description">Geliştirici, Tissot Sorumlusu</string>
+    <string name="mentions_header">Takdir edilecekler</string>
+    <string name="mentions_vikas">Vikas Kumar</string>
+    <string name="mentions_vikas_description">Yerelleştirme yöneticisi</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">Tasarımcı</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">Duvar kağıdı tasarımcısı</string>
+    <string name="mentions_recenz">Recenz</string>
+    <string name="mentions_recenz_description">Açılış animasyonu tasarımcısı</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo</string>
+    <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_subham">Subham (Subhaam)</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Parlaklık</string>
+    <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
+    <string name="night_bright_disabled">Devre dışı</string>
+    <string name="night_bright_minimum">Minimum parlaklık</string>
+    <string name="night_bright_low">Düşük parlaklık</string>
+    <string name="night_bright_medium">Orta parlaklık</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">Güncellemeler</string>
+    <string name="cardinal_ota_settings_summary">Yeni güncellemeleri kontrol et!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Konum</string>
+    <string name="app_ops_cat_personal">Kişisel</string>
+    <string name="app_ops_cat_messaging">Mesajlaşma</string>
+    <string name="app_ops_cat_media">Medya</string>
+    <string name="app_ops_cat_device">Cihaz</string>
+    <string name="app_ops_cat_bootup">Açılış</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_access_gps">gps</string>
+    <string name="app_ops_access_coarse_location">yaklaşık konum</string>
+    <string name="app_ops_access_fine_location">kesin konum</string>
+    <string name="app_ops_access_monitor_location">konumu izle</string>
+    <string name="app_ops_monitor_high_power_location">yüksek güç konumu izle</string>
+    <string name="app_ops_neighboring_cells">hücre tarama</string>
+    <string name="app_ops_access_notifications">bildirimler</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">otomatik başlatma</string>
+    <string name="app_ops_delete_call_log">arama günlüğünü sil</string>
+    <string name="app_ops_delete_contacts">kişileri sil</string>
+    <string name="app_ops_delete_mms">MMS sil</string>
+    <string name="app_ops_delete_sms">SMS sil</string>
+    <string name="app_ops_draw_on_top">üstüne çiz</string>
+    <string name="app_ops_get_usage_stats">kullanım istatistikleri elde et</string>
+    <string name="app_ops_keep_device_awake">uyanık tut</string>
+    <string name="app_ops_make_phone_call">arama yap</string>
+    <string name="app_ops_modify_calendar">takvimi güncelle</string>
+    <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
+    <string name="app_ops_modify_clipboard">panoyu düzenle</string>
+    <string name="app_ops_modify_contacts">kişileri güncelle</string>
+    <string name="app_ops_modify_settings">ayarları güncelle</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofonu kapat/aç</string>
+    <string name="app_ops_play_audio">sesi oynat</string>
+    <string name="app_ops_post_notification">bildirim gönder</string>
+    <string name="app_ops_project_media">proje medyası</string>
+    <string name="app_ops_read_calendar">takvimi oku</string>
+    <string name="app_ops_read_call_log">çağrı kaydını oku</string>
+    <string name="app_ops_read_clipboard">panoyu oku</string>
+    <string name="app_ops_read_contacts">kişileri oku</string>
+    <string name="app_ops_read_mms">MMS oku</string>
+    <string name="app_ops_read_sms">SMS oku</string>
+    <string name="app_ops_receive_sms">SMS al</string>
+    <string name="app_ops_record_audio">ses kaydetme</string>
+    <string name="app_ops_send_mms">MMS gönder</string>
+    <string name="app_ops_send_sms">SMS gönder</string>
+    <string name="app_ops_toast_window">toast mesajları</string>
+    <string name="app_ops_use_alarm_volume">alarm sesi seviyesi</string>
+    <string name="app_ops_use_audio_focus">ses odağı</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth ses seviyesi</string>
+    <string name="app_ops_use_master_volume">ana ses seviyesi</string>
+    <string name="app_ops_use_media_buttons">medya tuşları</string>
+    <string name="app_ops_use_media_volume">medya ses seviyesi</string>
+    <string name="app_ops_use_notification_volume">bildirim ses seviyesi</string>
+    <string name="app_ops_use_ring_volume">zil sesi seviyesi</string>
+    <string name="app_ops_use_vibrate">dokunsal geri bildirim</string>
+    <string name="app_ops_use_voice_volume">sesli arama ses seviyesi</string>
+    <string name="app_ops_write_mms">MMS yaz</string>
+    <string name="app_ops_write_sms">SMS yaz</string>
+    <string name="app_ops_use_fingerprint">parmak izi</string>
+    <string name="app_ops_add_voicemail">sesli mesaj</string>
+    <string name="app_ops_read_phone_state">telefon durumuna erişme</string>
+    <string name="app_ops_scan_wifi">Wifi ağlarını tara</string>
+    <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
+    <string name="app_ops_assist_structure">yardımcı yapısı</string>
+    <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
+    <string name="app_ops_use_body_sensors">vücut sensörleri</string>
+    <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
+    <string name="app_ops_mock_location">sahte konum</string>
+    <string name="app_ops_read_external_storage">harici depolamayı oku.</string>
+    <string name="app_ops_write_external_storage">harici depolamaya yaz.</string>
+    <string name="app_ops_turn_on_screen">ekranı aç</string>
+    <string name="app_ops_get_accounts">cihaz hesapları</string>
+    <string name="app_ops_run_in_background">arka planda çalıştır</string>
+    <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
+    <string name="app_ops_read_phone_numbers">telefon numarasını oku.</string>
+    <string name="app_ops_request_install_packages">paketleri yükle</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">ön planda başlat</string>
+    <string name="app_ops_answer_phone_calls">çağrıya cevap ver</string>
+    <string name="app_ops_boot_completed">otomatik başlat</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Tamam</string>
+    <string name="menu_stats_reset">İstatistikleri sıfırla</string>
+    <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlanacak</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Telefon şifreli</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Telefon şifreli değil</string>
+    <string name="twilight_mode_location_dialog">Konum devre dışı</string>
+    <string name="twilight_mode_location_disabled">Konuma erişimi devre dışı</string>
+    <string name="twilight_mode_location_enable">Etkinleştir</string>
+    <!-- Themes -->
+    <string name="themes_title">Temalar</string>
+    <string name="themes_dashboard_summary">Temalarınızı yönetin</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Tüm dosya türlerini kabul et</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme</string>
+    <string name="display_rotation_disabled">Devre dışı</string>
+    <string name="display_rotation_unit">dereceler</string>
+    <string name="display_rotation_category_title">Döndürme modları</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
+    <!--Build date-->
+    <string name="build_date">Yapı tarihi</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştırır</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">Otomatik kilit açma</string>
+    <string name="face_auto_unlock_summary">Yüz kilidini kullanırken kilit ekranını otomatik olarak kapat (Not: Gapps nano paketi veya üzeri)</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun üzerinde bulunan <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">arka</string>
+    <string name="security_settings_fingerprint_sensor_location_front">ön</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sol taraf</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sağ taraf</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">devre dışı</string>
+    <string name="sim_missing">eksik veya hatalı</string>
+    <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istiyor musunuz?</string>
+    <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
+    <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri hizmetleri için kullanılacak. Devam etmek istediğinizden emin misiniz?</string>
+    <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
+    <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
+    <string name="sim_enabler_both_inactive">Tüm SIM kartları devre dışı bırakılamıyor</string>
+    <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
+    <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
+    <string name="sub_activate_success">SIM etkinleştirildi.</string>
+    <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
+    <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
+    <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Her tema uygulamasını zorla yetkilendir</string>
+    <string name="force_authorize_substratum_packages_summary">Bilinmeyen kaynaklardan tema uygulamalarına izin ver</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum temaları</string>
+    <string name="menu_show_substratum">Temaları göster</string>
+    <string name="menu_hide_substratum">Temaları gizle</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
+    <!-- Search -->
+    <string name="menu_search">Uygulamalar ara</string>
+    <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">Güvenlik güncellemeleri</string>
+    <string name="security_dialog_neutral_button">AOSP Güvenlik Bültenleri</string>
+    <string name="android_security_title">AOSP güvenlik yaması düzeyi</string>
+    <string name="android_security_summary">Android güvenlik güncellemeleri, Android platformuna ve çalıştırılmasına yardımcı olan üretici ikili dosyalarına ait bir yamalar koleksiyonudur. Bu ikili dosyalar kapalı kaynak olduğundan, OEM\'lerİ tedarik etmek için satıcılara güvenmek zorundayız ve OEM\'leri kullanıcılara gönderecek ve bu sayede bunları oluşturduğumuz yapılara ekleyebileceğiz. Bu süreci hiçbir şekilde kontrol edemediğimizden, Android Açık Kaynak Projesinden gelen depolardan yalnızca güvenlik düzeltme ekini güncellediğimizi açıklığa kavuşturmak istiyoruz. Genel olarak, satıcı güvenlik yaması seviyesi, en yeni stok ROM\'unun hangi yama seviyesinde olursa olsun olacaktır.</string>
+    <string name="android_functional_updates_title">Fonksiyonel güncellemeler</string>
+    <string name="android_functional_updates_summary">AOSP güvenlik güncellemelerine ek olarak, Google\'ın işlevsel güncellemelerini de içerir. Bunlar, Google\'ın, bağlantı, kararlılık ve performans gibi işlevsellik sorunlarını gidermek adına Pixel cihazları için güvenlik güncellemelerine ek olarak uyguladığı yamalardır. Sadece Pixel cihazlarından daha fazlasını desteklediğimizden, tüm cihazlarımıza dahil edilir.</string>
+    <string name="vendor_security_title">Üretici yaması düzeyi</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Hücresel veri</string>
+    <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
 </resources>

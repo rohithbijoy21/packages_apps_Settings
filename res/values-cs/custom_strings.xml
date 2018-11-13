@@ -17,244 +17,241 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">Seznam změn</string>
-  <string name="changelog_custom_summary">Seznam změn od posledního sestavení</string>
-  <string name="changelog_custom_error">Nelze načíst seznam změn</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Verze Cardinal-AOSP</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">Správce</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">The Wings!</string>
-  <string name="cardinal_settings_activity_summary">Další přizpůsobení</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">O projektu</string>
-  <string name="cardinal_about_info_summary_title">Zjistěte o nás více!</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSP je Custom ROM založená na AOSP, s malými úpravami od CAF k podpoře zařízení Non- AOSP s některými nejvíce požadovanými minimálními funkcemi. Hlavním cílem této ROM je zůstat co nejblíže AOSP, hladkost a dobrá výdrž baterie. Doufáme, že si tento projekt zamilujete a pomůžete nám ho zdokonalit.</string>
-  <string name="devs_header">Vývojáři</string>
-  <string name="maintainers_header">Správci</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Zakladatel/vývojář, spoluzakladatel Kenzo</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Spoluzakladatel/vývojář, spolusprávce Mido</string>
-  <string name="dev_3">Sathish K</string>
-  <string name="dev3_description">Vývojář, Cheeseburger | Správce, Dumpling</string>
-  <string name="dev_4">Satyabrat Sahoo</string>
-  <string name="dev4_description">Vývojář, správce Tissot</string>
-  <string name="mentions_header">Čestná uznání</string>
-  <string name="mentions_vikas">Vikas Kumar</string>
-  <string name="mentions_vikas_description">Manažer lokalizace</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">Designér</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">Designér tapet</string>
-  <string name="mentions_recenz">Recenz</string>
-  <string name="mentions_recenz_description">Designér spouštěcí animace</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
-  <string name="maintainer_sainath_device">OnePlus 3/3T</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_subham">Subham (Subhaam)</string>
-  <string name="maintainer_subham_device">Kuntao | Whyred</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_sipun_device">Land</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">s2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Jas</string>
-  <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
-  <string name="night_bright_disabled">Vypnuto</string>
-  <string name="night_bright_minimum">Minimální jas</string>
-  <string name="night_bright_low">Nízký jas</string>
-  <string name="night_bright_medium">Střední jas</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Zvuk při změně hlasitosti</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA aktualizace</string>
-  <string name="cardinal_ota_settings_summary">Zkontrolovat nové aktualizace!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Poloha</string>
-  <string name="app_ops_cat_personal">Osobní</string>
-  <string name="app_ops_cat_messaging">Zasílání zpráv</string>
-  <string name="app_ops_cat_media">Média</string>
-  <string name="app_ops_cat_device">Zařízení</string>
-  <string name="app_ops_cat_bootup">Při startu</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">fotoaparát</string>
-  <string name="app_ops_access_gps">gps</string>
-  <string name="app_ops_access_coarse_location">přibližná poloha</string>
-  <string name="app_ops_access_fine_location">přesná poloha</string>
-  <string name="app_ops_access_monitor_location">sledovat polohu</string>
-  <string name="app_ops_monitor_high_power_location">sledovat polohu v režimu vysoké spotřeby</string>
-  <string name="app_ops_neighboring_cells">hledat buňky</string>
-  <string name="app_ops_access_notifications">oznámení</string>
-  <string name="app_ops_activate_vpn">Síť VPN</string>
-  <string name="app_ops_auto_start">automatické spuštění</string>
-  <string name="app_ops_delete_call_log">smazat výpis hovorů</string>
-  <string name="app_ops_delete_contacts">smazat kontakty</string>
-  <string name="app_ops_delete_mms">smazat MMS</string>
-  <string name="app_ops_delete_sms">smazat SMS</string>
-  <string name="app_ops_draw_on_top">vykreslení do nejvyšší vrstvy</string>
-  <string name="app_ops_get_usage_stats">získat statistiky používání</string>
-  <string name="app_ops_keep_device_awake">udržet probuzené</string>
-  <string name="app_ops_make_phone_call">uskutečnit hovor</string>
-  <string name="app_ops_modify_calendar">aktualizovat kalendář</string>
-  <string name="app_ops_modify_call_log">aktualizovat záznam hovoru</string>
-  <string name="app_ops_modify_clipboard">měnit schránku</string>
-  <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
-  <string name="app_ops_modify_settings">aktualizovat nastavení</string>
-  <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
-  <string name="app_ops_play_audio">přehrávat zvuk</string>
-  <string name="app_ops_post_notification">posílat upozornění</string>
-  <string name="app_ops_project_media">projekce médií</string>
-  <string name="app_ops_read_calendar">číst kalendář</string>
-  <string name="app_ops_read_call_log">číst seznamu hovorů</string>
-  <string name="app_ops_read_clipboard">číst schránku</string>
-  <string name="app_ops_read_contacts">číst kontakty</string>
-  <string name="app_ops_read_mms">číst MMS</string>
-  <string name="app_ops_read_sms">číst SMS</string>
-  <string name="app_ops_receive_sms">příjem SMS</string>
-  <string name="app_ops_record_audio">nahrávat zvuk</string>
-  <string name="app_ops_send_mms">poslat MMS</string>
-  <string name="app_ops_send_sms">poslat SMS</string>
-  <string name="app_ops_toast_window">informační text</string>
-  <string name="app_ops_use_alarm_volume">hlasitost budíku</string>
-  <string name="app_ops_use_audio_focus">zvukové zdroje</string>
-  <string name="app_ops_use_bluetooth_volume">Hlasitost Bluetooth</string>
-  <string name="app_ops_use_master_volume">hlavní hlasitost</string>
-  <string name="app_ops_use_media_buttons">tlačítka médií</string>
-  <string name="app_ops_use_media_volume">hlasitost médií</string>
-  <string name="app_ops_use_notification_volume">hlasitost upozornění</string>
-  <string name="app_ops_use_ring_volume">hlasitost vyzvánění</string>
-  <string name="app_ops_use_vibrate">hmatová odezva</string>
-  <string name="app_ops_use_voice_volume">hlasitost hovoru</string>
-  <string name="app_ops_write_mms">vytvořit MMS</string>
-  <string name="app_ops_write_sms">psát SMS</string>
-  <string name="app_ops_use_fingerprint">otisk prstu</string>
-  <string name="app_ops_add_voicemail">hlasová schránka</string>
-  <string name="app_ops_read_phone_state">přístup ke stavu telefonu</string>
-  <string name="app_ops_scan_wifi">Prohledat WiFi sítě</string>
-  <string name="app_ops_change_wallpaper">změnit tapetu</string>
-  <string name="app_ops_assist_structure">asistenční struktura</string>
-  <string name="app_ops_assist_screenshot">snímek obrazovky</string>
-  <string name="app_ops_use_body_sensors">tělesné senzory</string>
-  <string name="app_ops_read_cell_broadcasts">vysílání buněk</string>
-  <string name="app_ops_mock_location">falešná poloha</string>
-  <string name="app_ops_read_external_storage">číst ext. úložiště</string>
-  <string name="app_ops_write_external_storage">psát do ext. úložiště</string>
-  <string name="app_ops_turn_on_screen">zapnout obrazovku</string>
-  <string name="app_ops_get_accounts">účty zařízení</string>
-  <string name="app_ops_run_in_background">spustit na pozadí</string>
-  <string name="app_ops_accessibility_volume">přístup hlasitosti</string>
-  <string name="app_ops_read_phone_numbers">číst tel. čísla</string>
-  <string name="app_ops_request_install_packages">instalovat balíčky</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">spustit na popředí</string>
-  <string name="app_ops_answer_phone_calls">odpovědět na hovor</string>
-  <string name="app_ops_boot_completed">spustit při startu</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Ok</string>
-  <string name="menu_stats_reset">Vynulovat statistiky</string>
-  <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Zvuk př pořízení snímku obrazovky</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">Zařízení je šifrováno</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Zařízení je dešifrováno</string>
-  <string name="twilight_mode_location_dialog">Poloha je zakázána</string>
-  <string name="twilight_mode_location_disabled">Přístup k poloze je zakázán</string>
-  <string name="twilight_mode_location_enable">Povolit</string>
-  <!-- Themes -->
-  <string name="themes_title">Motivy</string>
-  <string name="themes_dashboard_summary">Spravovat motivy</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
-  <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">Přijmout všechny typy souborů</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">Spojit hlasitost vyzvánění a oznámení</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">Otáčení</string>
-  <string name="display_rotation_disabled">Vypnuto</string>
-  <string name="display_rotation_unit">stupně</string>
-  <string name="display_rotation_category_title">Režimy otáčení</string>
-  <string name="display_rotation_0_title">0 stupňů</string>
-  <string name="display_rotation_90_title">90 stupňů</string>
-  <string name="display_rotation_180_title">180 stupňů</string>
-  <string name="display_rotation_270_title">270 stupňů</string>
-  <!--Build date-->
-  <string name="build_date">Datum sestavení</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
-  <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">Rychlé odemčení pomocí obličeje</string>
-  <string name="face_auto_unlock_summary">Automatické přeskočení zamykací obrazovky při odemknutí obličejem (NUTNOST: použít GApps nano nebo vyšší)</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na telefonu.</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
-  <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
-  <string name="security_settings_fingerprint_sensor_location_left">levá strana</string>
-  <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">zakazano</string>
-  <string name="sim_missing">chybějící nebo vadná</string>
-  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
-  <string name="sim_enabler_will_disable_sim_title">Varování</string>
-  <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
-  <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
-  <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
-  <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
-  <string name="sim_enabler_enabling">Aktivování\u2026</string>
-  <string name="sim_enabler_disabling">Deaktivování\u2026</string>
-  <string name="sub_activate_success">SIM karta aktivována.</string>
-  <string name="sub_activate_failed">Aktivace selhala.</string>
-  <string name="sub_deactivate_success">SIM karta deaktivována.</string>
-  <string name="sub_deactivate_failed">Deaktivace selhala.</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Vyžadovat povolení pro každý motiv</string>
-  <string name="force_authorize_substratum_packages_summary">Povolit instalaci motivů z neznámých zdrojů</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum překrytí</string>
-  <string name="menu_show_substratum">Zobrazit překrytí</string>
-  <string name="menu_hide_substratum">Skrýt překrytí</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
-  <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
-  <!-- Search -->
-  <string name="menu_search">Vyhledávání aplikací</string>
-  <string name="menu_search_hint">Hledání aplikací\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">Bezpečnostní aktualizace</string>
-  <string name="security_dialog_neutral_button">Bezpečnostní bulletiny AOSP</string>
-  <string name="android_security_title">Úroveň opravy zabezpečení AOSP</string>
-  <string name="android_security_summary">Aktualizace zabezpečení systému Android představují sadu náplastí platformy Android a binárních souborů dodavatelů, které jí pomáhají spouštět. Vzhledem k tomu, že tyto binární soubory jsou uzavřený zdroj, musíme spoléhat na dodavatele, aby je dodávali výrobcům OEM a výrobci OEM je odesílali uživatelům a my je tak můžeme přidat do našich sestav. Jelikož tento proces vůbec neumíme řídit, chceme jasně uvést, že aktualizujeme úroveň opravy zabezpečení pouze v repozitářích, které pocházejí z Android Open Source Project. Obecně platí, že úroveň opravy zabezpečení dodavatele bude bez ohledu na úroveň opravy zabezpečení, která je v nejnovějším sestavení ROM.</string>
-  <string name="android_functional_updates_title">Účelné aktualizace</string>
-  <string name="android_functional_updates_summary">Kromě bezpečnostních aktualizací AOSP provádíme také účelné aktualizace Google. Jedná se o bezpečnostní záplaty, které Google vypouští pro své zařízení Pixel. Tyto záplaty řeší problém s funkčností, připojením, stabilitou a výkonem. Jelikož podporujeme více než jen zařízení Pixel, jsou tyto záplaty součástí všech našich podporovaných zařízení.</string>
-  <string name="vendor_security_title">Úroveň opravy dodavatele</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Mobilní data</string>
-  <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">Seznam změn</string>
+    <string name="changelog_custom_summary">Seznam změn od posledního sestavení</string>
+    <string name="changelog_custom_error">Nelze načíst seznam změn</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Verze Cardinal-AOSP</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">Správce</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">The Wings!</string>
+    <string name="cardinal_settings_activity_summary">Další přizpůsobení</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">O projektu</string>
+    <string name="cardinal_about_info_summary_title">Zjistěte o nás více!</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP je Custom ROM založená na AOSP, s malými úpravami od CAF k podpoře zařízení Non- AOSP s některými nejvíce požadovanými minimálními funkcemi. Hlavním cílem této ROM je zůstat co nejblíže AOSP, hladkost a dobrá výdrž baterie. Doufáme, že si tento projekt zamilujete a pomůžete nám ho zdokonalit.</string>
+    <string name="devs_header">Vývojáři</string>
+    <string name="maintainers_header">Správci</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Zakladatel/vývojář, spoluzakladatel Kenzo</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">Spoluzakladatel/vývojář, spolusprávce Mido</string>
+    <string name="dev_3">Sathish K</string>
+    <string name="dev3_description">Vývojář, Cheeseburger | Správce, Dumpling</string>
+    <string name="dev_4">Satyabrat Sahoo</string>
+    <string name="dev4_description">Vývojář, správce Tissot</string>
+    <string name="mentions_header">Čestná uznání</string>
+    <string name="mentions_vikas">Vikas Kumar</string>
+    <string name="mentions_vikas_description">Manažer lokalizace</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">Designér</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">Designér tapet</string>
+    <string name="mentions_recenz">Recenz</string>
+    <string name="mentions_recenz_description">Designér spouštěcí animace</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo</string>
+    <string name="maintainer_sainath">Thalatam Sainath (Flashrender)</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_subham">Subham (Subhaam)</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jas</string>
+    <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
+    <string name="night_bright_disabled">Vypnuto</string>
+    <string name="night_bright_minimum">Minimální jas</string>
+    <string name="night_bright_low">Nízký jas</string>
+    <string name="night_bright_medium">Střední jas</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Zvuk při změně hlasitosti</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA aktualizace</string>
+    <string name="cardinal_ota_settings_summary">Zkontrolovat nové aktualizace!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Poloha</string>
+    <string name="app_ops_cat_personal">Osobní</string>
+    <string name="app_ops_cat_messaging">Zasílání zpráv</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Zařízení</string>
+    <string name="app_ops_cat_bootup">Při startu</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">fotoaparát</string>
+    <string name="app_ops_access_gps">gps</string>
+    <string name="app_ops_access_coarse_location">přibližná poloha</string>
+    <string name="app_ops_access_fine_location">přesná poloha</string>
+    <string name="app_ops_access_monitor_location">sledovat polohu</string>
+    <string name="app_ops_monitor_high_power_location">sledovat polohu v režimu vysoké spotřeby</string>
+    <string name="app_ops_neighboring_cells">hledat buňky</string>
+    <string name="app_ops_access_notifications">oznámení</string>
+    <string name="app_ops_activate_vpn">Síť VPN</string>
+    <string name="app_ops_auto_start">automatické spuštění</string>
+    <string name="app_ops_delete_call_log">smazat výpis hovorů</string>
+    <string name="app_ops_delete_contacts">smazat kontakty</string>
+    <string name="app_ops_delete_mms">smazat MMS</string>
+    <string name="app_ops_delete_sms">smazat SMS</string>
+    <string name="app_ops_draw_on_top">vykreslení do nejvyšší vrstvy</string>
+    <string name="app_ops_get_usage_stats">získat statistiky používání</string>
+    <string name="app_ops_keep_device_awake">udržet probuzené</string>
+    <string name="app_ops_make_phone_call">uskutečnit hovor</string>
+    <string name="app_ops_modify_calendar">aktualizovat kalendář</string>
+    <string name="app_ops_modify_call_log">aktualizovat záznam hovoru</string>
+    <string name="app_ops_modify_clipboard">měnit schránku</string>
+    <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
+    <string name="app_ops_modify_settings">aktualizovat nastavení</string>
+    <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
+    <string name="app_ops_play_audio">přehrávat zvuk</string>
+    <string name="app_ops_post_notification">posílat upozornění</string>
+    <string name="app_ops_project_media">projekce médií</string>
+    <string name="app_ops_read_calendar">číst kalendář</string>
+    <string name="app_ops_read_call_log">číst seznamu hovorů</string>
+    <string name="app_ops_read_clipboard">číst schránku</string>
+    <string name="app_ops_read_contacts">číst kontakty</string>
+    <string name="app_ops_read_mms">číst MMS</string>
+    <string name="app_ops_read_sms">číst SMS</string>
+    <string name="app_ops_receive_sms">příjem SMS</string>
+    <string name="app_ops_record_audio">nahrávat zvuk</string>
+    <string name="app_ops_send_mms">poslat MMS</string>
+    <string name="app_ops_send_sms">poslat SMS</string>
+    <string name="app_ops_toast_window">informační text</string>
+    <string name="app_ops_use_alarm_volume">hlasitost budíku</string>
+    <string name="app_ops_use_audio_focus">zvukové zdroje</string>
+    <string name="app_ops_use_bluetooth_volume">Hlasitost Bluetooth</string>
+    <string name="app_ops_use_master_volume">hlavní hlasitost</string>
+    <string name="app_ops_use_media_buttons">tlačítka médií</string>
+    <string name="app_ops_use_media_volume">hlasitost médií</string>
+    <string name="app_ops_use_notification_volume">hlasitost upozornění</string>
+    <string name="app_ops_use_ring_volume">hlasitost vyzvánění</string>
+    <string name="app_ops_use_vibrate">hmatová odezva</string>
+    <string name="app_ops_use_voice_volume">hlasitost hovoru</string>
+    <string name="app_ops_write_mms">vytvořit MMS</string>
+    <string name="app_ops_write_sms">psát SMS</string>
+    <string name="app_ops_use_fingerprint">otisk prstu</string>
+    <string name="app_ops_add_voicemail">hlasová schránka</string>
+    <string name="app_ops_read_phone_state">přístup ke stavu telefonu</string>
+    <string name="app_ops_scan_wifi">Prohledat WiFi sítě</string>
+    <string name="app_ops_change_wallpaper">změnit tapetu</string>
+    <string name="app_ops_assist_structure">asistenční struktura</string>
+    <string name="app_ops_assist_screenshot">snímek obrazovky</string>
+    <string name="app_ops_use_body_sensors">tělesné senzory</string>
+    <string name="app_ops_read_cell_broadcasts">vysílání buněk</string>
+    <string name="app_ops_mock_location">falešná poloha</string>
+    <string name="app_ops_read_external_storage">číst ext. úložiště</string>
+    <string name="app_ops_write_external_storage">psát do ext. úložiště</string>
+    <string name="app_ops_turn_on_screen">zapnout obrazovku</string>
+    <string name="app_ops_get_accounts">účty zařízení</string>
+    <string name="app_ops_run_in_background">spustit na pozadí</string>
+    <string name="app_ops_accessibility_volume">přístup hlasitosti</string>
+    <string name="app_ops_read_phone_numbers">číst tel. čísla</string>
+    <string name="app_ops_request_install_packages">instalovat balíčky</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">spustit na popředí</string>
+    <string name="app_ops_answer_phone_calls">odpovědět na hovor</string>
+    <string name="app_ops_boot_completed">spustit při startu</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Vynulovat statistiky</string>
+    <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Zvuk př pořízení snímku obrazovky</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Zařízení je šifrováno</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Zařízení je dešifrováno</string>
+    <string name="twilight_mode_location_dialog">Poloha je zakázána</string>
+    <string name="twilight_mode_location_disabled">Přístup k poloze je zakázán</string>
+    <string name="twilight_mode_location_enable">Povolit</string>
+    <!-- Themes -->
+    <string name="themes_title">Motivy</string>
+    <string name="themes_dashboard_summary">Spravovat motivy</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Přijmout všechny typy souborů</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Spojit hlasitost vyzvánění a oznámení</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Otáčení</string>
+    <string name="display_rotation_disabled">Vypnuto</string>
+    <string name="display_rotation_unit">stupně</string>
+    <string name="display_rotation_category_title">Režimy otáčení</string>
+    <string name="display_rotation_0_title">0 stupňů</string>
+    <string name="display_rotation_90_title">90 stupňů</string>
+    <string name="display_rotation_180_title">180 stupňů</string>
+    <string name="display_rotation_270_title">270 stupňů</string>
+    <!--Build date-->
+    <string name="build_date">Datum sestavení</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
+    <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">Rychlé odemčení pomocí obličeje</string>
+    <string name="face_auto_unlock_summary">Automatické přeskočení zamykací obrazovky při odemknutí obličejem (NUTNOST: použít GApps nano nebo vyšší)</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na telefonu.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">levá strana</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">zakazano</string>
+    <string name="sim_missing">chybějící nebo vadná</string>
+    <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
+    <string name="sim_enabler_will_disable_sim_title">Varování</string>
+    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
+    <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
+    <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
+    <string name="sim_enabler_enabling">Aktivování\u2026</string>
+    <string name="sim_enabler_disabling">Deaktivování\u2026</string>
+    <string name="sub_activate_success">SIM karta aktivována.</string>
+    <string name="sub_activate_failed">Aktivace selhala.</string>
+    <string name="sub_deactivate_success">SIM karta deaktivována.</string>
+    <string name="sub_deactivate_failed">Deaktivace selhala.</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Vyžadovat povolení pro každý motiv</string>
+    <string name="force_authorize_substratum_packages_summary">Povolit instalaci motivů z neznámých zdrojů</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum překrytí</string>
+    <string name="menu_show_substratum">Zobrazit překrytí</string>
+    <string name="menu_hide_substratum">Skrýt překrytí</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
+    <!-- Search -->
+    <string name="menu_search">Vyhledávání aplikací</string>
+    <string name="menu_search_hint">Hledání aplikací\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">Bezpečnostní aktualizace</string>
+    <string name="security_dialog_neutral_button">Bezpečnostní bulletiny AOSP</string>
+    <string name="android_security_title">Úroveň opravy zabezpečení AOSP</string>
+    <string name="android_security_summary">Aktualizace zabezpečení systému Android představují sadu náplastí platformy Android a binárních souborů dodavatelů, které jí pomáhají spouštět. Vzhledem k tomu, že tyto binární soubory jsou uzavřený zdroj, musíme spoléhat na dodavatele, aby je dodávali výrobcům OEM a výrobci OEM je odesílali uživatelům a my je tak můžeme přidat do našich sestav. Jelikož tento proces vůbec neumíme řídit, chceme jasně uvést, že aktualizujeme úroveň opravy zabezpečení pouze v repozitářích, které pocházejí z Android Open Source Project. Obecně platí, že úroveň opravy zabezpečení dodavatele bude bez ohledu na úroveň opravy zabezpečení, která je v nejnovějším sestavení ROM.</string>
+    <string name="android_functional_updates_title">Účelné aktualizace</string>
+    <string name="android_functional_updates_summary">Kromě bezpečnostních aktualizací AOSP provádíme také účelné aktualizace Google. Jedná se o bezpečnostní záplaty, které Google vypouští pro své zařízení Pixel. Tyto záplaty řeší problém s funkčností, připojením, stabilitou a výkonem. Jelikož podporujeme více než jen zařízení Pixel, jsou tyto záplaty součástí všech našich podporovaných zařízení.</string>
+    <string name="vendor_security_title">Úroveň opravy dodavatele</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilní data</string>
+    <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
 </resources>

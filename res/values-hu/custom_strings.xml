@@ -17,238 +17,237 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">Változások listája</string>
-  <string name="changelog_custom_summary">Az előző kiadás óta történt változások listája</string>
-  <string name="changelog_custom_error">Nem lehet betölteni a változások listáját</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Cardinal-AOSP verzió</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">Karbantartó</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">The Wings!</string>
-  <string name="cardinal_settings_activity_summary">További testreszabás</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">A projektről</string>
-  <string name="cardinal_about_info_summary_title">Tudjon meg rólunk többet!</string>
-  <string name="cardinal_about_info_summary">A Cardinal-AOSP egy egyedi ROM, amely az AOSP-on alapul, és a CAF kis javításai támogatják a nem AOSP eszközöket néhány szükséges funkcióval. A fő cél az, hogy a lehető legközelebb maradjon az AOSP-hoz, és biztosítson egy villámgyors, gördülékeny rendszert, amely alacsony akkumulátorfogyasztással rendelkezik. Reméljük, hogy szereti ezt a projektet, és segít nekünk abban, hogy még jobbá tegyük a jövőben.</string>
-  <string name="devs_header">Fejlesztők</string>
-  <string name="maintainers_header">Közreműködők</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Alapító/fejlesztő, Kenzo társalapító</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Alapító/Fejlesztő, Mido (HMNote4X) társfelelős</string>
-  <string name="dev_3">Sathish K</string>
-  <string name="dev3_description">Fejlesztő, Sajtburger | Gombóc felelős</string>
-  <string name="mentions_header">Említésre méltőak</string>
-  <string name="mentions_vikas">Vikas Kumar</string>
-  <string name="mentions_vikas_description">Honosítás-menedzser</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">Dizájner</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">Háttérkép-dizájner</string>
-  <string name="mentions_recenz">Recenz</string>
-  <string name="mentions_recenz_description">Bootanimació tervezője</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_sipun_device">Land</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">Tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">S2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Fényerő</string>
-  <string name="night_brightness_value_title">Alacsony fényerő éjjel fénynél</string>
-  <string name="night_bright_disabled">Kikapcsolva</string>
-  <string name="night_bright_minimum">Minimum fényerő</string>
-  <string name="night_bright_low">Alacsony fényerő</string>
-  <string name="night_bright_medium">Közepes fényerő</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Hangerőállítási hangok</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA frissítések</string>
-  <string name="cardinal_ota_settings_summary">Frissítések ellenőrzése!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Helyszín</string>
-  <string name="app_ops_cat_personal">Személyes</string>
-  <string name="app_ops_cat_messaging">Üzenetküldés</string>
-  <string name="app_ops_cat_media">Média</string>
-  <string name="app_ops_cat_device">Eszköz</string>
-  <string name="app_ops_cat_bootup">Indításkor</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">fényképezőgép</string>
-  <string name="app_ops_access_gps">GPS</string>
-  <string name="app_ops_access_coarse_location">megközelítő helymeghatározás</string>
-  <string name="app_ops_access_fine_location">pontos helymeghatározás</string>
-  <string name="app_ops_access_monitor_location">nyomkövető helymeghatározás</string>
-  <string name="app_ops_monitor_high_power_location">erőteljesen nyomonkövetett helymeghatározás</string>
-  <string name="app_ops_neighboring_cells">cellakeresés</string>
-  <string name="app_ops_access_notifications">értesítések</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">automatikus indítás</string>
-  <string name="app_ops_delete_call_log">hívásnapló törlése</string>
-  <string name="app_ops_delete_contacts">névjegyek törlése</string>
-  <string name="app_ops_delete_mms">MMS törlése</string>
-  <string name="app_ops_delete_sms">SMS törlése</string>
-  <string name="app_ops_draw_on_top">előtérben tartás</string>
-  <string name="app_ops_get_usage_stats">használati statisztika lekérése</string>
-  <string name="app_ops_keep_device_awake">ébren tartás</string>
-  <string name="app_ops_make_phone_call">hívásindítás</string>
-  <string name="app_ops_modify_calendar">naptár frissítése</string>
-  <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
-  <string name="app_ops_modify_clipboard">vágólap módosítása</string>
-  <string name="app_ops_modify_contacts">névjegyek frissítése</string>
-  <string name="app_ops_modify_settings">beállítások frissítése</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofon némítása/feloldása</string>
-  <string name="app_ops_play_audio">hang lejátszása</string>
-  <string name="app_ops_post_notification">értesítés küldése</string>
-  <string name="app_ops_project_media">média vetítése</string>
-  <string name="app_ops_read_calendar">naptár olvasása</string>
-  <string name="app_ops_read_call_log">hívásnapló olvasása</string>
-  <string name="app_ops_read_clipboard">vágólap olvasása</string>
-  <string name="app_ops_read_contacts">névjegyek olvasása</string>
-  <string name="app_ops_read_mms">MMS olvasása</string>
-  <string name="app_ops_read_sms">SMS olvasása</string>
-  <string name="app_ops_receive_sms">SMS fogadása</string>
-  <string name="app_ops_record_audio">hang rögzítése</string>
-  <string name="app_ops_send_mms">MMS küldése</string>
-  <string name="app_ops_send_sms">SMS küldése</string>
-  <string name="app_ops_toast_window">buborékszövegek</string>
-  <string name="app_ops_use_alarm_volume">ébresztési hangerő</string>
-  <string name="app_ops_use_audio_focus">audio fókusz</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth hangerő</string>
-  <string name="app_ops_use_master_volume">fő hangerő</string>
-  <string name="app_ops_use_media_buttons">média vezérlő gombok</string>
-  <string name="app_ops_use_media_volume">média hangerő</string>
-  <string name="app_ops_use_notification_volume">értesítési hangerő</string>
-  <string name="app_ops_use_ring_volume">csengőhang hangereje</string>
-  <string name="app_ops_use_vibrate">rezgő visszajelzés</string>
-  <string name="app_ops_use_voice_volume">beszédhangerő</string>
-  <string name="app_ops_write_mms">MMS írása</string>
-  <string name="app_ops_write_sms">SMS írása</string>
-  <string name="app_ops_use_fingerprint">ujjlenyomat</string>
-  <string name="app_ops_add_voicemail">hangüzenet</string>
-  <string name="app_ops_read_phone_state">hozzáférés a telefonállapothoz</string>
-  <string name="app_ops_scan_wifi">Wi-Fi hálózat keresése</string>
-  <string name="app_ops_change_wallpaper">háttérkép megváltoztatása</string>
-  <string name="app_ops_assist_structure">az asszisztens (segéd) felépítése</string>
-  <string name="app_ops_assist_screenshot">képernyőmentés</string>
-  <string name="app_ops_use_body_sensors">testérzékelők</string>
-  <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
-  <string name="app_ops_mock_location">helyutánzatok</string>
-  <string name="app_ops_read_external_storage">külsőtárhely-olvasás</string>
-  <string name="app_ops_write_external_storage">külsőtárhely-írás</string>
-  <string name="app_ops_turn_on_screen">képernyő bekapcsolása</string>
-  <string name="app_ops_get_accounts">készülékfiókok</string>
-  <string name="app_ops_run_in_background">háttérben működés</string>
-  <string name="app_ops_accessibility_volume">kisegítő hangerő</string>
-  <string name="app_ops_read_phone_numbers">telefonszám beolvasása</string>
-  <string name="app_ops_request_install_packages">csomagok telepítése</string>
-  <string name="app_ops_picture_in_picture">kép-a-képben</string>
-  <string name="app_ops_app_start_foreground">előtérben indítás</string>
-  <string name="app_ops_answer_phone_calls">hívásofogadás</string>
-  <string name="app_ops_boot_completed">automatikus indítás</string>
-  <!-- Reset battery stats -->
-  <string name="ok">OK</string>
-  <string name="menu_stats_reset">Statisztikák törlése</string>
-  <string name="reset_stats_msg">Az akkumulátor statisztikák törlésre kerülnek</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Képernyőmentéskor hallható hang</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">A készülék titkosított</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">A készülék nem titkosított</string>
-  <string name="twilight_mode_location_dialog">Helymeghatározás letiltva</string>
-  <string name="twilight_mode_location_disabled">A helyhozzáférés letiltásra került</string>
-  <string name="twilight_mode_location_enable">Engedélyezés</string>
-  <!-- Themes -->
-  <string name="themes_title">Témák</string>
-  <string name="themes_dashboard_summary">Témák kezelése</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
-  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás megfelelő PIN/jelszó megadásakor</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">Minden fájltípus fogadása</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">Csengetési és értesítési hangerők összehangolása</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">Képernyőforgatás</string>
-  <string name="display_rotation_disabled">Kikapcsolva</string>
-  <string name="display_rotation_unit">fok</string>
-  <string name="display_rotation_category_title">Forgásállapotok</string>
-  <string name="display_rotation_0_title">0 fok</string>
-  <string name="display_rotation_90_title">90 fok</string>
-  <string name="display_rotation_180_title">180 fok</string>
-  <string name="display_rotation_270_title">270 fok</string>
-  <!--Build date-->
-  <string name="build_date">Készítés dátuma</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
-  <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">Arcalapú gyorsfeloldás</string>
-  <string name="face_auto_unlock_summary">Záróképernyő automatikus kihagyása sikeres arcalapú feloldáskor (SZÜKSÉGES: Nano vagy nagyobb GAPPS csomag)</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Keresse meg az ujjlenyomat érzékelőt a telefonjának <xliff:g id="sensor_location">%1$s</xliff:g>.</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">hátoldalán</string>
-  <string name="security_settings_fingerprint_sensor_location_front">előlapján</string>
-  <string name="security_settings_fingerprint_sensor_location_left">bal oldalán</string>
-  <string name="security_settings_fingerprint_sensor_location_right">jobb oldalán</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">letiltva</string>
-  <string name="sim_missing">hiányzik vagy hibás</string>
-  <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválásra kerül. Szeretné folytatni?</string>
-  <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
-  <string name="sim_enabler_need_switch_data_service">Ez a SIM letiltásra kerül és a SIM<xliff:g id="slotid">%1$s</xliff:g> lesz mobiladat-szolgáltatáshoz beállítva. Biztosan folytatni kívánja?</string>
-  <string name="sim_enabler_airplane_on">Nem lehetséges végrehajtani a műveletet, amíg a repülőgép-üzemmód aktív.</string>
-  <string name="sim_enabler_in_call">Nem lehetséges végrehajtani a műveletet telefonhívás közben.</string>
-  <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
-  <string name="sim_enabler_enabling">Aktiválás\u2026</string>
-  <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
-  <string name="sub_activate_success">SIM aktiválva.</string>
-  <string name="sub_activate_failed">Aktiválás sikertelen.</string>
-  <string name="sub_deactivate_success">SIM deaktiválva.</string>
-  <string name="sub_deactivate_failed">Deaktiválás sikertelen.</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Minden témaalkalmazás kényszerített ellenőrzése</string>
-  <string name="force_authorize_substratum_packages_summary">Ismeretlen forrásból származó témák telepítésének engedélyezése</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum fedőrétegek</string>
-  <string name="menu_show_substratum">Fedőrétegek megjelenítése</string>
-  <string name="menu_hide_substratum">Fedőrétegek elrejtése</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
-  <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
-  <!-- Search -->
-  <string name="menu_search">Alkalmazások keresése</string>
-  <string name="menu_search_hint">Alkalmazáskeresése\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">Biztonsági frissítések</string>
-  <string name="security_dialog_neutral_button">AOSP Biztonsági közlemények</string>
-  <string name="android_security_title">AOSP biztonsági hibajavító csomag szintje</string>
-  <string name="android_security_summary">Az Android biztonsági frissítések az Android platform javítócsomagjainak gyűjteménye és segítenek a gyártói binárisok működésében. Mivel ezek a binárisok zárt forrásból származnak, a gyártókra kell támaszkodnunk, hogy azokat kiadják az OEM-eknek és hogy azok továbbítsák a felhasználóknak, így mi hozzáadhassuk őket a fejlesztéseinkhez. Mivel ezt a folyamatot nem mi irányíthatjuk, egyértelművé szeretnénk tenni, hogy csak azokat a biztonsági javítás szinteket tudjuk frissíteni, amelyek az AOSP repo-jából érkeznek. Általában, a gyártói biztonsági javításának szintje olyan szint lesz, mint amilyen a legfrissebb gyártói ROM-ban található.</string>
-  <string name="android_functional_updates_title">Működési frissítések</string>
-  <string name="android_functional_updates_summary">Az AOSP biztonsági frissítésein kívül a Google funkcionális frissítéseit is beépítettük. Ezek olyan javítások, amelyeket a Google biztonsági frissítései mellett a Pixel készülékek működésével, például a kapcsolódással, a stabilitással és a teljesítménnyel kapcsolatos problémák megoldására is képesek. Mivel nem csak Pixel készülékeket támogatunk, mindegyik rendszerünk tartalmazza ezeket.</string>
-  <string name="vendor_security_title">Gyártói javítási szint</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
-  <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
-  <string name="data_usage_app_restrict_wifi">Wi-Fi adat</string>
-  <string name="data_usage_app_restrict_wifi_summary">Wi-Fi adathasználat engedélyezése</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">Változások listája</string>
+    <string name="changelog_custom_summary">Az előző kiadás óta történt változások listája</string>
+    <string name="changelog_custom_error">Nem lehet betölteni a változások listáját</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Cardinal-AOSP verzió</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">Karbantartó</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">The Wings!</string>
+    <string name="cardinal_settings_activity_summary">További testreszabás</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">A projektről</string>
+    <string name="cardinal_about_info_summary_title">Tudjon meg rólunk többet!</string>
+    <string name="cardinal_about_info_summary">A Cardinal-AOSP egy egyedi ROM, amely az AOSP-on alapul, és a CAF kis javításai támogatják a nem AOSP eszközöket néhány szükséges funkcióval. A fő cél az, hogy a lehető legközelebb maradjon az AOSP-hoz, és biztosítson egy villámgyors, gördülékeny rendszert, amely alacsony akkumulátorfogyasztással rendelkezik. Reméljük, hogy szereti ezt a projektet, és segít nekünk abban, hogy még jobbá tegyük a jövőben.</string>
+    <string name="devs_header">Fejlesztők</string>
+    <string name="maintainers_header">Közreműködők</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Alapító/fejlesztő, Kenzo társalapító</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">Alapító/Fejlesztő, Mido (HMNote4X) társfelelős</string>
+    <string name="dev_3">Sathish K</string>
+    <string name="dev3_description">Fejlesztő, Sajtburger | Gombóc felelős</string>
+    <string name="mentions_header">Említésre méltőak</string>
+    <string name="mentions_vikas">Vikas Kumar</string>
+    <string name="mentions_vikas_description">Honosítás-menedzser</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">Dizájner</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">Háttérkép-dizájner</string>
+    <string name="mentions_recenz">Recenz</string>
+    <string name="mentions_recenz_description">Bootanimació tervezője</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">Tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">S2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Fényerő</string>
+    <string name="night_brightness_value_title">Alacsony fényerő éjjel fénynél</string>
+    <string name="night_bright_disabled">Kikapcsolva</string>
+    <string name="night_bright_minimum">Minimum fényerő</string>
+    <string name="night_bright_low">Alacsony fényerő</string>
+    <string name="night_bright_medium">Közepes fényerő</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Hangerőállítási hangok</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA frissítések</string>
+    <string name="cardinal_ota_settings_summary">Frissítések ellenőrzése!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Helyszín</string>
+    <string name="app_ops_cat_personal">Személyes</string>
+    <string name="app_ops_cat_messaging">Üzenetküldés</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Eszköz</string>
+    <string name="app_ops_cat_bootup">Indításkor</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">fényképezőgép</string>
+    <string name="app_ops_access_gps">GPS</string>
+    <string name="app_ops_access_coarse_location">megközelítő helymeghatározás</string>
+    <string name="app_ops_access_fine_location">pontos helymeghatározás</string>
+    <string name="app_ops_access_monitor_location">nyomkövető helymeghatározás</string>
+    <string name="app_ops_monitor_high_power_location">erőteljesen nyomonkövetett helymeghatározás</string>
+    <string name="app_ops_neighboring_cells">cellakeresés</string>
+    <string name="app_ops_access_notifications">értesítések</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">automatikus indítás</string>
+    <string name="app_ops_delete_call_log">hívásnapló törlése</string>
+    <string name="app_ops_delete_contacts">névjegyek törlése</string>
+    <string name="app_ops_delete_mms">MMS törlése</string>
+    <string name="app_ops_delete_sms">SMS törlése</string>
+    <string name="app_ops_draw_on_top">előtérben tartás</string>
+    <string name="app_ops_get_usage_stats">használati statisztika lekérése</string>
+    <string name="app_ops_keep_device_awake">ébren tartás</string>
+    <string name="app_ops_make_phone_call">hívásindítás</string>
+    <string name="app_ops_modify_calendar">naptár frissítése</string>
+    <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
+    <string name="app_ops_modify_clipboard">vágólap módosítása</string>
+    <string name="app_ops_modify_contacts">névjegyek frissítése</string>
+    <string name="app_ops_modify_settings">beállítások frissítése</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofon némítása/feloldása</string>
+    <string name="app_ops_play_audio">hang lejátszása</string>
+    <string name="app_ops_post_notification">értesítés küldése</string>
+    <string name="app_ops_project_media">média vetítése</string>
+    <string name="app_ops_read_calendar">naptár olvasása</string>
+    <string name="app_ops_read_call_log">hívásnapló olvasása</string>
+    <string name="app_ops_read_clipboard">vágólap olvasása</string>
+    <string name="app_ops_read_contacts">névjegyek olvasása</string>
+    <string name="app_ops_read_mms">MMS olvasása</string>
+    <string name="app_ops_read_sms">SMS olvasása</string>
+    <string name="app_ops_receive_sms">SMS fogadása</string>
+    <string name="app_ops_record_audio">hang rögzítése</string>
+    <string name="app_ops_send_mms">MMS küldése</string>
+    <string name="app_ops_send_sms">SMS küldése</string>
+    <string name="app_ops_toast_window">buborékszövegek</string>
+    <string name="app_ops_use_alarm_volume">ébresztési hangerő</string>
+    <string name="app_ops_use_audio_focus">audio fókusz</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth hangerő</string>
+    <string name="app_ops_use_master_volume">fő hangerő</string>
+    <string name="app_ops_use_media_buttons">média vezérlő gombok</string>
+    <string name="app_ops_use_media_volume">média hangerő</string>
+    <string name="app_ops_use_notification_volume">értesítési hangerő</string>
+    <string name="app_ops_use_ring_volume">csengőhang hangereje</string>
+    <string name="app_ops_use_vibrate">rezgő visszajelzés</string>
+    <string name="app_ops_use_voice_volume">beszédhangerő</string>
+    <string name="app_ops_write_mms">MMS írása</string>
+    <string name="app_ops_write_sms">SMS írása</string>
+    <string name="app_ops_use_fingerprint">ujjlenyomat</string>
+    <string name="app_ops_add_voicemail">hangüzenet</string>
+    <string name="app_ops_read_phone_state">hozzáférés a telefonállapothoz</string>
+    <string name="app_ops_scan_wifi">Wi-Fi hálózat keresése</string>
+    <string name="app_ops_change_wallpaper">háttérkép megváltoztatása</string>
+    <string name="app_ops_assist_structure">az asszisztens (segéd) felépítése</string>
+    <string name="app_ops_assist_screenshot">képernyőmentés</string>
+    <string name="app_ops_use_body_sensors">testérzékelők</string>
+    <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
+    <string name="app_ops_mock_location">helyutánzatok</string>
+    <string name="app_ops_read_external_storage">külsőtárhely-olvasás</string>
+    <string name="app_ops_write_external_storage">külsőtárhely-írás</string>
+    <string name="app_ops_turn_on_screen">képernyő bekapcsolása</string>
+    <string name="app_ops_get_accounts">készülékfiókok</string>
+    <string name="app_ops_run_in_background">háttérben működés</string>
+    <string name="app_ops_accessibility_volume">kisegítő hangerő</string>
+    <string name="app_ops_read_phone_numbers">telefonszám beolvasása</string>
+    <string name="app_ops_request_install_packages">csomagok telepítése</string>
+    <string name="app_ops_picture_in_picture">kép-a-képben</string>
+    <string name="app_ops_app_start_foreground">előtérben indítás</string>
+    <string name="app_ops_answer_phone_calls">hívásofogadás</string>
+    <string name="app_ops_boot_completed">automatikus indítás</string>
+    <!-- Reset battery stats -->
+    <string name="ok">OK</string>
+    <string name="menu_stats_reset">Statisztikák törlése</string>
+    <string name="reset_stats_msg">Az akkumulátor statisztikák törlésre kerülnek</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Képernyőmentéskor hallható hang</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">A készülék titkosított</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">A készülék nem titkosított</string>
+    <string name="twilight_mode_location_dialog">Helymeghatározás letiltva</string>
+    <string name="twilight_mode_location_disabled">A helyhozzáférés letiltásra került</string>
+    <string name="twilight_mode_location_enable">Engedélyezés</string>
+    <!-- Themes -->
+    <string name="themes_title">Témák</string>
+    <string name="themes_dashboard_summary">Témák kezelése</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás megfelelő PIN/jelszó megadásakor</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Minden fájltípus fogadása</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Csengetési és értesítési hangerők összehangolása</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Képernyőforgatás</string>
+    <string name="display_rotation_disabled">Kikapcsolva</string>
+    <string name="display_rotation_unit">fok</string>
+    <string name="display_rotation_category_title">Forgásállapotok</string>
+    <string name="display_rotation_0_title">0 fok</string>
+    <string name="display_rotation_90_title">90 fok</string>
+    <string name="display_rotation_180_title">180 fok</string>
+    <string name="display_rotation_270_title">270 fok</string>
+    <!--Build date-->
+    <string name="build_date">Készítés dátuma</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
+    <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">Arcalapú gyorsfeloldás</string>
+    <string name="face_auto_unlock_summary">Záróképernyő automatikus kihagyása sikeres arcalapú feloldáskor (SZÜKSÉGES: Nano vagy nagyobb GAPPS csomag)</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Keresse meg az ujjlenyomat érzékelőt a telefonjának <xliff:g id="sensor_location">%1$s</xliff:g>.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">hátoldalán</string>
+    <string name="security_settings_fingerprint_sensor_location_front">előlapján</string>
+    <string name="security_settings_fingerprint_sensor_location_left">bal oldalán</string>
+    <string name="security_settings_fingerprint_sensor_location_right">jobb oldalán</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">letiltva</string>
+    <string name="sim_missing">hiányzik vagy hibás</string>
+    <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválásra kerül. Szeretné folytatni?</string>
+    <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
+    <string name="sim_enabler_need_switch_data_service">Ez a SIM letiltásra kerül és a SIM<xliff:g id="slotid">%1$s</xliff:g> lesz mobiladat-szolgáltatáshoz beállítva. Biztosan folytatni kívánja?</string>
+    <string name="sim_enabler_airplane_on">Nem lehetséges végrehajtani a műveletet, amíg a repülőgép-üzemmód aktív.</string>
+    <string name="sim_enabler_in_call">Nem lehetséges végrehajtani a műveletet telefonhívás közben.</string>
+    <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
+    <string name="sim_enabler_enabling">Aktiválás\u2026</string>
+    <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
+    <string name="sub_activate_success">SIM aktiválva.</string>
+    <string name="sub_activate_failed">Aktiválás sikertelen.</string>
+    <string name="sub_deactivate_success">SIM deaktiválva.</string>
+    <string name="sub_deactivate_failed">Deaktiválás sikertelen.</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Minden témaalkalmazás kényszerített ellenőrzése</string>
+    <string name="force_authorize_substratum_packages_summary">Ismeretlen forrásból származó témák telepítésének engedélyezése</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum fedőrétegek</string>
+    <string name="menu_show_substratum">Fedőrétegek megjelenítése</string>
+    <string name="menu_hide_substratum">Fedőrétegek elrejtése</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
+    <!-- Search -->
+    <string name="menu_search">Alkalmazások keresése</string>
+    <string name="menu_search_hint">Alkalmazáskeresése\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">Biztonsági frissítések</string>
+    <string name="security_dialog_neutral_button">AOSP Biztonsági közlemények</string>
+    <string name="android_security_title">AOSP biztonsági hibajavító csomag szintje</string>
+    <string name="android_security_summary">Az Android biztonsági frissítések az Android platform javítócsomagjainak gyűjteménye és segítenek a gyártói binárisok működésében. Mivel ezek a binárisok zárt forrásból származnak, a gyártókra kell támaszkodnunk, hogy azokat kiadják az OEM-eknek és hogy azok továbbítsák a felhasználóknak, így mi hozzáadhassuk őket a fejlesztéseinkhez. Mivel ezt a folyamatot nem mi irányíthatjuk, egyértelművé szeretnénk tenni, hogy csak azokat a biztonsági javítás szinteket tudjuk frissíteni, amelyek az AOSP repo-jából érkeznek. Általában, a gyártói biztonsági javításának szintje olyan szint lesz, mint amilyen a legfrissebb gyártói ROM-ban található.</string>
+    <string name="android_functional_updates_title">Működési frissítések</string>
+    <string name="android_functional_updates_summary">Az AOSP biztonsági frissítésein kívül a Google funkcionális frissítéseit is beépítettük. Ezek olyan javítások, amelyeket a Google biztonsági frissítései mellett a Pixel készülékek működésével, például a kapcsolódással, a stabilitással és a teljesítménnyel kapcsolatos problémák megoldására is képesek. Mivel nem csak Pixel készülékeket támogatunk, mindegyik rendszerünk tartalmazza ezeket.</string>
+    <string name="vendor_security_title">Gyártói javítási szint</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
+    <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
+    <string name="data_usage_app_restrict_wifi">Wi-Fi adat</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi adathasználat engedélyezése</string>
 </resources>

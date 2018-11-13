@@ -17,109 +17,109 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">மாற்றப்பதிவேடு</string>
-  <string name="changelog_custom_summary">இறுதி பதிப்பிற்கு பின் மாற்றங்களின் பட்டியல்</string>
-  <string name="changelog_custom_error">மாற்றப் பதிவேட்டை திறக்க முடியவில்லை</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">கார்டினல்-ஆதிமூதி (AOSP) பதிப்பு</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">பராமரிப்பாளர்</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">சிறகுகள்!</string>
-  <string name="cardinal_settings_activity_summary">கூடுதல் தனிப்பயனாக்கல்கள்</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">திட்டம் பற்றி</string>
-  <string name="cardinal_about_info_summary_title">எங்களைப் பற்றி அறிந்து கொள்ள!</string>
-  <string name="cardinal_about_info_summary">கார்டினல்-AOSP, சில மிகவும் தேவையான குறைந்தபட்ச அம்சங்கள் கொண்டு AOSP அல்லாத சாதனங்களை ஆதரிக்கும் அடிப்படையில் சிறிது மாற்றப்பட்ட CAF- லிருந்து உருவாக்கப்பட்ட ரோம் ஆகும், இதன் தலையாய நோக்கம் முடிந்தவரை AOSP க்கு ஒத்த செயல்பாடுகள், ஒளி வேக செயல்திறன், மென்மைதன்மை மற்றும் நல்ல மின்கல சேமிப்பு. நீங்கள் இத்திட்டத்தை விரும்புவீர்கள் என நம்புகிறோம், மேலும் எதிர்காலத்தில் இதை சிறப்பாக வடிவமைக்க உங்கள் உதவியை நாடுகிறோம்.</string>
-  <string name="devs_header">ஆசிரியர்கள்</string>
-  <string name="maintainers_header">பராமரிப்பாளர்கள்</string>
-  <string name="dev_1">ஆதர்ஷ் M.R</string>
-  <string name="dev1_description">நிறுவனர்/ஆசிரியர், கென்ஸோ பராமரிப்பாளர்</string>
-  <string name="dev_2">ரோஹித் போரோலி</string>
-  <string name="maintainer_aashish_t">ஆஷிஷ் தோஷ்னிவால் (Aashish16)</string>
-  <string name="maintainer_keerten">கீர்தன்</string>
-  <string name="maintainer_keerten_device">ஏதேன்</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">ஒளிர்வு</string>
-  <string name="night_brightness_value_title">இரவு விளக்கு எனில் குறைந்த பிரகாசம்</string>
-  <string name="night_bright_disabled">முடக்கப்பட்டது</string>
-  <string name="night_bright_minimum">குறைந்த பிரகாசம்</string>
-  <string name="night_bright_low">குறைந்த பிரகாசம்</string>
-  <string name="night_bright_medium">மித பிரகாசம்</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">ஒலியளவை சரிசெய்தல் ஒலிகள்</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">வளி வழி மேம்பாடு</string>
-  <string name="cardinal_ota_settings_summary">புதுப்பிப்புகள் உள்ளதா பார்!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">இருப்பிடம்</string>
-  <string name="app_ops_cat_personal">தனிப்பட்ட</string>
-  <string name="app_ops_cat_messaging">செய்தி</string>
-  <string name="app_ops_cat_media">ஊடகம்</string>
-  <string name="app_ops_cat_device">சாதனம்</string>
-  <string name="app_ops_cat_bootup">துவக்கத்தில்</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">படமி</string>
-  <string name="app_ops_access_notifications">அறிவிப்புகள்</string>
-  <string name="app_ops_activate_vpn">மெதபி(VPN)</string>
-  <string name="app_ops_auto_start">தானாக துவங்கு</string>
-  <string name="app_ops_delete_call_log">அழைப்பு பதிவை நீக்குக</string>
-  <string name="app_ops_delete_contacts">தொடர்புகள் நீக்கு</string>
-  <string name="app_ops_delete_mms">MMS நீக்கு</string>
-  <string name="app_ops_delete_sms">குறுஞ்செய்தி நீக்கு</string>
-  <string name="app_ops_draw_on_top">மேலே இழுக்க</string>
-  <string name="app_ops_get_usage_stats">பயன்பாட்டு விபரம் பெறு</string>
-  <string name="app_ops_keep_device_awake">விழிப்பிலே வை</string>
-  <string name="app_ops_make_phone_call">அழைப்பை ஏற்படுத்து</string>
-  <string name="app_ops_modify_calendar">நாள்காட்டியை புதுப்பிக்கவும்</string>
-  <string name="app_ops_modify_call_log">அழைப்பு பதிவை புதுப்பி</string>
-  <string name="app_ops_modify_clipboard">நகலகத்தை மாற்றியமைக்கவும்</string>
-  <string name="app_ops_modify_contacts">தொடர்புகளை மேம்படுத்த</string>
-  <string name="app_ops_modify_settings">அமைப்புகளைப் புதுப்பி</string>
-  <string name="app_ops_read_cell_broadcasts">கலம் ஒளிபரப்புகள்</string>
-  <string name="app_ops_mock_location">போலி இருப்பிடம்</string>
-  <string name="app_ops_read_external_storage">ext. stor. படி</string>
-  <string name="app_ops_write_external_storage">ext. stor. எழுதுக.</string>
-  <string name="app_ops_turn_on_screen">திரையை ஆன் செய்</string>
-  <string name="app_ops_get_accounts">சாதனம் கணக்குகள்</string>
-  <string name="app_ops_run_in_background">பின்னணியில் செயல்படு</string>
-  <string name="app_ops_accessibility_volume">அணுகல்தன்மை தொகுதி</string>
-  <string name="app_ops_read_phone_numbers">தொலைபேசி num. படிக்க</string>
-  <string name="app_ops_request_install_packages">தொகுப்புகளை நிறுவவும்</string>
-  <string name="app_ops_picture_in_picture">பஇல்ப</string>
-  <string name="app_ops_app_start_foreground">முன்னணியில் தொடங்கு</string>
-  <string name="app_ops_answer_phone_calls">அழைப்புக்கு பதிலளி</string>
-  <string name="app_ops_boot_completed">தானியங்கு தொடக்கம்</string>
-  <!-- Reset battery stats -->
-  <string name="ok">சரி</string>
-  <string name="menu_stats_reset">புள்ளிவிவரங்கள் மீட்டமை</string>
-  <string name="reset_stats_msg">பேட்டரி வரலாறு விபரம் மீட்டமைக்க போகிறோம்</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">திரை மூடு ஒலி</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">சாதனம் குறியாக்கப்பட்டது</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">சாதனம் புரிந்தமைக்கப்பட்டது</string>
-  <string name="twilight_mode_location_dialog">இருப்பிடம் முடக்கப்பட்டுள்ளது</string>
-  <string name="twilight_mode_location_disabled">இருப்பிட அணுகல் முடக்கப்பட்டுள்ளது</string>
-  <string name="twilight_mode_location_enable">இயக்கு</string>
-  <!-- Themes -->
-  <!-- Quick unlock -->
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <!-- Unlink notification volume -->
-  <!-- Display : Rotation -->
-  <!--Build date-->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Face unlock -->
-  <!-- Format string for fingerprint location message -->
-  <!-- Fingerprint sensor locations -->
-  <!-- Manual provisioning support -->
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Proximity wake -->
-  <!-- Search -->
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <!-- Per-app data restrictions -->
+    <!-- Changelog -->
+    <string name="changelog_custom_title">மாற்றப்பதிவேடு</string>
+    <string name="changelog_custom_summary">இறுதி பதிப்பிற்கு பின் மாற்றங்களின் பட்டியல்</string>
+    <string name="changelog_custom_error">மாற்றப் பதிவேட்டை திறக்க முடியவில்லை</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">கார்டினல்-ஆதிமூதி (AOSP) பதிப்பு</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">பராமரிப்பாளர்</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">சிறகுகள்!</string>
+    <string name="cardinal_settings_activity_summary">கூடுதல் தனிப்பயனாக்கல்கள்</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">திட்டம் பற்றி</string>
+    <string name="cardinal_about_info_summary_title">எங்களைப் பற்றி அறிந்து கொள்ள!</string>
+    <string name="cardinal_about_info_summary">கார்டினல்-AOSP, சில மிகவும் தேவையான குறைந்தபட்ச அம்சங்கள் கொண்டு AOSP அல்லாத சாதனங்களை ஆதரிக்கும் அடிப்படையில் சிறிது மாற்றப்பட்ட CAF- லிருந்து உருவாக்கப்பட்ட ரோம் ஆகும், இதன் தலையாய நோக்கம் முடிந்தவரை AOSP க்கு ஒத்த செயல்பாடுகள், ஒளி வேக செயல்திறன், மென்மைதன்மை மற்றும் நல்ல மின்கல சேமிப்பு. நீங்கள் இத்திட்டத்தை விரும்புவீர்கள் என நம்புகிறோம், மேலும் எதிர்காலத்தில் இதை சிறப்பாக வடிவமைக்க உங்கள் உதவியை நாடுகிறோம்.</string>
+    <string name="devs_header">ஆசிரியர்கள்</string>
+    <string name="maintainers_header">பராமரிப்பாளர்கள்</string>
+    <string name="dev_1">ஆதர்ஷ் M.R</string>
+    <string name="dev1_description">நிறுவனர்/ஆசிரியர், கென்ஸோ பராமரிப்பாளர்</string>
+    <string name="dev_2">ரோஹித் போரோலி</string>
+    <string name="maintainer_aashish_t">ஆஷிஷ் தோஷ்னிவால் (Aashish16)</string>
+    <string name="maintainer_keerten">கீர்தன்</string>
+    <string name="maintainer_keerten_device">ஏதேன்</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">ஒளிர்வு</string>
+    <string name="night_brightness_value_title">இரவு விளக்கு எனில் குறைந்த பிரகாசம்</string>
+    <string name="night_bright_disabled">முடக்கப்பட்டது</string>
+    <string name="night_bright_minimum">குறைந்த பிரகாசம்</string>
+    <string name="night_bright_low">குறைந்த பிரகாசம்</string>
+    <string name="night_bright_medium">மித பிரகாசம்</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">ஒலியளவை சரிசெய்தல் ஒலிகள்</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">வளி வழி மேம்பாடு</string>
+    <string name="cardinal_ota_settings_summary">புதுப்பிப்புகள் உள்ளதா பார்!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">இருப்பிடம்</string>
+    <string name="app_ops_cat_personal">தனிப்பட்ட</string>
+    <string name="app_ops_cat_messaging">செய்தி</string>
+    <string name="app_ops_cat_media">ஊடகம்</string>
+    <string name="app_ops_cat_device">சாதனம்</string>
+    <string name="app_ops_cat_bootup">துவக்கத்தில்</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">படமி</string>
+    <string name="app_ops_access_notifications">அறிவிப்புகள்</string>
+    <string name="app_ops_activate_vpn">மெதபி(VPN)</string>
+    <string name="app_ops_auto_start">தானாக துவங்கு</string>
+    <string name="app_ops_delete_call_log">அழைப்பு பதிவை நீக்குக</string>
+    <string name="app_ops_delete_contacts">தொடர்புகள் நீக்கு</string>
+    <string name="app_ops_delete_mms">MMS நீக்கு</string>
+    <string name="app_ops_delete_sms">குறுஞ்செய்தி நீக்கு</string>
+    <string name="app_ops_draw_on_top">மேலே இழுக்க</string>
+    <string name="app_ops_get_usage_stats">பயன்பாட்டு விபரம் பெறு</string>
+    <string name="app_ops_keep_device_awake">விழிப்பிலே வை</string>
+    <string name="app_ops_make_phone_call">அழைப்பை ஏற்படுத்து</string>
+    <string name="app_ops_modify_calendar">நாள்காட்டியை புதுப்பிக்கவும்</string>
+    <string name="app_ops_modify_call_log">அழைப்பு பதிவை புதுப்பி</string>
+    <string name="app_ops_modify_clipboard">நகலகத்தை மாற்றியமைக்கவும்</string>
+    <string name="app_ops_modify_contacts">தொடர்புகளை மேம்படுத்த</string>
+    <string name="app_ops_modify_settings">அமைப்புகளைப் புதுப்பி</string>
+    <string name="app_ops_read_cell_broadcasts">கலம் ஒளிபரப்புகள்</string>
+    <string name="app_ops_mock_location">போலி இருப்பிடம்</string>
+    <string name="app_ops_read_external_storage">ext. stor. படி</string>
+    <string name="app_ops_write_external_storage">ext. stor. எழுதுக.</string>
+    <string name="app_ops_turn_on_screen">திரையை ஆன் செய்</string>
+    <string name="app_ops_get_accounts">சாதனம் கணக்குகள்</string>
+    <string name="app_ops_run_in_background">பின்னணியில் செயல்படு</string>
+    <string name="app_ops_accessibility_volume">அணுகல்தன்மை தொகுதி</string>
+    <string name="app_ops_read_phone_numbers">தொலைபேசி num. படிக்க</string>
+    <string name="app_ops_request_install_packages">தொகுப்புகளை நிறுவவும்</string>
+    <string name="app_ops_picture_in_picture">பஇல்ப</string>
+    <string name="app_ops_app_start_foreground">முன்னணியில் தொடங்கு</string>
+    <string name="app_ops_answer_phone_calls">அழைப்புக்கு பதிலளி</string>
+    <string name="app_ops_boot_completed">தானியங்கு தொடக்கம்</string>
+    <!-- Reset battery stats -->
+    <string name="ok">சரி</string>
+    <string name="menu_stats_reset">புள்ளிவிவரங்கள் மீட்டமை</string>
+    <string name="reset_stats_msg">பேட்டரி வரலாறு விபரம் மீட்டமைக்க போகிறோம்</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">திரை மூடு ஒலி</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">சாதனம் குறியாக்கப்பட்டது</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">சாதனம் புரிந்தமைக்கப்பட்டது</string>
+    <string name="twilight_mode_location_dialog">இருப்பிடம் முடக்கப்பட்டுள்ளது</string>
+    <string name="twilight_mode_location_disabled">இருப்பிட அணுகல் முடக்கப்பட்டுள்ளது</string>
+    <string name="twilight_mode_location_enable">இயக்கு</string>
+    <!-- Themes -->
+    <!-- Quick unlock -->
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <!-- Unlink notification volume -->
+    <!-- Display : Rotation -->
+    <!--Build date-->
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <!-- Face unlock -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Manual provisioning support -->
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
+    <!-- Proximity wake -->
+    <!-- Search -->
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- Per-app data restrictions -->
 </resources>

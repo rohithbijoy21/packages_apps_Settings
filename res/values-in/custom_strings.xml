@@ -17,161 +17,161 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">Daftar perubahan</string>
-  <string name="changelog_custom_summary">Daftar perubahan sejak terakhir membangun</string>
-  <string name="changelog_custom_error">Tidak dapat memuat daftar perubahan</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Versi Cardinal-AOSP</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">Pengelola</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">Sayap!</string>
-  <string name="cardinal_settings_activity_summary">Penyesuaian tambahan</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">Tentang proyek</string>
-  <string name="cardinal_about_info_summary_title">Cari tahu tentang kami!</string>
-  <string name="cardinal_about_info_summary">Kardinal-AOSP Custom ROM berdasarkan AOSP, dengan sedikit perbaikan dari CAF untuk mendukung perangkat bebas-AOSP, dengan beberapa fitur minimal pemesanan diperlukan, tujuan utama dari ROM ini adalah untuk tinggal dekat AOSP sebanyak mungkin, memberikan kinerja kecepatan cahaya, kelancaran dan baterai yang baik cadangan. Kami berharap bahwa Anda akan suka proyek ini, dan membantu kami dalam membentuk lebih baik di masa depan.</string>
-  <string name="devs_header">Pengembang</string>
-  <string name="maintainers_header">Pengelola</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Pendiri/pengembang, Maintainer Co Kenzo</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Kecerahan</string>
-  <string name="night_brightness_value_title">Menurunkan kecerahan jika lampu malam</string>
-  <string name="night_bright_disabled">Cacat</string>
-  <string name="night_bright_minimum">Kecerahan Minimal</string>
-  <string name="night_bright_low">Kecerahan rendah</string>
-  <string name="night_bright_medium">Kecerahan sedang</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Penyesuaian volume suara</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA Update</string>
-  <string name="cardinal_ota_settings_summary">Periksa untuk update baru!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Tempat</string>
-  <string name="app_ops_cat_personal">Pribadi</string>
-  <string name="app_ops_cat_messaging">Pesan</string>
-  <string name="app_ops_cat_media">media</string>
-  <string name="app_ops_cat_device">Perangkat</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">Kamera</string>
-  <string name="app_ops_access_notifications">Pemberitahuan</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">mulai otomatis</string>
-  <string name="app_ops_delete_call_log">hapus daftar panggilan</string>
-  <string name="app_ops_delete_contacts">hapus kontak</string>
-  <string name="app_ops_delete_mms">hapus MMS</string>
-  <string name="app_ops_delete_sms">hapus SMS</string>
-  <string name="app_ops_draw_on_top">gambar di atas</string>
-  <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
-  <string name="app_ops_keep_device_awake">tetap terjaga</string>
-  <string name="app_ops_make_phone_call">membuat panggilan</string>
-  <string name="app_ops_modify_calendar">memperbarui kalender</string>
-  <string name="app_ops_modify_call_log">memperbarui daftar panggilan</string>
-  <string name="app_ops_modify_clipboard">ubah clipboard</string>
-  <string name="app_ops_modify_contacts">perbarui kontak</string>
-  <string name="app_ops_modify_settings">perbarui setelan</string>
-  <string name="app_ops_play_audio">putar audio</string>
-  <string name="app_ops_post_notification">mengirim pemberitahuan</string>
-  <string name="app_ops_project_media">proyek media</string>
-  <string name="app_ops_read_calendar">baca kalender</string>
-  <string name="app_ops_read_call_log">membaca catatan panggilan</string>
-  <string name="app_ops_read_clipboard">Baca clipboard</string>
-  <string name="app_ops_read_contacts">membaca kontak</string>
-  <string name="app_ops_read_mms">membaca MMS</string>
-  <string name="app_ops_read_sms">baca sms</string>
-  <string name="app_ops_receive_sms">menerima sms</string>
-  <string name="app_ops_record_audio">rekam audio</string>
-  <string name="app_ops_send_mms">kirim MMS</string>
-  <string name="app_ops_send_sms">kirim SMS</string>
-  <string name="app_ops_toast_window">pesan toast</string>
-  <string name="app_ops_use_alarm_volume">Volume Alarm</string>
-  <string name="app_ops_use_audio_focus">fokus suara</string>
-  <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
-  <string name="app_ops_use_master_volume">Volume utama</string>
-  <string name="app_ops_use_media_buttons">tombol media</string>
-  <string name="app_ops_use_media_volume">volume media</string>
-  <string name="app_ops_use_notification_volume">volume notifikasi</string>
-  <string name="app_ops_use_ring_volume">volume nada dering</string>
-  <string name="app_ops_use_vibrate">umpan balik haptic</string>
-  <string name="app_ops_use_voice_volume">volume suara</string>
-  <string name="app_ops_write_mms">menulis MMS</string>
-  <string name="app_ops_use_fingerprint">sidik jari</string>
-  <string name="app_ops_add_voicemail">pesan suara</string>
-  <string name="app_ops_read_phone_state">akses status ponsel</string>
-  <string name="app_ops_scan_wifi">Memindai jaringan Wifi</string>
-  <string name="app_ops_change_wallpaper">ganti Wallpaper</string>
-  <string name="app_ops_assist_structure">struktur pembantu</string>
-  <string name="app_ops_assist_screenshot">cuplikan layar</string>
-  <string name="app_ops_use_body_sensors">sensor badan</string>
-  <string name="app_ops_read_cell_broadcasts">baca siaran seluler</string>
-  <string name="app_ops_mock_location">lokasi palsu</string>
-  <string name="app_ops_read_external_storage">membaca penyimpanan tambahan.</string>
-  <string name="app_ops_write_external_storage">menulis penyimpanan tambahan.</string>
-  <string name="app_ops_turn_on_screen">menghidupkan layar</string>
-  <string name="app_ops_get_accounts">akun perangkat</string>
-  <string name="app_ops_run_in_background">berjalan dilatar belakang</string>
-  <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
-  <string name="app_ops_read_phone_numbers">baca telepon bilangan.</string>
-  <string name="app_ops_request_install_packages">menginstal paket</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">mulai latar depan</string>
-  <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
-  <string name="app_ops_boot_completed">mulai otomatis</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Oke</string>
-  <string name="menu_stats_reset">Atur ulang statistik</string>
-  <string name="reset_stats_msg">Statistik penggunaan baterai akan di atur ulang</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Screenshot rana suara</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">Perangkat dienkripsi</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Perangkat adalah terdekrip</string>
-  <string name="twilight_mode_location_dialog">Lokasi dinonaktifkan</string>
-  <string name="twilight_mode_location_disabled">Akses lokasi dinonaktifkan</string>
-  <string name="twilight_mode_location_enable">Mengaktifkan</string>
-  <!-- Themes -->
-  <string name="themes_title">Tema</string>
-  <string name="themes_dashboard_summary">Kelola tema Anda</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Buka cepat</string>
-  <string name="unlock_quick_unlock_control_summary">Buka secara otomatis saat PIN/kata sandi benar dimasukkan</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">Terima semua jenis berkas</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">Hubungkan cincin dan volume notifikasi</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">Rotasi</string>
-  <string name="display_rotation_disabled">Cacat</string>
-  <string name="display_rotation_unit">derajat</string>
-  <string name="display_rotation_category_title">Mode rotasi</string>
-  <string name="display_rotation_0_title">0 derajat</string>
-  <string name="display_rotation_90_title">90 derajat</string>
-  <string name="display_rotation_180_title">180 derajat</string>
-  <string name="display_rotation_270_title">270 derajat</string>
-  <!--Build date-->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Face unlock -->
-  <!-- Format string for fingerprint location message -->
-  <!-- Fingerprint sensor locations -->
-  <!-- Manual provisioning support -->
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum overlay</string>
-  <string name="menu_show_substratum">Tampilkan overlay</string>
-  <string name="menu_hide_substratum">Sembunyikan overlay</string>
-  <!-- Proximity wake -->
-  <!-- Search -->
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <!-- Per-app data restrictions -->
+    <!-- Changelog -->
+    <string name="changelog_custom_title">Daftar perubahan</string>
+    <string name="changelog_custom_summary">Daftar perubahan sejak terakhir membangun</string>
+    <string name="changelog_custom_error">Tidak dapat memuat daftar perubahan</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Versi Cardinal-AOSP</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">Pengelola</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">Sayap!</string>
+    <string name="cardinal_settings_activity_summary">Penyesuaian tambahan</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">Tentang proyek</string>
+    <string name="cardinal_about_info_summary_title">Cari tahu tentang kami!</string>
+    <string name="cardinal_about_info_summary">Kardinal-AOSP Custom ROM berdasarkan AOSP, dengan sedikit perbaikan dari CAF untuk mendukung perangkat bebas-AOSP, dengan beberapa fitur minimal pemesanan diperlukan, tujuan utama dari ROM ini adalah untuk tinggal dekat AOSP sebanyak mungkin, memberikan kinerja kecepatan cahaya, kelancaran dan baterai yang baik cadangan. Kami berharap bahwa Anda akan suka proyek ini, dan membantu kami dalam membentuk lebih baik di masa depan.</string>
+    <string name="devs_header">Pengembang</string>
+    <string name="maintainers_header">Pengelola</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Pendiri/pengembang, Maintainer Co Kenzo</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Kecerahan</string>
+    <string name="night_brightness_value_title">Menurunkan kecerahan jika lampu malam</string>
+    <string name="night_bright_disabled">Cacat</string>
+    <string name="night_bright_minimum">Kecerahan Minimal</string>
+    <string name="night_bright_low">Kecerahan rendah</string>
+    <string name="night_bright_medium">Kecerahan sedang</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Penyesuaian volume suara</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA Update</string>
+    <string name="cardinal_ota_settings_summary">Periksa untuk update baru!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Tempat</string>
+    <string name="app_ops_cat_personal">Pribadi</string>
+    <string name="app_ops_cat_messaging">Pesan</string>
+    <string name="app_ops_cat_media">media</string>
+    <string name="app_ops_cat_device">Perangkat</string>
+    <string name="app_ops_cat_bootup">Bootup</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">Kamera</string>
+    <string name="app_ops_access_notifications">Pemberitahuan</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">mulai otomatis</string>
+    <string name="app_ops_delete_call_log">hapus daftar panggilan</string>
+    <string name="app_ops_delete_contacts">hapus kontak</string>
+    <string name="app_ops_delete_mms">hapus MMS</string>
+    <string name="app_ops_delete_sms">hapus SMS</string>
+    <string name="app_ops_draw_on_top">gambar di atas</string>
+    <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
+    <string name="app_ops_keep_device_awake">tetap terjaga</string>
+    <string name="app_ops_make_phone_call">membuat panggilan</string>
+    <string name="app_ops_modify_calendar">memperbarui kalender</string>
+    <string name="app_ops_modify_call_log">memperbarui daftar panggilan</string>
+    <string name="app_ops_modify_clipboard">ubah clipboard</string>
+    <string name="app_ops_modify_contacts">perbarui kontak</string>
+    <string name="app_ops_modify_settings">perbarui setelan</string>
+    <string name="app_ops_play_audio">putar audio</string>
+    <string name="app_ops_post_notification">mengirim pemberitahuan</string>
+    <string name="app_ops_project_media">proyek media</string>
+    <string name="app_ops_read_calendar">baca kalender</string>
+    <string name="app_ops_read_call_log">membaca catatan panggilan</string>
+    <string name="app_ops_read_clipboard">Baca clipboard</string>
+    <string name="app_ops_read_contacts">membaca kontak</string>
+    <string name="app_ops_read_mms">membaca MMS</string>
+    <string name="app_ops_read_sms">baca sms</string>
+    <string name="app_ops_receive_sms">menerima sms</string>
+    <string name="app_ops_record_audio">rekam audio</string>
+    <string name="app_ops_send_mms">kirim MMS</string>
+    <string name="app_ops_send_sms">kirim SMS</string>
+    <string name="app_ops_toast_window">pesan toast</string>
+    <string name="app_ops_use_alarm_volume">Volume Alarm</string>
+    <string name="app_ops_use_audio_focus">fokus suara</string>
+    <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+    <string name="app_ops_use_master_volume">Volume utama</string>
+    <string name="app_ops_use_media_buttons">tombol media</string>
+    <string name="app_ops_use_media_volume">volume media</string>
+    <string name="app_ops_use_notification_volume">volume notifikasi</string>
+    <string name="app_ops_use_ring_volume">volume nada dering</string>
+    <string name="app_ops_use_vibrate">umpan balik haptic</string>
+    <string name="app_ops_use_voice_volume">volume suara</string>
+    <string name="app_ops_write_mms">menulis MMS</string>
+    <string name="app_ops_use_fingerprint">sidik jari</string>
+    <string name="app_ops_add_voicemail">pesan suara</string>
+    <string name="app_ops_read_phone_state">akses status ponsel</string>
+    <string name="app_ops_scan_wifi">Memindai jaringan Wifi</string>
+    <string name="app_ops_change_wallpaper">ganti Wallpaper</string>
+    <string name="app_ops_assist_structure">struktur pembantu</string>
+    <string name="app_ops_assist_screenshot">cuplikan layar</string>
+    <string name="app_ops_use_body_sensors">sensor badan</string>
+    <string name="app_ops_read_cell_broadcasts">baca siaran seluler</string>
+    <string name="app_ops_mock_location">lokasi palsu</string>
+    <string name="app_ops_read_external_storage">membaca penyimpanan tambahan.</string>
+    <string name="app_ops_write_external_storage">menulis penyimpanan tambahan.</string>
+    <string name="app_ops_turn_on_screen">menghidupkan layar</string>
+    <string name="app_ops_get_accounts">akun perangkat</string>
+    <string name="app_ops_run_in_background">berjalan dilatar belakang</string>
+    <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
+    <string name="app_ops_read_phone_numbers">baca telepon bilangan.</string>
+    <string name="app_ops_request_install_packages">menginstal paket</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">mulai latar depan</string>
+    <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
+    <string name="app_ops_boot_completed">mulai otomatis</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Oke</string>
+    <string name="menu_stats_reset">Atur ulang statistik</string>
+    <string name="reset_stats_msg">Statistik penggunaan baterai akan di atur ulang</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Screenshot rana suara</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Perangkat dienkripsi</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Perangkat adalah terdekrip</string>
+    <string name="twilight_mode_location_dialog">Lokasi dinonaktifkan</string>
+    <string name="twilight_mode_location_disabled">Akses lokasi dinonaktifkan</string>
+    <string name="twilight_mode_location_enable">Mengaktifkan</string>
+    <!-- Themes -->
+    <string name="themes_title">Tema</string>
+    <string name="themes_dashboard_summary">Kelola tema Anda</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka cepat</string>
+    <string name="unlock_quick_unlock_control_summary">Buka secara otomatis saat PIN/kata sandi benar dimasukkan</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Terima semua jenis berkas</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Hubungkan cincin dan volume notifikasi</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotasi</string>
+    <string name="display_rotation_disabled">Cacat</string>
+    <string name="display_rotation_unit">derajat</string>
+    <string name="display_rotation_category_title">Mode rotasi</string>
+    <string name="display_rotation_0_title">0 derajat</string>
+    <string name="display_rotation_90_title">90 derajat</string>
+    <string name="display_rotation_180_title">180 derajat</string>
+    <string name="display_rotation_270_title">270 derajat</string>
+    <!--Build date-->
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <!-- Face unlock -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Manual provisioning support -->
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlay</string>
+    <string name="menu_show_substratum">Tampilkan overlay</string>
+    <string name="menu_hide_substratum">Sembunyikan overlay</string>
+    <!-- Proximity wake -->
+    <!-- Search -->
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- Per-app data restrictions -->
 </resources>

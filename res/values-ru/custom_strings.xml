@@ -17,231 +17,231 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Changelog -->
-  <string name="changelog_custom_title">Список изменений</string>
-  <string name="changelog_custom_summary">Чейджлог с последнего обновления</string>
-  <string name="changelog_custom_error">Ошибка загрузки списка изменений</string>
-  <!--Cardinal-AOSP Version-->
-  <string name="cardinal_version">Версия Cardinal - AOSP</string>
-  <!-- About phone screen, Cardinal-AOSP device maintainer name -->
-  <string name="device_maintainer">Мейнтейнер</string>
-  <!-- Wings Settings -->
-  <string name="cardinal_settings_activity">Крылья!</string>
-  <string name="cardinal_settings_activity_summary">Дополнительные настройки</string>
-  <!-- Dev Info -->
-  <string name="cardinal_about_info">О проекте</string>
-  <string name="cardinal_about_info_summary_title">Узнайте больше о нас!</string>
-  <string name="cardinal_about_info_summary">Cardinal-AOSP это кастомная прошивка на основе AOSP с небольшими патчами из CAF для поддержки не-AOSP устройств с самыми необходимыми функциями. Цель прошивки - близость к AOSP, высокая скорость, плавность и долгоживущая батарея. Мы надеемся вам нравится этот проект и примите участие в его улучшении в будущем.</string>
-  <string name="devs_header">Разработчики</string>
-  <string name="maintainers_header">Мейнтейнеры</string>
-  <string name="dev_1">Adarsh M.R</string>
-  <string name="dev1_description">Основатель/разработчик, Помощник Kenzo</string>
-  <string name="dev_2">Rohit Poroli</string>
-  <string name="dev2_description">Основатель/разработчик, сопровождающий Mido</string>
-  <string name="mentions_header">Благодарности</string>
-  <string name="mentions_vikas">Vikas kumar</string>
-  <string name="mentions_vikas_description">Менеджер локализации</string>
-  <string name="mentions_robin">Robin Goyal</string>
-  <string name="mentions_robin_description">Дизайнер</string>
-  <string name="mentions_savio">Savio Perera</string>
-  <string name="mentions_savio_description">Дизайнер обоев</string>
-  <string name="mentions_recenz">Упоминание</string>
-  <string name="mentions_recenz_description">Дизайнер Бут агитации</string>
-  <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
-  <string name="maintainer_aashish_t_device">Kenzo/Kate</string>
-  <string name="maintainer_keerten">Keerten</string>
-  <string name="maintainer_keerten_device">Athene</string>
-  <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
-  <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
-  <string name="maintainer_prakhar_srivastava_device">Z00L</string>
-  <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
-  <string name="maintainer_sanchit_rohilla_device">tomato</string>
-  <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
-  <string name="maintainer_vimal_raj_device">Santoni</string>
-  <string name="maintainer_renji">Renji (renjian2)</string>
-  <string name="maintainer_renji_device">s2</string>
-  <string name="maintainer_adesh">Adesh (Adesh15)</string>
-  <string name="maintainer_adesh_device">Mido</string>
-  <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
-  <string name="maintainer_simrat_device">j7velte</string>
-  <string name="maintainer_danish">Danish (Danish1999)</string>
-  <string name="maintainer_danish_device">z2_plus</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Яркость</string>
-  <string name="night_brightness_value_title">Снижение яркости при использовании ночного режима</string>
-  <string name="night_bright_disabled">Отключено</string>
-  <string name="night_bright_minimum">Минимальная яркость</string>
-  <string name="night_bright_low">Низкая яркость</string>
-  <string name="night_bright_medium">Средняя яркость</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
-  <!-- OTA -->
-  <string name="cardinal_ota_settings_title">OTA обновления</string>
-  <string name="cardinal_ota_settings_summary">Проверить обновления!</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Местоположение</string>
-  <string name="app_ops_cat_personal">Персональное</string>
-  <string name="app_ops_cat_messaging">Сообщения</string>
-  <string name="app_ops_cat_media">Медиа</string>
-  <string name="app_ops_cat_device">Устройство</string>
-  <string name="app_ops_cat_bootup">Загрузка</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">камера</string>
-  <string name="app_ops_access_gps">gps</string>
-  <string name="app_ops_access_coarse_location">приблизительное местоположение</string>
-  <string name="app_ops_access_fine_location">точное местоположение</string>
-  <string name="app_ops_access_monitor_location">отслеживание местоположения</string>
-  <string name="app_ops_monitor_high_power_location">отслеживать точное местоположение</string>
-  <string name="app_ops_neighboring_cells">поиск сети</string>
-  <string name="app_ops_access_notifications">Уведомления</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">автозапуск</string>
-  <string name="app_ops_delete_call_log">удалить журнал вызовов</string>
-  <string name="app_ops_delete_contacts">удаление контактов</string>
-  <string name="app_ops_delete_mms">удаление MMS</string>
-  <string name="app_ops_delete_sms">удаление SMS</string>
-  <string name="app_ops_draw_on_top">отображение поверх других элементов</string>
-  <string name="app_ops_get_usage_stats">получение статистики использования</string>
-  <string name="app_ops_keep_device_awake">активный режим</string>
-  <string name="app_ops_make_phone_call">осуществление вызова</string>
-  <string name="app_ops_modify_calendar">изменение данных календаря</string>
-  <string name="app_ops_modify_call_log">изменение журнала звонков</string>
-  <string name="app_ops_modify_clipboard">изменение буфера обмена</string>
-  <string name="app_ops_modify_contacts">изменение данных контактов</string>
-  <string name="app_ops_modify_settings">изменение настроек</string>
-  <string name="app_ops_mute_unmute_microphone">включение/выключение микрофона</string>
-  <string name="app_ops_play_audio">воспроизводить аудио</string>
-  <string name="app_ops_post_notification">выведение уведомлений</string>
-  <string name="app_ops_project_media">выполнить трансляцию контента</string>
-  <string name="app_ops_read_calendar">чтение данных календаря</string>
-  <string name="app_ops_read_call_log">просмотр журнала вызовов</string>
-  <string name="app_ops_read_clipboard">чтение буфера обмена</string>
-  <string name="app_ops_read_contacts">чтение контактов</string>
-  <string name="app_ops_read_mms">чтение MMS</string>
-  <string name="app_ops_read_sms">чтение SMS</string>
-  <string name="app_ops_receive_sms">получение SMS</string>
-  <string name="app_ops_record_audio">запись аудио</string>
-  <string name="app_ops_send_mms">отправка MMS</string>
-  <string name="app_ops_send_sms">отправка SMS</string>
-  <string name="app_ops_toast_window">всплывающие сообщения</string>
-  <string name="app_ops_use_alarm_volume">громкость будильника</string>
-  <string name="app_ops_use_audio_focus">аудиофокус</string>
-  <string name="app_ops_use_bluetooth_volume">Громоксть Bluetooth</string>
-  <string name="app_ops_use_master_volume">общая громкость</string>
-  <string name="app_ops_use_media_buttons">кнопки мультимедиа</string>
-  <string name="app_ops_use_media_volume">громкость мультимедиа</string>
-  <string name="app_ops_use_notification_volume">громкость уведомлений</string>
-  <string name="app_ops_use_ring_volume">громкость звонка</string>
-  <string name="app_ops_use_vibrate">виброотклик</string>
-  <string name="app_ops_use_voice_volume">громкость при разговоре</string>
-  <string name="app_ops_write_mms">создание MMS</string>
-  <string name="app_ops_write_sms">создание SMS</string>
-  <string name="app_ops_use_fingerprint">отпечатки</string>
-  <string name="app_ops_add_voicemail">Голосовая почта</string>
-  <string name="app_ops_read_phone_state">Доступ к состоянию телефона</string>
-  <string name="app_ops_scan_wifi">Сканирование WiFi сетей</string>
-  <string name="app_ops_change_wallpaper">Сменить обои</string>
-  <string name="app_ops_assist_structure">Структура ассистента</string>
-  <string name="app_ops_assist_screenshot">Скриншот</string>
-  <string name="app_ops_use_body_sensors">Нательные датчики</string>
-  <string name="app_ops_read_cell_broadcasts">Широковещательная передача</string>
-  <string name="app_ops_mock_location">Фиктивное местоположение</string>
-  <string name="app_ops_read_external_storage">Чтение с внеш. носителя</string>
-  <string name="app_ops_write_external_storage">Запись на внеш. носитель</string>
-  <string name="app_ops_turn_on_screen">Включение экрана</string>
-  <string name="app_ops_get_accounts">Аккаунт устройства</string>
-  <string name="app_ops_run_in_background">Работать в фоновом режиме</string>
-  <string name="app_ops_accessibility_volume">доступность объем</string>
-  <string name="app_ops_read_phone_numbers">Читать номер телефона</string>
-  <string name="app_ops_request_install_packages">Установить пакет</string>
-  <string name="app_ops_picture_in_picture">PiP</string>
-  <string name="app_ops_app_start_foreground">Запускаться на переднем плане</string>
-  <string name="app_ops_answer_phone_calls">Ответить на звонок</string>
-  <string name="app_ops_boot_completed">Автозапуск</string>
-  <!-- Reset battery stats -->
-  <string name="ok">OK</string>
-  <string name="menu_stats_reset">Сбросить статистику</string>
-  <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
-  <!-- Screenshot shutter sound -->
-  <string name="screenshot_shutter_sound_title">Звук снятия скриншота</string>
-  <!-- Encryption and credential -->
-  <string name="custom_encryption_and_credential_settings_summary_on">Устройство зашифровано</string>
-  <string name="custom_encryption_and_credential_settings_summary_off">Устройство не зашифровано</string>
-  <string name="twilight_mode_location_dialog">Обнаружение местоположения отключено</string>
-  <string name="twilight_mode_location_disabled">Доступ к местоположению отключен</string>
-  <string name="twilight_mode_location_enable">Включить</string>
-  <!-- Themes -->
-  <string name="themes_title">Темы</string>
-  <string name="themes_dashboard_summary">Управление темами</string>
-  <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-  <string name="unlock_quick_unlock_control_summary">Устройство разблокируется автоматически при введении правильного ПИН-кода/пароля</string>
-  <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-  <string name="bluetooth_accept_all_files">Принимать все типы файлов</string>
-  <!-- Unlink notification volume -->
-  <string name="link_volume_option_title">Объединить громкость звонка и уведомлений</string>
-  <!-- Display : Rotation -->
-  <string name="display_rotation_title">Поворот экрана</string>
-  <string name="display_rotation_disabled">Отключено</string>
-  <string name="display_rotation_unit">градусов</string>
-  <string name="display_rotation_category_title">Режимы поворота</string>
-  <string name="display_rotation_0_title">0 градусов</string>
-  <string name="display_rotation_90_title">90 градусов</string>
-  <string name="display_rotation_180_title">180 градусов</string>
-  <string name="display_rotation_270_title">270 градусов</string>
-  <!--Build date-->
-  <string name="build_date">Дата сборки</string>
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
-  <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки PIN-кода в случайном порядке</string>
-  <!-- Face unlock -->
-  <string name="face_auto_unlock_title">Быстрая разблокировка</string>
-  <string name="face_auto_unlock_summary">Пропускать экран блокировки при разблокировке по лицу</string>
-  <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер отпечатка пальца расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего телефона.</string>
-  <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">назад</string>
-  <string name="security_settings_fingerprint_sensor_location_front">передний</string>
-  <string name="security_settings_fingerprint_sensor_location_left">левая сторона</string>
-  <string name="security_settings_fingerprint_sensor_location_right">правая сторона</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">отключено</string>
-  <string name="sim_missing">отсутствует или неисправна</string>
-  <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Продолжить?</string>
-  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
-  <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для служебных данных. Вы действительно хотите продолжить?</string>
-  <string name="sim_enabler_airplane_on">Выполнение операции невозможно в режиме полета.</string>
-  <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
-  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
-  <string name="sim_enabler_enabling">Включение/u2026</string>
-  <string name="sim_enabler_disabling">Отключение\u2026</string>
-  <string name="sub_activate_success">SIM-карта активирована.</string>
-  <string name="sub_activate_failed">Ошибка активации.</string>
-  <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
-  <string name="sub_deactivate_failed">Деактивация не удалась.</string>
-  <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Разрешить установку тем из сторонних источников</string>
-  <string name="force_authorize_substratum_packages_summary">Принудительно запрашивать разрешегия для каждой темы</string>
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Слои Substratum</string>
-  <string name="menu_show_substratum">Показывать слои</string>
-  <string name="menu_hide_substratum">Скрыть слои</string>
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Предотвращение случайных пробуждений</string>
-  <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением</string>
-  <!-- Search -->
-  <string name="menu_search">Поиск приложений</string>
-  <string name="menu_search_hint">Поиск приложений\u2026</string>
-  <!-- Security dialog -->
-  <!-- DO NOT TRANSLATE -->
-  <string name="security_dialog_title">Обновления безопасности</string>
-  <string name="android_security_title">Патч безопасности AOSP</string>
-  <string name="vendor_security_title">Уровень патча vendor</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Мобильные данные</string>
-  <string name="data_usage_app_restrict_data_summary">Включить мониторинг мобильных данных</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Включить мониторинг Wi\u2011Fi data</string>
+    <!-- Changelog -->
+    <string name="changelog_custom_title">Список изменений</string>
+    <string name="changelog_custom_summary">Чейджлог с последнего обновления</string>
+    <string name="changelog_custom_error">Ошибка загрузки списка изменений</string>
+    <!--Cardinal-AOSP Version-->
+    <string name="cardinal_version">Версия Cardinal - AOSP</string>
+    <!-- About phone screen, Cardinal-AOSP device maintainer name -->
+    <string name="device_maintainer">Мейнтейнер</string>
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">Крылья!</string>
+    <string name="cardinal_settings_activity_summary">Дополнительные настройки</string>
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">О проекте</string>
+    <string name="cardinal_about_info_summary_title">Узнайте больше о нас!</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP это кастомная прошивка на основе AOSP с небольшими патчами из CAF для поддержки не-AOSP устройств с самыми необходимыми функциями. Цель прошивки - близость к AOSP, высокая скорость, плавность и долгоживущая батарея. Мы надеемся вам нравится этот проект и примите участие в его улучшении в будущем.</string>
+    <string name="devs_header">Разработчики</string>
+    <string name="maintainers_header">Мейнтейнеры</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Основатель/разработчик, Помощник Kenzo</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">Основатель/разработчик, сопровождающий Mido</string>
+    <string name="mentions_header">Благодарности</string>
+    <string name="mentions_vikas">Vikas kumar</string>
+    <string name="mentions_vikas_description">Менеджер локализации</string>
+    <string name="mentions_robin">Robin Goyal</string>
+    <string name="mentions_robin_description">Дизайнер</string>
+    <string name="mentions_savio">Savio Perera</string>
+    <string name="mentions_savio_description">Дизайнер обоев</string>
+    <string name="mentions_recenz">Упоминание</string>
+    <string name="mentions_recenz_description">Дизайнер Бут агитации</string>
+    <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
+    <string name="maintainer_aashish_t_device">Kenzo/Kate</string>
+    <string name="maintainer_keerten">Keerten</string>
+    <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_sipun">Sipun Ku Mahanta (Darkstar085)</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
+    <string name="maintainer_sanchit_rohilla">Sanchit Rohilla (sanchitrohilla)</string>
+    <string name="maintainer_sanchit_rohilla_device">tomato</string>
+    <string name="maintainer_vimal_raj">Vimal Raj (Vimalraj1)</string>
+    <string name="maintainer_vimal_raj_device">Santoni</string>
+    <string name="maintainer_renji">Renji (renjian2)</string>
+    <string name="maintainer_renji_device">s2</string>
+    <string name="maintainer_adesh">Adesh (Adesh15)</string>
+    <string name="maintainer_adesh_device">Mido</string>
+    <string name="maintainer_simrat">Simrat (simrat39/simtim)</string>
+    <string name="maintainer_simrat_device">j7velte</string>
+    <string name="maintainer_danish">Danish (Danish1999)</string>
+    <string name="maintainer_danish_device">z2_plus</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Снижение яркости при использовании ночного режима</string>
+    <string name="night_bright_disabled">Отключено</string>
+    <string name="night_bright_minimum">Минимальная яркость</string>
+    <string name="night_bright_low">Низкая яркость</string>
+    <string name="night_bright_medium">Средняя яркость</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA обновления</string>
+    <string name="cardinal_ota_settings_summary">Проверить обновления!</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Местоположение</string>
+    <string name="app_ops_cat_personal">Персональное</string>
+    <string name="app_ops_cat_messaging">Сообщения</string>
+    <string name="app_ops_cat_media">Медиа</string>
+    <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Загрузка</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">камера</string>
+    <string name="app_ops_access_gps">gps</string>
+    <string name="app_ops_access_coarse_location">приблизительное местоположение</string>
+    <string name="app_ops_access_fine_location">точное местоположение</string>
+    <string name="app_ops_access_monitor_location">отслеживание местоположения</string>
+    <string name="app_ops_monitor_high_power_location">отслеживать точное местоположение</string>
+    <string name="app_ops_neighboring_cells">поиск сети</string>
+    <string name="app_ops_access_notifications">Уведомления</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">автозапуск</string>
+    <string name="app_ops_delete_call_log">удалить журнал вызовов</string>
+    <string name="app_ops_delete_contacts">удаление контактов</string>
+    <string name="app_ops_delete_mms">удаление MMS</string>
+    <string name="app_ops_delete_sms">удаление SMS</string>
+    <string name="app_ops_draw_on_top">отображение поверх других элементов</string>
+    <string name="app_ops_get_usage_stats">получение статистики использования</string>
+    <string name="app_ops_keep_device_awake">активный режим</string>
+    <string name="app_ops_make_phone_call">осуществление вызова</string>
+    <string name="app_ops_modify_calendar">изменение данных календаря</string>
+    <string name="app_ops_modify_call_log">изменение журнала звонков</string>
+    <string name="app_ops_modify_clipboard">изменение буфера обмена</string>
+    <string name="app_ops_modify_contacts">изменение данных контактов</string>
+    <string name="app_ops_modify_settings">изменение настроек</string>
+    <string name="app_ops_mute_unmute_microphone">включение/выключение микрофона</string>
+    <string name="app_ops_play_audio">воспроизводить аудио</string>
+    <string name="app_ops_post_notification">выведение уведомлений</string>
+    <string name="app_ops_project_media">выполнить трансляцию контента</string>
+    <string name="app_ops_read_calendar">чтение данных календаря</string>
+    <string name="app_ops_read_call_log">просмотр журнала вызовов</string>
+    <string name="app_ops_read_clipboard">чтение буфера обмена</string>
+    <string name="app_ops_read_contacts">чтение контактов</string>
+    <string name="app_ops_read_mms">чтение MMS</string>
+    <string name="app_ops_read_sms">чтение SMS</string>
+    <string name="app_ops_receive_sms">получение SMS</string>
+    <string name="app_ops_record_audio">запись аудио</string>
+    <string name="app_ops_send_mms">отправка MMS</string>
+    <string name="app_ops_send_sms">отправка SMS</string>
+    <string name="app_ops_toast_window">всплывающие сообщения</string>
+    <string name="app_ops_use_alarm_volume">громкость будильника</string>
+    <string name="app_ops_use_audio_focus">аудиофокус</string>
+    <string name="app_ops_use_bluetooth_volume">Громоксть Bluetooth</string>
+    <string name="app_ops_use_master_volume">общая громкость</string>
+    <string name="app_ops_use_media_buttons">кнопки мультимедиа</string>
+    <string name="app_ops_use_media_volume">громкость мультимедиа</string>
+    <string name="app_ops_use_notification_volume">громкость уведомлений</string>
+    <string name="app_ops_use_ring_volume">громкость звонка</string>
+    <string name="app_ops_use_vibrate">виброотклик</string>
+    <string name="app_ops_use_voice_volume">громкость при разговоре</string>
+    <string name="app_ops_write_mms">создание MMS</string>
+    <string name="app_ops_write_sms">создание SMS</string>
+    <string name="app_ops_use_fingerprint">отпечатки</string>
+    <string name="app_ops_add_voicemail">Голосовая почта</string>
+    <string name="app_ops_read_phone_state">Доступ к состоянию телефона</string>
+    <string name="app_ops_scan_wifi">Сканирование WiFi сетей</string>
+    <string name="app_ops_change_wallpaper">Сменить обои</string>
+    <string name="app_ops_assist_structure">Структура ассистента</string>
+    <string name="app_ops_assist_screenshot">Скриншот</string>
+    <string name="app_ops_use_body_sensors">Нательные датчики</string>
+    <string name="app_ops_read_cell_broadcasts">Широковещательная передача</string>
+    <string name="app_ops_mock_location">Фиктивное местоположение</string>
+    <string name="app_ops_read_external_storage">Чтение с внеш. носителя</string>
+    <string name="app_ops_write_external_storage">Запись на внеш. носитель</string>
+    <string name="app_ops_turn_on_screen">Включение экрана</string>
+    <string name="app_ops_get_accounts">Аккаунт устройства</string>
+    <string name="app_ops_run_in_background">Работать в фоновом режиме</string>
+    <string name="app_ops_accessibility_volume">доступность объем</string>
+    <string name="app_ops_read_phone_numbers">Читать номер телефона</string>
+    <string name="app_ops_request_install_packages">Установить пакет</string>
+    <string name="app_ops_picture_in_picture">PiP</string>
+    <string name="app_ops_app_start_foreground">Запускаться на переднем плане</string>
+    <string name="app_ops_answer_phone_calls">Ответить на звонок</string>
+    <string name="app_ops_boot_completed">Автозапуск</string>
+    <!-- Reset battery stats -->
+    <string name="ok">OK</string>
+    <string name="menu_stats_reset">Сбросить статистику</string>
+    <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Звук снятия скриншота</string>
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Устройство зашифровано</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Устройство не зашифровано</string>
+    <string name="twilight_mode_location_dialog">Обнаружение местоположения отключено</string>
+    <string name="twilight_mode_location_disabled">Доступ к местоположению отключен</string>
+    <string name="twilight_mode_location_enable">Включить</string>
+    <!-- Themes -->
+    <string name="themes_title">Темы</string>
+    <string name="themes_dashboard_summary">Управление темами</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Устройство разблокируется автоматически при введении правильного ПИН-кода/пароля</string>
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Принимать все типы файлов</string>
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Объединить громкость звонка и уведомлений</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Отключено</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы поворота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+    <!--Build date-->
+    <string name="build_date">Дата сборки</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки PIN-кода в случайном порядке</string>
+    <!-- Face unlock -->
+    <string name="face_auto_unlock_title">Быстрая разблокировка</string>
+    <string name="face_auto_unlock_summary">Пропускать экран блокировки при разблокировке по лицу</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер отпечатка пальца расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">назад</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передний</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левая сторона</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правая сторона</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">отключено</string>
+    <string name="sim_missing">отсутствует или неисправна</string>
+    <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Продолжить?</string>
+    <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для служебных данных. Вы действительно хотите продолжить?</string>
+    <string name="sim_enabler_airplane_on">Выполнение операции невозможно в режиме полета.</string>
+    <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
+    <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+    <string name="sim_enabler_enabling">Включение/u2026</string>
+    <string name="sim_enabler_disabling">Отключение\u2026</string>
+    <string name="sub_activate_success">SIM-карта активирована.</string>
+    <string name="sub_activate_failed">Ошибка активации.</string>
+    <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
+    <string name="sub_deactivate_failed">Деактивация не удалась.</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Разрешить установку тем из сторонних источников</string>
+    <string name="force_authorize_substratum_packages_summary">Принудительно запрашивать разрешегия для каждой темы</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Слои Substratum</string>
+    <string name="menu_show_substratum">Показывать слои</string>
+    <string name="menu_hide_substratum">Скрыть слои</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращение случайных пробуждений</string>
+    <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением</string>
+    <!-- Search -->
+    <string name="menu_search">Поиск приложений</string>
+    <string name="menu_search_hint">Поиск приложений\u2026</string>
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="security_dialog_title">Обновления безопасности</string>
+    <string name="android_security_title">Патч безопасности AOSP</string>
+    <string name="vendor_security_title">Уровень патча vendor</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить мониторинг мобильных данных</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить мониторинг Wi\u2011Fi data</string>
 </resources>
